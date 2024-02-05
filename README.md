@@ -2,7 +2,8 @@
 <h1 align="center">Hi 👋, I'm Hamza</h1>
 <h3 align="center">A passionate Python developer from Pakistan</h3>
 <img align="right" alt="Coding" width="400" src="https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=6c09b952ov02blk0jhjz2r7oeix6gvf6thvfk8pm7p3omgat&ep=v1_internal_gif_by_id&rid=gi
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Hamzaisadev&label=Profile%20views&color=0e75b6&style=flat" alt="Hamzaisadev" /> </p>
+<p align="left"> <img
+ src="https://komarev.com/ghpvc/?username=Hamzaisadev&label=Profile%20views&color=0e75b6&style=flat" alt="Hamzaisadev" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Hamzaisadev&theme=" alt="Hamzaisadev" /></a> </p>
 
