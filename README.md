@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Hamzaisadev&theme=" alt="Hamzaisadev" /></a> </p>
 
-- 🔭 I’m currently working on **Car Game**
+- 🔭 I’m currently working on **Image Editor**
 - 🌱 I’m currently learning **Python**
 - 💬 Ask me about **Python **
 - 📫 How to reach me **ishaqhamza212@gmail.com**
