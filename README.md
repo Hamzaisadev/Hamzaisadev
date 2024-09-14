@@ -40,7 +40,8 @@
 </div>
 
 
-<div> <img align="right" height="150" src="[https://media.giphy.com/media/Ws6T5PN7wHv3cY8xy8/giphy.gif?cid=790b7611sdhtcvq1gou82b8bxi72xf08twh50ap6wdzk3b3a&ep=v1_gifs_search&rid=giphy.gif&ct=ggDFQAAAAAdAAAAABAJ]"/></div>
+<div> <img align="right" height="150" src="https://media.giphy.com/media/bGgsc5mWoryfgKBx1u/giphy.gif?cid=ecf05e4774ytgn9zfr0wqwds4ofebf3m5kc202lxj8u022lu&ep=v1_gifs_related&rid=giphy.gif&ct=g"/>
+</div>
 
 
 <h3 align="left">Languages and Tools:</h3>
