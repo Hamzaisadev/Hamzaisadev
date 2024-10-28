@@ -7,13 +7,13 @@
 
 - 🌱 I’m currently learning **React.Js**
 
-- 👨‍💻 All of my projects are available at [Portfolio Website](https://hamzaisadev.netlify.app)
+- 👨‍💻 All of my projects are available at [Projects](https://hamzaisadev.netlify.app/#work)
 
 - 💬 Ask me about **HTML,CSS,JavaScript**
 
 - 📫 How to reach me **hamzaisadev@gmail.com**
 
-- 📄 Know about my experiences [Portfolio Website](https://hamzaisadev.netlify.app)
+- 📄 Know about my experiences [Skills & Experiences](https://hamzaisadev.netlify.app/#skills)
 
 <h3 align="left">Connect with me:</h3>
 <div align="left">
