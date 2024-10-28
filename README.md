@@ -3,17 +3,17 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=hamzaisadev" alt="hamzaisadev" /></a> </p>
 
-- 🔭 I’m currently working on **Project Showcase**
+- 🔭 I’m currently working on **Snapistan Socail Media App**
 
 - 🌱 I’m currently learning **React.Js**
 
-- 👨‍💻 All of my projects are available at [soon](soon)
+- 👨‍💻 All of my projects are available at [Portfolio Website](https://hamzaisadev.netlify.app)
 
 - 💬 Ask me about **HTML,CSS,JavaScript**
 
 - 📫 How to reach me **hamzaisadev@gmail.com**
 
-- 📄 Know about my experiences [soon](soon)
+- 📄 Know about my experiences [Portfolio Website](https://hamzaisadev.netlify.app)
 
 <h3 align="left">Connect with me:</h3>
 <div align="left">
