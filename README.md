@@ -1,7 +1,18 @@
-<h1 align="center">Hi 👋, I'm Hamza</h1>
-<h3 align="center">A passionate web developer from Pakistan</h3>
+<h2 align="left">Hi 👋! My name is Hamza and I'm a Software Engineer  from Pakistan</h2>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=hamzaisadev" alt="hamzaisadev" /></a> </p>
+###
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=hamzaisadev&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph" /> <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=hamzaisadev&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="200" alt="languages graph"  />
+</div>
+
+###
+
+<img align="right" height="150" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3I5ejEyejQ0bWNyMjR1ZWMwdnh0bGlhNnRnZ25zMXR3cmRkbjRlcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif"  />
+
+###
+
 
 - 🔭 I’m currently working on **AI-Todo List App**
 
