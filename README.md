@@ -63,6 +63,7 @@
 
 <img src="https://raw.githubusercontent.com/hamzaisadev/hamzaisadev/output/snake.svg" alt="Snake animation" />
 
+
 ###
 
 <div align="center">
