@@ -14,7 +14,6 @@
 <img align="right" height="150" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTF4ZWVtNmI5dTg2ajAxNDJmd2lrYmRycGtkNms2c2RtdGhzZjYzZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/scZPhLqaVOM1qG4lT9/giphy.gif"  />
 
 
-<img align="left" height="150" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3ptcnM2cmtsYXFwNmZkYjJpMnlieXBtY29qaDYwd3U5Y2xseGw3cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif"  />
 
 <p align="center">
   <a href="https://youtube.com/channel/UCPR0FgOTackPp82nMyPqf5A"><img width="32px" alt="Youtube" title="Youtube" src="https://i.imgur.com/qiXu7b2.png"/></a>
