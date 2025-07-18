@@ -1,17 +1,17 @@
 
 <p align="center">
-  <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
+
   <a href="https://github.com/Hamzaisadev"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=F75C7E&center=true&vCenter=true&repeat=false&width=435&lines=Hamza+Ishaq" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
-  <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
+
 <a href="https://github.com/Hamzaisadev"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=500&color=F75C7E&center=true&vCenter=true&repeat=false&width=435&lines=Hi%2C+I'm+a+Web+Developer;I+build+sleek+Next.js+websites%2C;Let's+bring+your+ideas+to+life." alt="Typing SVG" /></a>
 </p>
 
 
 
-<img align="right" height="150" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3I5ejEyejQ0bWNyMjR1ZWMwdnh0bGlhNnRnZ25zMXR3cmRkbjRlcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif"  />
+<img align="right" height="150" src="https://giphy.com/gifs/digg-soccer-world-cup-get-on-this-gVlgj80ZLp9yo"  />
 
 
 <img align="left" height="150" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3I5ejEyejQ0bWNyMjR1ZWMwdnh0bGlhNnRnZ25zMXR3cmRkbjRlcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif"  />
@@ -41,8 +41,7 @@
  <a href="https://github.com/Hamzaisadev?tab=followers">
     <img alt="Visitors"  src="https://komarev.com/ghpvc/?username=hamzaisadev&abbreviated=true?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Visitors&logoColor=white"/></a
                                                         
-                                                                                                                                                                                                                                  
-    <img alt="followers" title="Visitors" src="https://komarev.com/ghpvc/?username=hamzaisadev&abbreviated=true?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
+                                                                                                                                                                              
    
 
 </p>
