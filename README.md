@@ -1,10 +1,11 @@
 <h2 align="center" color="55960c">Hi 👋! My name is Hamza and I'm a Software Engineer  from Pakistan</h2>
 
-
 <p align="center">
-  <a href="https://github.com/Hamzaisadev">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=F75C7E&center=true&vCenter=true&repeat=false&width=435&lines=Hamza+Ishaq)](https://git.io/typing-svg" alt="hamza Ishaq" /></a>
+  <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
+  <a href="https://github.com/hamzaisadev">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=Hi;I'm+Hamza+Frontend+Developer+;Building+clean+UIs+%26+cool+web+apps+;Always+learning%2C+always+creating)](https://git.io/typing-svg" /></a>
 </p>
+
 <p align="center">
   <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
   <a href="https://github.com/hamzaisadev">
