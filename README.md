@@ -11,6 +11,10 @@
 
 
 
+<img align="right" height="150" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3I5ejEyejQ0bWNyMjR1ZWMwdnh0bGlhNnRnZ25zMXR3cmRkbjRlcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif"  />
+
+
+<img align="left" height="150" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3I5ejEyejQ0bWNyMjR1ZWMwdnh0bGlhNnRnZ25zMXR3cmRkbjRlcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif"  />
 
 <p align="center">
   <a href="https://youtube.com/channel/UCPR0FgOTackPp82nMyPqf5A"><img width="32px" alt="Youtube" title="Youtube" src="https://i.imgur.com/qiXu7b2.png"/></a>
