@@ -14,7 +14,7 @@
 <img align="right" height="150" src="https://giphy.com/gifs/digg-soccer-world-cup-get-on-this-gVlgj80ZLp9yo"  />
 
 
-<img align="left" height="150" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3I5ejEyejQ0bWNyMjR1ZWMwdnh0bGlhNnRnZ25zMXR3cmRkbjRlcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif"  />
+<img align="left" height="150" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjE3am9tM2F0ZjAxbmNsZjFmazAyaTQ5YjlwaHNvMnZlamtub3d2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gVlgj80ZLp9yo/giphy.gif"  />
 
 <p align="center">
   <a href="https://youtube.com/channel/UCPR0FgOTackPp82nMyPqf5A"><img width="32px" alt="Youtube" title="Youtube" src="https://i.imgur.com/qiXu7b2.png"/></a>
