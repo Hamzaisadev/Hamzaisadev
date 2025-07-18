@@ -1,7 +1,6 @@
 
 <p align="center">
-
-  <a href="https://github.com/Hamzaisadev"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=F75C7E&center=true&vCenter=true&repeat=false&width=435&lines=Hamza+Ishaq" alt="Typing SVG" /></a>
+<a href="https://github.com/Hamzaisadev"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=F75C7E&center=true&vCenter=true&repeat=false&width=435&lines=Hamza+Ishaq" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
