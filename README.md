@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <a href="[https://www.youtube.com/c/DevProTips](https://youtube.com/channel/UCPR0FgOTackPp82nMyPqf5A)"><img width="32px" alt="Youtube" title="Youtube" src="https://i.imgur.com/qiXu7b2.png"/></a>
+  <a href="https://youtube.com/channel/UCPR0FgOTackPp82nMyPqf5A"><img width="32px" alt="Youtube" title="Youtube" src="https://i.imgur.com/qiXu7b2.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://www.linkedin.com/in/hamzaisadev/"><img width="32px" alt="LinkedIn" title="LinkedIn" src="https://i.imgur.com/yRpa1dQ.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
@@ -104,7 +104,7 @@ const Hamza = {
   <h3>🧰 Frameworks and Libraries</h3>
 
   <p>
-      <a href="#"><img alt="Next.js" src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"></a>
+      <a href="#"><img alt="Next.js" src="https://img.shields.io/badge/Next-black?logo=next.js&logoColor=white"></a>
       <a href="#"><img alt="React.js" src="https://img.shields.io/badge/react-%2320232a.svg?logo=react&logoColor=%2361DAFB"></a>
       <a href="#"><img alt="React Query" src="https://img.shields.io/badge/-React%20Query-FF4154?logo=react%20query&logoColor=white"></a>
       <a href="#"><img alt="React Router" src="https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white"></a>
