@@ -55,12 +55,12 @@ const Hamza = {
     country: "Pakistan"
     code: ["TypeScript", "Javascript", "React", "Next.js"],
     askMeAbout: ["web dev", "app dev", "UI/UX", "tech trends"],
-    portfolio: "hamzaisadev.netlify.app"
+    portfolio: "hamzaisadev.netlify.app",
     currentFocus: "Leading a way in generative AI innovation",
-    funFact: "I can debug faster with a coffee in hand!"
-    workingOn: "Gadi Ghar"
-    learning: "Next.Js"
-    reachMe: "hamzaisadev@gmail.com"
+    funFact: "I can debug faster with a coffee in hand!",
+    workingOn: "Gadi Ghar",
+    learning: "Next.Js",
+    reachMe: "hamzaisadev@gmail.com",
 };
 ```
 
