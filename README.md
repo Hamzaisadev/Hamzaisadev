@@ -1,45 +1,52 @@
 
-<table>
-  <tr>
-    <td align="left">
-      <a href="https://git.io/streak-stats">
-        <img src="https://streak-stats.demolab.com?user=hamzaisadev&theme=radical" alt="GitHub Streak" />
-      </a>
-    </td>
-    <td align="right">
-      <a href="https://github.com/Hamzaisadev">
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=F75C7E&center=true&vCenter=true&repeat=false&width=435&lines=Hamza+Ishaq" alt="Typing SVG" />
-      </a>
-      <br />
-      <a href="https://github.com/Hamzaisadev">
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=500&color=F75C7E&center=true&vCenter=true&repeat=false&width=435&lines=Hi%2C+I'm+a+Web+Developer;I+build+sleek+Next.js+websites%2C;Let's+bring+your+ideas+to+life." alt="Typing SVG" />
-      </a>
-      <br/><br/>
-      <a href="https://youtube.com/channel/UCPR0FgOTackPp82nMyPqf5A">
-        <img width="32px" alt="YouTube" title="YouTube" src="https://i.imgur.com/qiXu7b2.png"/>
-      </a>&nbsp;&nbsp;&nbsp;
-      <a href="https://www.linkedin.com/in/hamzaisadev/">
-        <img width="32px" alt="LinkedIn" title="LinkedIn" src="https://i.imgur.com/yRpa1dQ.png"/>
-      </a>&nbsp;&nbsp;&nbsp;
-      <a href="https://twitter.com/hamzaisadev">
-        <img width="32px" alt="Twitter" title="Twitter" src="https://i.imgur.com/AixJgnm.png"/>
-      </a>&nbsp;&nbsp;&nbsp;
-      <a href="https://discord.gg/hamzaisadev">
-        <img width="32px" alt="Discord" title="Discord" src="https://i.imgur.com/OViZO8J.png"/>
-      </a>
-      <br/><br/>
-      <a href="https://github.com/Hamzaisadev?tab=repositories&sort=stargazers">
-        <img alt="Total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/Hamzaisadev?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/>
-      </a>
-      <a href="https://github.com/Hamzaisadev?tab=followers">
-        <img alt="Followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/Hamzaisadev?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
-      </a>
-      <a href="https://github.com/Hamzaisadev">
-        <img alt="Visitors" src="https://komarev.com/ghpvc/?username=hamzaisadev&style=for-the-badge" />
-      </a>
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+  <!-- Name Typing -->
+  <a href="https://github.com/Hamzaisadev">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=F75C7E&center=true&vCenter=true&repeat=false&width=435&lines=Hamza+Ishaq" alt="Typing SVG" />
+  </a>
+  
+  <!-- Subtitle Typing -->
+  <br />
+  <a href="https://github.com/Hamzaisadev">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=500&color=F75C7E&center=true&vCenter=true&repeat=false&width=435&lines=Hi%2C+I'm+a+Web+Developer;I+build+sleek+Next.js+websites%2C;Let's+bring+your+ideas+to+life." alt="Typing SVG" />
+  </a>
+
+  <!-- Social Icons -->
+  <br/><br/>
+  <a href="https://youtube.com/channel/UCPR0FgOTackPp82nMyPqf5A">
+    <img width="32px" alt="YouTube" title="YouTube" src="https://i.imgur.com/qiXu7b2.png"/>
+  </a>&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/hamzaisadev/">
+    <img width="32px" alt="LinkedIn" title="LinkedIn" src="https://i.imgur.com/yRpa1dQ.png"/>
+  </a>&nbsp;&nbsp;
+  <a href="https://twitter.com/hamzaisadev">
+    <img width="32px" alt="Twitter" title="Twitter" src="https://i.imgur.com/AixJgnm.png"/>
+  </a>&nbsp;&nbsp;
+  <a href="https://discord.gg/hamzaisadev">
+    <img width="32px" alt="Discord" title="Discord" src="https://i.imgur.com/OViZO8J.png"/>
+  </a>
+
+  <!-- Badges -->
+  <br/><br/>
+  <a href="https://github.com/Hamzaisadev?tab=repositories&sort=stargazers">
+    <img alt="Total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/Hamzaisadev?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/>
+  </a>&nbsp;
+  <a href="https://github.com/Hamzaisadev?tab=followers">
+    <img alt="Followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/Hamzaisadev?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
+  </a>&nbsp;
+  <a href="https://github.com/Hamzaisadev">
+    <img alt="Visitors" src="https://komarev.com/ghpvc/?username=hamzaisadev&style=for-the-badge" />
+  </a>
+
+  <!-- GitHub Streak Stats -->
+  <br/><br/>
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=hamzaisadev&theme=radical" alt="GitHub Streak" />
+  </a>
+
+</div>
+
 <br/>
 
 
