@@ -8,7 +8,6 @@
 </p>
 
 
-<a align ="center"  href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=hamzaisadev&theme=radical" alt="GitHub Streak" /></a>
 
 
 <p align="center">
@@ -40,6 +39,8 @@
    
 
 </p>
+
+<a align="center"  href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=hamzaisadev&theme=radical" alt="GitHub Streak" /></a>
 
 
 <br/>
