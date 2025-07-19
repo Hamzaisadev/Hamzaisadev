@@ -1,5 +1,5 @@
 
-<div align="right"> 
+<p align="right"> 
 <p align="center">
 <a href="https://github.com/Hamzaisadev"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=F75C7E&center=true&vCenter=true&repeat=false&width=435&lines=Hamza+Ishaq" alt="Typing SVG" /></a>
 </p>
@@ -36,7 +36,7 @@
  <a href="https://github.com/Hamzaisadev?tab=followers">
     <img alt="Visitors"  src="https://komarev.com/ghpvc/?username=hamzaisadev&abbreviated=true?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Visitors&logoColor=white"/></a 
 </p>
-</div>
+</p>
 
 <p align="left" >
   <a   href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=hamzaisadev&theme=radical" alt="GitHub Streak" /></a>
