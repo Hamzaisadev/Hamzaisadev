@@ -56,21 +56,6 @@ const Hamza = {
     code: ["TypeScript", "Javascript", "React", "Next.js"],
     askMeAbout: ["web dev", "app dev", "UI/UX", "tech trends"],
     portfolio: "hamzaisadev.netlify.app"
-    technologies: {
-        frontEnd: {
-            js: ["React", "Next.js"],
-            css: ["Sass", "Tailwind", "Bootstrap"],
-            uiLibraries: ["Material UI", "Ant Design", "Chakra UI"],
-        },
-        backEnd: {
-            js: ["Node", "Express"],
-            
-        },
-       
-        databases: ["PostgreSQL", "MongoDB", "Firebase Realtime DB"],
-        misc: ["Socket.IO", "REST APIs", "WebSockets"],
-
-  
     currentFocus: "Leading a way in generative AI innovation",
     funFact: "I can debug faster with a coffee in hand!"
     workingOn: "Gadi Ghar"
@@ -103,7 +88,7 @@ const Hamza = {
 
 
 
-<details> 
+<details open> 
   <summary><h2>🛠️ My Favorite Tools</h2></summary>
   <!-- Some badges are from https://github.com/Ileriayo/markdown-badges -->
 
