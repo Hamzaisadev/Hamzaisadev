@@ -53,7 +53,6 @@
 const Hamza = {
     pronouns: "He" | "Him",
     country: "Pakistan"
-    code: ["TypeScript", "Javascript", "React", "Next.js"],
     askMeAbout: ["web dev", "app dev", "UI/UX", "tech trends"],
     portfolio: "hamzaisadev.netlify.app",
     currentFocus: "Leading a way in generative AI innovation",
