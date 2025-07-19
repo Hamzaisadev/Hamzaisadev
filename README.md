@@ -1,14 +1,11 @@
 
 <table>
   <tr>
-    <!-- Left column: GitHub Streak -->
     <td align="left">
       <a href="https://git.io/streak-stats">
         <img src="https://streak-stats.demolab.com?user=hamzaisadev&theme=radical" alt="GitHub Streak" />
       </a>
     </td>
-
-    <!-- Right column: Info -->
     <td align="right">
       <a href="https://github.com/Hamzaisadev">
         <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=F75C7E&center=true&vCenter=true&repeat=false&width=435&lines=Hamza+Ishaq" alt="Typing SVG" />
@@ -18,8 +15,6 @@
         <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=500&color=F75C7E&center=true&vCenter=true&repeat=false&width=435&lines=Hi%2C+I'm+a+Web+Developer;I+build+sleek+Next.js+websites%2C;Let's+bring+your+ideas+to+life." alt="Typing SVG" />
       </a>
       <br/><br/>
-
-      <!-- Social Icons -->
       <a href="https://youtube.com/channel/UCPR0FgOTackPp82nMyPqf5A">
         <img width="32px" alt="YouTube" title="YouTube" src="https://i.imgur.com/qiXu7b2.png"/>
       </a>&nbsp;&nbsp;&nbsp;
@@ -33,8 +28,6 @@
         <img width="32px" alt="Discord" title="Discord" src="https://i.imgur.com/OViZO8J.png"/>
       </a>
       <br/><br/>
-
-      <!-- Badges -->
       <a href="https://github.com/Hamzaisadev?tab=repositories&sort=stargazers">
         <img alt="Total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/Hamzaisadev?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/>
       </a>
