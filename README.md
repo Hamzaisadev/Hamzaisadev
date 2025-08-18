@@ -152,15 +152,15 @@ const Hamza = {
 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-244%20hrs%2042%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-250%20hrs%2011%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-4-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-182.3%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 323.0 kB Used in GitHub's Storage 
+> 📦 323.1 kB Used in GitHub's Storage 
  > 
 > 🏆 172 Contributions in the Year 2025
  > 
@@ -197,21 +197,21 @@ Sunday                   74 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-JavaScript               7 hrs 52 mins       ████████████████████████░   97.22 % 
-Bash                     6 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.36 % 
-Markdown                 2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.54 % 
+JavaScript               7 hrs 45 mins       ████████████████████████░   97.18 % 
+Bash                     6 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.38 % 
+Markdown                 2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.55 % 
 TypeScript               2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.48 % 
 Prisma                   1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.40 % 
 
 🔥 Editors: 
-Windsurf                 8 hrs 5 mins        █████████████████████████   100.00 % 
+Windsurf                 7 hrs 58 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-gadi-ghar                7 hrs 37 mins       ████████████████████████░   94.17 % 
-Snapistan                28 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.83 % 
+gadi-ghar                7 hrs 30 mins       ████████████████████████░   94.08 % 
+Snapistan                28 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.92 % 
 
 💻 Operating System: 
-Windows                  8 hrs 5 mins        █████████████████████████   100.00 % 
+Windows                  7 hrs 58 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -231,7 +231,7 @@ TypeScript               1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 17/08/2025 01:05:48 UTC
+ Last Updated on 18/08/2025 01:05:21 UTC
 <!--END_SECTION:waka-->
 </details>
 
