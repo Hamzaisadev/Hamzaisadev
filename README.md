@@ -154,13 +154,15 @@ const Hamza = {
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-256%20hrs%2027%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-4-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-183.3%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 323.1 kB Used in GitHub's Storage 
+ > 
+> 🏆 176 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -228,7 +230,7 @@ TypeScript               1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 25/08/2025 00:59:32 UTC
+ Last Updated on 26/08/2025 00:58:08 UTC
 <!--END_SECTION:waka-->
 </details>
 
