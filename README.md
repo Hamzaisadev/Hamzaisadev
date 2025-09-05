@@ -162,8 +162,6 @@ const Hamza = {
 
 > 📦 323.1 kB Used in GitHub's Storage 
  > 
-> 🏆 176 Contributions in the Year 2025
- > 
 > 🚫 Not Opted to Hire
  > 
 > 📜 28 Public Repositories 
@@ -226,7 +224,7 @@ TypeScript               1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 04/09/2025 00:53:32 UTC
+ Last Updated on 05/09/2025 00:54:52 UTC
 <!--END_SECTION:waka-->
 </details>
 
