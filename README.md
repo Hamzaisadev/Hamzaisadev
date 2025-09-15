@@ -152,17 +152,15 @@ const Hamza = {
 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-261%20hrs%2046%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-262%20hrs%2041%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-9-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-212.9%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 323.8 kB Used in GitHub's Storage 
- > 
-> 🏆 186 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -197,20 +195,18 @@ Sunday                   78 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-JavaScript               4 hrs 36 mins       ████████████████████████░   97.12 % 
-Markdown                 3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.32 % 
-Other                    3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.21 % 
-Bash                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.26 % 
-JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.07 % 
+JavaScript               1 hr 1 min          ███████████████████████░░   93.15 % 
+Markdown                 3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   05.70 % 
+Bash                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.14 % 
 
 🔥 Editors: 
-Windsurf                 4 hrs 44 mins       █████████████████████████   100.00 % 
+Windsurf                 1 hr 5 mins         █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-gadi-ghar                4 hrs 44 mins       █████████████████████████   100.00 % 
+gadi-ghar                1 hr 5 mins         █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  4 hrs 44 mins       █████████████████████████   100.00 % 
+Windows                  1 hr 5 mins         █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -230,7 +226,7 @@ TypeScript               1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 14/09/2025 00:58:28 UTC
+ Last Updated on 15/09/2025 00:58:46 UTC
 <!--END_SECTION:waka-->
 </details>
 
