@@ -152,8 +152,6 @@ const Hamza = {
 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-262%20hrs%2041%20mins-blue)
-
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-9-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-212.9%20thousand%20lines%20of%20code-blue)
@@ -170,45 +168,6 @@ const Hamza = {
  > 
 > 🔑 7 Private Repositories 
  > 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                29 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   04.04 % 
-🌆 Daytime                238 commits         ████████░░░░░░░░░░░░░░░░░   33.15 % 
-🌃 Evening                302 commits         ███████████░░░░░░░░░░░░░░   42.06 % 
-🌙 Night                  149 commits         █████░░░░░░░░░░░░░░░░░░░░   20.75 % 
-```
-📅 **I'm Most Productive on Wednesday** 
-
-```text
-Monday                   68 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.47 % 
-Tuesday                  39 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.43 % 
-Wednesday                211 commits         ███████░░░░░░░░░░░░░░░░░░   29.39 % 
-Thursday                 62 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.64 % 
-Friday                   119 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.57 % 
-Saturday                 141 commits         █████░░░░░░░░░░░░░░░░░░░░   19.64 % 
-Sunday                   78 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.86 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Karachi
-
-💬 Programming Languages: 
-JavaScript               54 mins             █████████████████████████   100.00 % 
-
-🔥 Editors: 
-Windsurf                 54 mins             █████████████████████████   100.00 % 
-
-🐱‍💻 Projects: 
-gadi-ghar                54 mins             █████████████████████████   100.00 % 
-
-💻 Operating System: 
-Windows                  54 mins             █████████████████████████   100.00 % 
-```
-
 **I Mostly Code in JavaScript** 
 
 ```text
@@ -226,7 +185,7 @@ TypeScript               1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 19/09/2025 00:55:32 UTC
+ Last Updated on 20/09/2025 00:52:55 UTC
 <!--END_SECTION:waka-->
 </details>
 
