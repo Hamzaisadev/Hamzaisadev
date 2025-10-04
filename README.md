@@ -152,6 +152,8 @@ const Hamza = {
 
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-264%20hrs%2038%20mins-blue)
+
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-224.2%20thousand%20lines%20of%20code-blue)
@@ -168,6 +170,46 @@ const Hamza = {
  > 
 > 🔑 7 Private Repositories 
  > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                36 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   04.97 % 
+🌆 Daytime                238 commits         ████████░░░░░░░░░░░░░░░░░   32.83 % 
+🌃 Evening                302 commits         ██████████░░░░░░░░░░░░░░░   41.66 % 
+🌙 Night                  149 commits         █████░░░░░░░░░░░░░░░░░░░░   20.55 % 
+```
+📅 **I'm Most Productive on Wednesday** 
+
+```text
+Monday                   68 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.38 % 
+Tuesday                  39 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.38 % 
+Wednesday                218 commits         ████████░░░░░░░░░░░░░░░░░   30.07 % 
+Thursday                 62 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.55 % 
+Friday                   119 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.41 % 
+Saturday                 141 commits         █████░░░░░░░░░░░░░░░░░░░░   19.45 % 
+Sunday                   78 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.76 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Karachi
+
+💬 Programming Languages: 
+JavaScript               14 mins             ████████████████████████░   94.48 % 
+Bash                     0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   05.52 % 
+
+🔥 Editors: 
+Windsurf                 14 mins             █████████████████████████   100.00 % 
+
+🐱‍💻 Projects: 
+gadi-ghar                14 mins             █████████████████████████   100.00 % 
+
+💻 Operating System: 
+Windows                  14 mins             █████████████████████████   100.00 % 
+```
+
 **I Mostly Code in JavaScript** 
 
 ```text
@@ -185,7 +227,7 @@ TypeScript               1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 03/10/2025 00:54:10 UTC
+ Last Updated on 04/10/2025 00:52:08 UTC
 <!--END_SECTION:waka-->
 </details>
 
