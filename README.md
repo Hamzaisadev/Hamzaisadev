@@ -197,17 +197,16 @@ Sunday                   78 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-JavaScript               2 hrs 13 mins       █████████████████████░░░░   84.68 % 
-CSS                      24 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.32 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-Cursor                   2 hrs 37 mins       █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-The Boys                 2 hrs 37 mins       █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Windows                  2 hrs 37 mins       █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in JavaScript** 
@@ -227,7 +226,7 @@ TypeScript               1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 10/10/2025 00:55:13 UTC
+ Last Updated on 11/10/2025 00:52:28 UTC
 <!--END_SECTION:waka-->
 </details>
 
