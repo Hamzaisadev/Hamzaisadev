@@ -154,7 +154,7 @@ const Hamza = {
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-272%20hrs%2054%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-6-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-226.2%20thousand%20lines%20of%20code-blue)
 
@@ -197,20 +197,16 @@ Sunday                   79 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-JavaScript               1 hr 1 min          ██████████████████░░░░░░░   72.71 % 
-Git Config               9 mins              ███░░░░░░░░░░░░░░░░░░░░░░   10.97 % 
-Bash                     7 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   09.12 % 
-JSON                     6 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   07.20 % 
+JavaScript               21 mins             █████████████████████████   100.00 % 
 
 🔥 Editors: 
-Cursor                   1 hr 25 mins        █████████████████████████   100.00 % 
+Cursor                   21 mins             █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-Cabsolutely              1 hr 19 mins        ███████████████████████░░   93.04 % 
-gadi-ghar                5 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   06.96 % 
+Cabsolutely              21 mins             █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  1 hr 25 mins        █████████████████████████   100.00 % 
+Windows                  21 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -230,7 +226,7 @@ TypeScript               1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 28/11/2025 00:57:22 UTC
+ Last Updated on 29/11/2025 00:57:48 UTC
 <!--END_SECTION:waka-->
 </details>
 
