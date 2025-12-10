@@ -152,7 +152,7 @@ const Hamza = {
 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-272%20hrs%2059%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-273%20hrs%2024%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-6-blue)
 
@@ -228,7 +228,7 @@ TypeScript               1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 09/12/2025 01:00:49 UTC
+ Last Updated on 10/12/2025 01:02:18 UTC
 <!--END_SECTION:waka-->
 </details>
 
