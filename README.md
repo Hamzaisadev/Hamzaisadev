@@ -37,8 +37,8 @@
 
 
  <p align="center" >
-   [![GitHub Streak](https://streak-stats.demolab.com/?user=hamzaisadev)](https://git.io/streak-stats)
- 
+  <a href="[[https://github.com/Hamzaisadev?tab=follower](https://streak-stats.demolab.com/?user=hamzaisadev)">
+
  </p>
  
  <br/>
