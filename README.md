@@ -153,17 +153,17 @@ const Hamza = {
 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-274%20hrs%2026%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-273%20hrs%2024%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-8-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-16-blue)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-614.2%20thousand%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-616.2%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 328.5 kB Used in GitHub's Storage 
+> 📦 328.6 kB Used in GitHub's Storage 
  > 
-> 🏆 210 Contributions in the Year 2025
+> 🏆 216 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -174,21 +174,21 @@ const Hamza = {
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                36 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   04.87 % 
-🌆 Daytime                240 commits         ████████░░░░░░░░░░░░░░░░░   32.48 % 
-🌃 Evening                309 commits         ██████████░░░░░░░░░░░░░░░   41.81 % 
-🌙 Night                  154 commits         █████░░░░░░░░░░░░░░░░░░░░   20.84 % 
+🌞 Morning                36 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   04.81 % 
+🌆 Daytime                240 commits         ████████░░░░░░░░░░░░░░░░░   32.04 % 
+🌃 Evening                310 commits         ██████████░░░░░░░░░░░░░░░   41.39 % 
+🌙 Night                  163 commits         █████░░░░░░░░░░░░░░░░░░░░   21.76 % 
 ```
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   71 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.61 % 
-Tuesday                  39 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.28 % 
-Wednesday                219 commits         ███████░░░░░░░░░░░░░░░░░░   29.63 % 
-Thursday                 68 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.20 % 
-Friday                   120 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.24 % 
-Saturday                 142 commits         █████░░░░░░░░░░░░░░░░░░░░   19.22 % 
-Sunday                   80 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.83 % 
+Monday                   71 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.48 % 
+Tuesday                  39 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.21 % 
+Wednesday                219 commits         ███████░░░░░░░░░░░░░░░░░░   29.24 % 
+Thursday                 69 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.21 % 
+Friday                   129 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.22 % 
+Saturday                 142 commits         █████░░░░░░░░░░░░░░░░░░░░   18.96 % 
+Sunday                   80 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.68 % 
 ```
 
 
@@ -198,16 +198,18 @@ Sunday                   80 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+JavaScript               2 hrs 14 mins       █████████████████████████   99.75 % 
+HTML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.23 % 
+CSS                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+Antigravity              2 hrs 15 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+DevShot                  2 hrs 15 mins       █████████████████████████   100.00 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Windows                  2 hrs 15 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -227,7 +229,7 @@ TypeScript               1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 18/12/2025 00:59:45 UTC
+ Last Updated on 19/12/2025 01:02:24 UTC
 <!--END_SECTION:waka-->
 </details>
 
