@@ -153,11 +153,11 @@ const Hamza = {
 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-282%20hrs%2056%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-285%20hrs%2048%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-12-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-8-blue)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-776.6%20thousand%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-776.58%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
@@ -234,7 +234,7 @@ C                        2 repos             █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 01/01/2026 01:10:13 UTC
+ Last Updated on 02/01/2026 01:04:41 UTC
 <!--END_SECTION:waka-->
 </details>
 
