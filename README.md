@@ -153,9 +153,7 @@ const Hamza = {
 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-285%20hrs%2048%20mins-blue)
-
-![Profile Views](http://img.shields.io/badge/Profile%20Views-8-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-776.58%20thousand%20lines%20of%20code-blue)
 
@@ -234,7 +232,7 @@ C                        2 repos             █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 02/01/2026 01:04:41 UTC
+ Last Updated on 03/01/2026 01:00:21 UTC
 <!--END_SECTION:waka-->
 </details>
 
