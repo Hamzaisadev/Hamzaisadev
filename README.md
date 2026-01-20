@@ -153,7 +153,7 @@ const Hamza = {
 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-290%20hrs%2036%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-292%20hrs%2012%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
@@ -198,16 +198,16 @@ Sunday                   96 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-TypeScript               2 hrs 18 mins       █████████████████████████   100.00 % 
+TypeScript               3 hrs               █████████████████████████   100.00 % 
 
 🔥 Editors: 
-Antigravity              2 hrs 18 mins       █████████████████████████   100.00 % 
+Antigravity              3 hrs               █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-Albatix                  2 hrs 18 mins       █████████████████████████   100.00 % 
+Albatix                  3 hrs               █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  2 hrs 18 mins       █████████████████████████   100.00 % 
+Windows                  3 hrs               █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -227,7 +227,7 @@ C                        2 repos             █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 19/01/2026 01:09:01 UTC
+ Last Updated on 20/01/2026 01:04:04 UTC
 <!--END_SECTION:waka-->
 </details>
 
