@@ -161,7 +161,7 @@ const Hamza = {
 
 **🐱 My GitHub Data** 
 
-> 📦 355.8 kB Used in GitHub's Storage 
+> 📦 355.9 kB Used in GitHub's Storage 
  > 
 > 🏆 24 Contributions in the Year 2026
  > 
@@ -198,16 +198,17 @@ Sunday                   104 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+JavaScript               29 mins             █████████████████████░░░░   84.41 % 
+CSS                      5 mins              ████░░░░░░░░░░░░░░░░░░░░░   15.59 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+VS Code                  35 mins             █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+React-Expense-Tracker    35 mins             █████████████████████████   100.00 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Windows                  35 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -227,7 +228,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 21/06/2026 02:49:26 UTC
+ Last Updated on 22/06/2026 02:52:07 UTC
 <!--END_SECTION:waka-->
 </details>
 
