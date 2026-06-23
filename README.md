@@ -153,7 +153,7 @@ const Hamza = {
 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-310%20hrs%2055%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-311%20hrs%2030%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
@@ -198,17 +198,19 @@ Sunday                   104 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-JavaScript               29 mins             █████████████████████░░░░   84.41 % 
-CSS                      5 mins              ████░░░░░░░░░░░░░░░░░░░░░   15.59 % 
+JavaScript               1 hr 24 mins        ████████████████████░░░░░   81.75 % 
+Other                    13 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.87 % 
+CSS                      5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   05.38 % 
 
 🔥 Editors: 
-VS Code                  35 mins             █████████████████████████   100.00 % 
+VS Code                  1 hr 29 mins        ██████████████████████░░░   87.13 % 
+Antigravity IDE          13 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.87 % 
 
 🐱‍💻 Projects: 
-React-Expense-Tracker    35 mins             █████████████████████████   100.00 % 
+React-Expense-Tracker    1 hr 43 mins        █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  35 mins             █████████████████████████   100.00 % 
+Windows                  1 hr 43 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -228,7 +230,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 22/06/2026 02:52:07 UTC
+ Last Updated on 23/06/2026 02:27:17 UTC
 <!--END_SECTION:waka-->
 </details>
 
