@@ -198,19 +198,17 @@ Sunday                   105 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-Other                    18 mins             ████████████████████████░   94.96 % 
-JavaScript               0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   05.04 % 
+Other                    18 mins             █████████████████████████   100.00 % 
 
 🔥 Editors: 
-Antigravity IDE          19 mins             █████████████████████████   100.00 % 
+Antigravity IDE          18 mins             █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-Stash                    11 mins             ███████████████░░░░░░░░░░   60.30 % 
-React-Expense-Tracker    7 mins              ██████████░░░░░░░░░░░░░░░   38.75 % 
-Sherly                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.96 % 
+Stash                    11 mins             ████████████████░░░░░░░░░   63.49 % 
+React-Expense-Tracker    6 mins              █████████░░░░░░░░░░░░░░░░   36.51 % 
 
 💻 Operating System: 
-Windows                  19 mins             █████████████████████████   100.00 % 
+Windows                  18 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -230,7 +228,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 03/07/2026 02:03:54 UTC
+ Last Updated on 04/07/2026 02:01:56 UTC
 <!--END_SECTION:waka-->
 </details>
 
