@@ -157,13 +157,13 @@ const Hamza = {
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-849.23%20thousand%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-849.38%20thousand%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
 > 📦 356.4 kB Used in GitHub's Storage 
  > 
-> 🏆 43 Contributions in the Year 2026
+> 🏆 45 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -174,21 +174,21 @@ const Hamza = {
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                53 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.06 % 
-🌆 Daytime                285 commits         ████████░░░░░░░░░░░░░░░░░   32.61 % 
-🌃 Evening                342 commits         ██████████░░░░░░░░░░░░░░░   39.13 % 
-🌙 Night                  194 commits         ██████░░░░░░░░░░░░░░░░░░░   22.20 % 
+🌞 Morning                53 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.05 % 
+🌆 Daytime                285 commits         ████████░░░░░░░░░░░░░░░░░   32.53 % 
+🌃 Evening                344 commits         ██████████░░░░░░░░░░░░░░░   39.27 % 
+🌙 Night                  194 commits         ██████░░░░░░░░░░░░░░░░░░░   22.15 % 
 ```
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   89 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.18 % 
-Tuesday                  53 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.06 % 
-Wednesday                230 commits         ███████░░░░░░░░░░░░░░░░░░   26.32 % 
-Thursday                 78 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.92 % 
-Friday                   134 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.33 % 
-Saturday                 174 commits         █████░░░░░░░░░░░░░░░░░░░░   19.91 % 
-Sunday                   116 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.27 % 
+Monday                   89 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.16 % 
+Tuesday                  55 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.28 % 
+Wednesday                230 commits         ███████░░░░░░░░░░░░░░░░░░   26.26 % 
+Thursday                 78 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.90 % 
+Friday                   134 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.30 % 
+Saturday                 174 commits         █████░░░░░░░░░░░░░░░░░░░░   19.86 % 
+Sunday                   116 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.24 % 
 ```
 
 
@@ -198,16 +198,23 @@ Sunday                   116 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+JavaScript               9 mins              █████████████░░░░░░░░░░░░   52.34 % 
+YAML                     7 mins              ██████████░░░░░░░░░░░░░░░   41.41 % 
+Markdown                 0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   05.66 % 
+JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.53 % 
+Python                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.06 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+VS Code                  16 mins             ████████████████████████░   95.66 % 
+Unknown Editor           0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   04.34 % 
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+kavya-birthday           10 mins             ██████████████░░░░░░░░░░░   57.89 % 
+Stash                    5 mins              ███████░░░░░░░░░░░░░░░░░░   29.97 % 
+backend                  2 mins              ███░░░░░░░░░░░░░░░░░░░░░░   12.13 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Windows                  17 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -227,7 +234,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 21/07/2026 01:49:56 UTC
+ Last Updated on 22/07/2026 01:49:00 UTC
 <!--END_SECTION:waka-->
 </details>
 
