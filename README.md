@@ -153,17 +153,17 @@ const Hamza = {
 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-312%20hrs%2057%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-313%20hrs%2015%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-849.38%20thousand%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-852.93%20thousand%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
-> 📦 356.4 kB Used in GitHub's Storage 
+> 📦 356.5 kB Used in GitHub's Storage 
  > 
-> 🏆 45 Contributions in the Year 2026
+> 🏆 49 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -174,21 +174,21 @@ const Hamza = {
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                53 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.05 % 
-🌆 Daytime                285 commits         ████████░░░░░░░░░░░░░░░░░   32.53 % 
-🌃 Evening                344 commits         ██████████░░░░░░░░░░░░░░░   39.27 % 
-🌙 Night                  194 commits         ██████░░░░░░░░░░░░░░░░░░░   22.15 % 
+🌞 Morning                53 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.02 % 
+🌆 Daytime                289 commits         ████████░░░░░░░░░░░░░░░░░   32.84 % 
+🌃 Evening                344 commits         ██████████░░░░░░░░░░░░░░░   39.09 % 
+🌙 Night                  194 commits         ██████░░░░░░░░░░░░░░░░░░░   22.05 % 
 ```
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   89 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.16 % 
-Tuesday                  55 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.28 % 
-Wednesday                230 commits         ███████░░░░░░░░░░░░░░░░░░   26.26 % 
-Thursday                 78 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.90 % 
-Friday                   134 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.30 % 
-Saturday                 174 commits         █████░░░░░░░░░░░░░░░░░░░░   19.86 % 
-Sunday                   116 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.24 % 
+Monday                   89 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.11 % 
+Tuesday                  55 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.25 % 
+Wednesday                234 commits         ███████░░░░░░░░░░░░░░░░░░   26.59 % 
+Thursday                 78 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.86 % 
+Friday                   134 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.23 % 
+Saturday                 174 commits         █████░░░░░░░░░░░░░░░░░░░░   19.77 % 
+Sunday                   116 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.18 % 
 ```
 
 
@@ -198,23 +198,25 @@ Sunday                   116 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-JavaScript               9 mins              █████████████░░░░░░░░░░░░   52.34 % 
-YAML                     7 mins              ██████████░░░░░░░░░░░░░░░   41.41 % 
-Markdown                 0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   05.66 % 
-JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.53 % 
-Python                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.06 % 
+JavaScript               31 mins             █████████████░░░░░░░░░░░░   52.10 % 
+JSON                     12 mins             █████░░░░░░░░░░░░░░░░░░░░   20.19 % 
+YAML                     7 mins              ███░░░░░░░░░░░░░░░░░░░░░░   12.04 % 
+HTML                     3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   05.78 % 
+CSS                      3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   05.05 % 
 
 🔥 Editors: 
-VS Code                  16 mins             ████████████████████████░   95.66 % 
-Unknown Editor           0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   04.34 % 
+VS Code                  59 mins             █████████████████████████   98.74 % 
+Unknown Editor           0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.26 % 
 
 🐱‍💻 Projects: 
-kavya-birthday           10 mins             ██████████████░░░░░░░░░░░   57.89 % 
-Stash                    5 mins              ███████░░░░░░░░░░░░░░░░░░   29.97 % 
-backend                  2 mins              ███░░░░░░░░░░░░░░░░░░░░░░   12.13 % 
+Stash                    39 mins             ████████████████░░░░░░░░░   65.65 % 
+kavya-birthday           10 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.83 % 
+pages                    7 mins              ███░░░░░░░░░░░░░░░░░░░░░░   11.70 % 
+backend                  2 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.53 % 
+components               1 min               █░░░░░░░░░░░░░░░░░░░░░░░░   02.30 % 
 
 💻 Operating System: 
-Windows                  17 mins             █████████████████████████   100.00 % 
+Windows                  1 hr                █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -234,7 +236,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 22/07/2026 01:49:00 UTC
+ Last Updated on 23/07/2026 01:56:17 UTC
 <!--END_SECTION:waka-->
 </details>
 
