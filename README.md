@@ -153,7 +153,9 @@ const Hamza = {
 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-329%20hrs%2029%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-327%20hrs%2033%20mins-blue?style=flat)
+
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-20%20hrs%206%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
@@ -219,6 +221,28 @@ components               1 min               █░░░░░░░░░░�
 Windows                  1 hr                █████████████████████████   100.00 % 
 ```
 
+🤖 **AI Coding This Week** 
+
+```text
+⏱ AI Coding Time: 40 mins (66.7%)
+
+✍️ 154 lines written by AI, 94 lines written by hand (62.1% AI-written)
+
+🔤 86,842 Input Tokens, 49 Output Tokens
+
+💵 $0.26 Estimated AI Cost This Week
+
+🧠 3 AI Sessions, 15 AI Prompts
+
+Github-Copilot           154 lines           █████████████████████████   100.00 % 
+
+🔎 AI Coding Insights:
+⚖️ Balanced with AI — 62.1% of written lines came from AI
+📝 Concise Prompter — average 107 characters per prompt
+🔁 Iterative Prompter — average 5 prompts per session
+🚀 High AI Trust — 39.61% of changed lines were hand-edited
+```
+
 **I Mostly Code in JavaScript** 
 
 ```text
@@ -236,7 +260,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 27/07/2026 02:03:22 UTC
+ Last Updated on 28/07/2026 01:45:25 UTC
 <!--END_SECTION:waka-->
 </details>
 
