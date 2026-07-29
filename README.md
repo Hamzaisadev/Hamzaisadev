@@ -153,10 +153,6 @@ const Hamza = {
 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-327%20hrs%2033%20mins-blue?style=flat)
-
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-20%20hrs%206%20mins-blue?style=flat)
-
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-852.93%20thousand%20lines%20of%20code-blue?style=flat)
@@ -200,47 +196,44 @@ Sunday                   116 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-JavaScript               31 mins             █████████████░░░░░░░░░░░░   52.10 % 
-JSON                     12 mins             █████░░░░░░░░░░░░░░░░░░░░   20.19 % 
-YAML                     7 mins              ███░░░░░░░░░░░░░░░░░░░░░░   12.04 % 
-HTML                     3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   05.78 % 
-CSS                      3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   05.05 % 
+JavaScript               22 mins             █████████████░░░░░░░░░░░░   52.00 % 
+JSON                     12 mins             ███████░░░░░░░░░░░░░░░░░░   28.25 % 
+HTML                     3 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   08.15 % 
+CSS                      3 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   07.12 % 
+Markdown                 1 min               █░░░░░░░░░░░░░░░░░░░░░░░░   04.48 % 
 
 🔥 Editors: 
-VS Code                  59 mins             █████████████████████████   98.74 % 
-Unknown Editor           0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.26 % 
+VS Code                  42 mins             █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-Stash                    39 mins             ████████████████░░░░░░░░░   65.65 % 
-kavya-birthday           10 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.83 % 
-pages                    7 mins              ███░░░░░░░░░░░░░░░░░░░░░░   11.70 % 
-backend                  2 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.53 % 
-components               1 min               █░░░░░░░░░░░░░░░░░░░░░░░░   02.30 % 
+Stash                    34 mins             ████████████████████░░░░░   80.26 % 
+pages                    7 mins              ████░░░░░░░░░░░░░░░░░░░░░   16.50 % 
+components               1 min               █░░░░░░░░░░░░░░░░░░░░░░░░   03.24 % 
 
 💻 Operating System: 
-Windows                  1 hr                █████████████████████████   100.00 % 
+Windows                  42 mins             █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 40 mins (66.7%)
+⏱ AI Coding Time: 25 mins (59.98%)
 
-✍️ 154 lines written by AI, 94 lines written by hand (62.1% AI-written)
+✍️ 154 lines written by AI, 8 lines written by hand (95.06% AI-written)
 
 🔤 86,842 Input Tokens, 49 Output Tokens
 
 💵 $0.26 Estimated AI Cost This Week
 
-🧠 3 AI Sessions, 15 AI Prompts
+🧠 1 AI Sessions, 4 AI Prompts
 
 Github-Copilot           154 lines           █████████████████████████   100.00 % 
 
 🔎 AI Coding Insights:
-⚖️ Balanced with AI — 62.1% of written lines came from AI
-📝 Concise Prompter — average 107 characters per prompt
-🔁 Iterative Prompter — average 5 prompts per session
-🚀 High AI Trust — 39.61% of changed lines were hand-edited
+🤖 AI-Driven — 95.06% of written lines came from AI
+📝 Concise Prompter — average 374 characters per prompt
+🔁 Iterative Prompter — average 4 prompts per session
+🚀 High AI Trust — 4.94% of changed lines were hand-edited
 ```
 
 **I Mostly Code in JavaScript** 
@@ -260,7 +253,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 28/07/2026 01:45:25 UTC
+ Last Updated on 29/07/2026 01:47:30 UTC
 <!--END_SECTION:waka-->
 </details>
 
