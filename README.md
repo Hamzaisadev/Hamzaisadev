@@ -153,7 +153,7 @@ const Hamza = {
 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-328%20hrs%2018%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-328%20hrs%2034%20mins-blue?style=flat)
 
 ![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-20%20hrs%2051%20mins-blue?style=flat)
 
@@ -200,23 +200,49 @@ Sunday                   116 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-JavaScript               15 mins             █████████████████████████   98.50 % 
-Python                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.50 % 
+JavaScript               1 hr 46 mins        ████████████░░░░░░░░░░░░░   47.42 % 
+TypeScript               29 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.97 % 
+CSS                      20 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.12 % 
+JSON                     19 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.74 % 
+TSConfig                 17 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.68 % 
 
 🔥 Editors: 
-VS Code                  15 mins             █████████████████████████   100.00 % 
+Claude Code              1 hr 40 mins        ███████████░░░░░░░░░░░░░░   44.74 % 
+Antigravity IDE          1 hr 20 mins        █████████░░░░░░░░░░░░░░░░   35.91 % 
+VS Code                  43 mins             █████░░░░░░░░░░░░░░░░░░░░   19.35 % 
 
 🐱‍💻 Projects: 
-Stash                    15 mins             █████████████████████████   100.00 % 
+medfolio                 3 hrs 6 mins        █████████████████████░░░░   82.92 % 
+Stash                    22 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.81 % 
+HP                       10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.80 % 
+Unknown Project          5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.47 % 
 
 💻 Operating System: 
-Windows                  15 mins             █████████████████████████   100.00 % 
+Windows                  3 hrs 44 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-No AI Coding Activity Tracked This Week
+⏱ AI Coding Time: 3 hrs 24 mins (90.96%)
+
+✍️ 4,505 lines written by AI, 14 lines written by hand (99.69% AI-written)
+
+🔤 7,055,981 Input Tokens, 84,569 Output Tokens
+
+💵 $43.33 Estimated AI Cost This Week
+
+🧠 12 AI Sessions, 33 AI Prompts
+
+Opus                     4,286 lines         ████████████████████████░   94.99 % 
+Sonnet                   216 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   04.79 % 
+Gemini                   10 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.22 % 
+
+🔎 AI Coding Insights:
+🤖 AI-Driven — 99.69% of written lines came from AI
+📄 Detailed Prompter — average 893 characters per prompt
+🔁 Iterative Prompter — average 3 prompts per session
+🚀 High AI Trust — 0.66% of changed lines were hand-edited
 ```
 
 **I Mostly Code in JavaScript** 
@@ -236,7 +262,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 09/08/2026 01:00:50 UTC
+ Last Updated on 10/08/2026 01:02:48 UTC
 <!--END_SECTION:waka-->
 </details>
 
