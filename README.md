@@ -153,9 +153,9 @@ const Hamza = {
 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-331%20hrs%2051%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-335%20hrs%2058%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-24%20hrs%2015%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-28%20hrs%2021%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
@@ -163,7 +163,7 @@ const Hamza = {
 
 **🐱 My GitHub Data** 
 
-> 📦 356.5 kB Used in GitHub's Storage 
+> 📦 356.6 kB Used in GitHub's Storage 
  > 
 > 🏆 49 Contributions in the Year 2026
  > 
@@ -200,50 +200,50 @@ Sunday                   116 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-JavaScript               2 hrs 39 mins       ████████░░░░░░░░░░░░░░░░░   33.77 % 
-TypeScript               2 hrs 18 mins       ███████░░░░░░░░░░░░░░░░░░   29.31 % 
-Markdown                 51 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.02 % 
-JSON                     43 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.27 % 
-CSS                      30 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.58 % 
+JavaScript               4 hrs 45 mins       ███████████░░░░░░░░░░░░░░   43.43 % 
+TypeScript               2 hrs 58 mins       ███████░░░░░░░░░░░░░░░░░░   27.12 % 
+Markdown                 55 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.43 % 
+JSON                     43 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.64 % 
+CSS                      30 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.71 % 
 
 🔥 Editors: 
-Claude Code              5 hrs 25 mins       █████████████████░░░░░░░░   69.02 % 
-Antigravity IDE          1 hr 20 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.12 % 
-VS Code                  1 hr 5 mins         ███░░░░░░░░░░░░░░░░░░░░░░   13.86 % 
+Claude Code              8 hrs 25 mins       ███████████████████░░░░░░   76.89 % 
+Antigravity IDE          1 hr 20 mins        ███░░░░░░░░░░░░░░░░░░░░░░   12.25 % 
+VS Code                  1 hr 11 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.85 % 
 
 🐱‍💻 Projects: 
-medfolio                 5 hrs 31 mins       ██████████████████░░░░░░░   70.35 % 
-Stash                    2 hrs 3 mins        ███████░░░░░░░░░░░░░░░░░░   26.19 % 
-HP                       10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.29 % 
-Unknown Project          5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.18 % 
+medfolio                 6 hrs 30 mins       ███████████████░░░░░░░░░░   59.38 % 
+Stash                    4 hrs 10 mins       ██████████░░░░░░░░░░░░░░░   38.14 % 
+HP                       10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.64 % 
+Unknown Project          5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.84 % 
 
 💻 Operating System: 
-Windows                  7 hrs 51 mins       █████████████████████████   100.00 % 
+Windows                  10 hrs 57 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 7 hrs 30 mins (95.58%)
+⏱ AI Coding Time: 10 hrs 37 mins (96.84%)
 
-✍️ 14,249 lines written by AI, 15 lines written by hand (99.89% AI-written)
+✍️ 15,076 lines written by AI, 15 lines written by hand (99.9% AI-written)
 
-🔤 17,319,223 Input Tokens, 234,151 Output Tokens
+🔤 42,930,363 Input Tokens, 324,815 Output Tokens
 
-💵 $106.57 Estimated AI Cost This Week
+💵 $258.56 Estimated AI Cost This Week
 
-🧠 15 AI Sessions, 44 AI Prompts
+🧠 18 AI Sessions, 62 AI Prompts
 
-Opus                     14,042 lines        █████████████████████████   98.42 % 
-Sonnet                   216 lines           ░░░░░░░░░░░░░░░░░░░░░░░░░   01.51 % 
-Gemini                   10 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.07 % 
+Opus                     15,204 lines        █████████████████████████   98.54 % 
+Sonnet                   216 lines           ░░░░░░░░░░░░░░░░░░░░░░░░░   01.40 % 
+Gemini                   10 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.06 % 
 Claude-Code              0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.89% of written lines came from AI
-📚 Verbose Prompter — average 2,009 characters per prompt
+🤖 AI-Driven — 99.9% of written lines came from AI
+📚 Verbose Prompter — average 2,103 characters per prompt
 🔁 Iterative Prompter — average 3 prompts per session
-🚀 High AI Trust — 0.22% of changed lines were hand-edited
+🚀 High AI Trust — 0.2% of changed lines were hand-edited
 ```
 
 **I Mostly Code in JavaScript** 
@@ -263,7 +263,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 11/08/2026 01:01:55 UTC
+ Last Updated on 12/08/2026 01:08:56 UTC
 <!--END_SECTION:waka-->
 </details>
 
