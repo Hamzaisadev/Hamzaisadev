@@ -153,9 +153,9 @@ const Hamza = {
 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-339%20hrs%205%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-341%20hrs%207%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-31%20hrs%2028%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-33%20hrs%2041%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
@@ -200,50 +200,50 @@ Sunday                   116 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-JavaScript               5 hrs 8 mins        ██████████░░░░░░░░░░░░░░░   38.76 % 
-TypeScript               4 hrs 6 mins        ████████░░░░░░░░░░░░░░░░░   31.00 % 
-Markdown                 1 hr 13 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.21 % 
-JSON                     57 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.17 % 
-CSS                      30 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.89 % 
+JavaScript               5 hrs 21 mins       ████████░░░░░░░░░░░░░░░░░   33.95 % 
+TypeScript               4 hrs 9 mins        ███████░░░░░░░░░░░░░░░░░░   26.32 % 
+JSON                     2 hrs 19 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.73 % 
+Markdown                 1 hr 21 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.62 % 
+Other                    41 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.40 % 
 
 🔥 Editors: 
-Claude Code              10 hrs 6 mins       ███████████████████░░░░░░   76.26 % 
-VS Code                  1 hr 48 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.60 % 
-Antigravity IDE          1 hr 20 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.14 % 
+Claude Code              10 hrs 34 mins      █████████████████░░░░░░░░   67.03 % 
+VS Code                  3 hrs 51 mins       ██████░░░░░░░░░░░░░░░░░░░   24.46 % 
+Antigravity IDE          1 hr 20 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.51 % 
 
 🐱‍💻 Projects: 
-medfolio                 8 hrs 25 mins       ████████████████░░░░░░░░░   63.56 % 
-Stash                    4 hrs 33 mins       █████████░░░░░░░░░░░░░░░░   34.39 % 
-HP                       10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.35 % 
-Unknown Project          5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.70 % 
+medfolio                 10 hrs 52 mins      █████████████████░░░░░░░░   68.92 % 
+Stash                    4 hrs 33 mins       ███████░░░░░░░░░░░░░░░░░░   28.89 % 
+HP                       15 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.61 % 
+Unknown Project          5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.59 % 
 
 💻 Operating System: 
-Windows                  13 hrs 15 mins      █████████████████████████   100.00 % 
+Windows                  15 hrs 46 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 12 hrs 50 mins (96.87%)
+⏱ AI Coding Time: 15 hrs 6 mins (95.69%)
 
-✍️ 15,828 lines written by AI, 35 lines written by hand (99.78% AI-written)
+✍️ 15,886 lines written by AI, 44 lines written by hand (99.72% AI-written)
 
-🔤 44,814,278 Input Tokens, 351,301 Output Tokens
+🔤 45,787,008 Input Tokens, 368,988 Output Tokens
 
-💵 $268.84 Estimated AI Cost This Week
+💵 $275.17 Estimated AI Cost This Week
 
-🧠 24 AI Sessions, 88 AI Prompts
+🧠 48 AI Sessions, 182 AI Prompts
 
-Opus                     15,956 lines        █████████████████████████   98.60 % 
+Opus                     16,025 lines        █████████████████████████   98.61 % 
 Sonnet                   216 lines           ░░░░░░░░░░░░░░░░░░░░░░░░░   01.33 % 
 Gemini                   10 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.06 % 
 Claude-Code              0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.78% of written lines came from AI
-📚 Verbose Prompter — average 17,788 characters per prompt
+🤖 AI-Driven — 99.72% of written lines came from AI
+📚 Verbose Prompter — average 22,407 characters per prompt
 🔁 Iterative Prompter — average 4 prompts per session
-🚀 High AI Trust — 0.52% of changed lines were hand-edited
+🚀 High AI Trust — 0.62% of changed lines were hand-edited
 ```
 
 **I Mostly Code in JavaScript** 
@@ -263,7 +263,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 13/08/2026 01:10:56 UTC
+ Last Updated on 14/08/2026 01:09:43 UTC
 <!--END_SECTION:waka-->
 </details>
 
