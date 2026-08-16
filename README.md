@@ -153,9 +153,9 @@ const Hamza = {
 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-343%20hrs%2023%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-344%20hrs%2045%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-35%20hrs%2057%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-37%20hrs%2020%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
@@ -200,53 +200,54 @@ Sunday                   116 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-JavaScript               6 hrs 28 mins       █████████░░░░░░░░░░░░░░░░   37.72 % 
-TypeScript               4 hrs 9 mins        ██████░░░░░░░░░░░░░░░░░░░   24.20 % 
-JSON                     2 hrs 19 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.56 % 
-Markdown                 1 hr 21 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.92 % 
-Other                    43 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.21 % 
+JavaScript               8 hrs 55 mins       ██████████░░░░░░░░░░░░░░░   41.23 % 
+TypeScript               4 hrs 4 mins        █████░░░░░░░░░░░░░░░░░░░░   18.85 % 
+Markdown                 2 hrs 39 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.28 % 
+JSON                     2 hrs 17 mins       ███░░░░░░░░░░░░░░░░░░░░░░   10.60 % 
+CSS                      1 hr 5 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   05.03 % 
 
 🔥 Editors: 
-Claude Code              10 hrs 34 mins      ███████████████░░░░░░░░░░   61.61 % 
-VS Code                  3 hrs 52 mins       ██████░░░░░░░░░░░░░░░░░░░   22.55 % 
-Antigravity IDE          1 hr 55 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.16 % 
-Cursor                   29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.86 % 
-Opencode Cli             18 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.79 % 
+Claude Code              12 hrs 28 mins      ██████████████░░░░░░░░░░░   57.63 % 
+Antigravity IDE          4 hrs 33 mins       █████░░░░░░░░░░░░░░░░░░░░   21.02 % 
+VS Code                  3 hrs 49 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.65 % 
+Cursor                   26 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.04 % 
+Opencode Cli             18 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.42 % 
 
 🐱‍💻 Projects: 
-medfolio                 12 hrs 15 mins      ██████████████████░░░░░░░   71.43 % 
-Stash                    4 hrs 33 mins       ███████░░░░░░░░░░░░░░░░░░   26.55 % 
-HP                       15 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.48 % 
-Unknown Project          5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.54 % 
+medfolio                 16 hrs 42 mins      ███████████████████░░░░░░   77.17 % 
+Stash                    4 hrs 15 mins       █████░░░░░░░░░░░░░░░░░░░░   19.69 % 
+Medfolio v2              20 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.54 % 
+HP                       15 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.17 % 
+Unknown Project          5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.43 % 
 
 💻 Operating System: 
-Windows                  17 hrs 10 mins      █████████████████████████   100.00 % 
+Windows                  21 hrs 39 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 16 hrs 29 mins (96.04%)
+⏱ AI Coding Time: 21 hrs 13 mins (98.0%)
 
-✍️ 16,488 lines written by AI, 44 lines written by hand (99.73% AI-written)
+✍️ 28,674 lines written by AI, 161 lines written by hand (99.44% AI-written)
 
-🔤 45,787,008 Input Tokens, 368,988 Output Tokens
+🔤 56,300,283 Input Tokens, 573,873 Output Tokens
 
-💵 $275.17 Estimated AI Cost This Week
+💵 $342.32 Estimated AI Cost This Week
 
-🧠 54 AI Sessions, 191 AI Prompts
+🧠 59 AI Sessions, 238 AI Prompts
 
-Opus                     16,025 lines        ████████████████████████░   94.18 % 
-Grok                     645 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   03.79 % 
-Sonnet                   216 lines           ░░░░░░░░░░░░░░░░░░░░░░░░░   01.27 % 
-Gemini                   129 lines           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.76 % 
+Opus                     26,798 lines        ███████████████████████░░   90.69 % 
+Gemini                   1,578 lines         █░░░░░░░░░░░░░░░░░░░░░░░░   05.34 % 
+Grok                     957 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   03.24 % 
+Sonnet                   216 lines           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.73 % 
 Claude-Code              0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.73% of written lines came from AI
-📚 Verbose Prompter — average 21,355 characters per prompt
+🤖 AI-Driven — 99.44% of written lines came from AI
+📚 Verbose Prompter — average 17,315 characters per prompt
 🔁 Iterative Prompter — average 4 prompts per session
-🚀 High AI Trust — 0.6% of changed lines were hand-edited
+🚀 High AI Trust — 0.71% of changed lines were hand-edited
 ```
 
 **I Mostly Code in JavaScript** 
@@ -266,7 +267,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 15/08/2026 00:42:39 UTC
+ Last Updated on 16/08/2026 00:44:48 UTC
 <!--END_SECTION:waka-->
 </details>
 
