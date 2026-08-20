@@ -200,52 +200,51 @@ Sunday                   118 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-JavaScript               4 hrs 14 mins       ██████████░░░░░░░░░░░░░░░   39.09 % 
-JSON                     1 hr 43 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.93 % 
-Markdown                 1 hr 37 mins        ████░░░░░░░░░░░░░░░░░░░░░   14.97 % 
-TypeScript               1 hr 23 mins        ███░░░░░░░░░░░░░░░░░░░░░░   12.78 % 
-Other                    51 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.84 % 
+JavaScript               3 hrs 52 mins       ████████████░░░░░░░░░░░░░   46.26 % 
+JSON                     1 hr 30 mins        █████░░░░░░░░░░░░░░░░░░░░   18.03 % 
+Markdown                 1 hr 19 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.88 % 
+Other                    36 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.21 % 
+Bash                     19 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.83 % 
 
 🔥 Editors: 
-Claude Code              3 hrs 47 mins       █████████░░░░░░░░░░░░░░░░   34.90 % 
-Antigravity IDE          3 hrs 12 mins       ███████░░░░░░░░░░░░░░░░░░   29.53 % 
-VS Code                  3 hrs 3 mins        ███████░░░░░░░░░░░░░░░░░░   28.19 % 
-Cursor                   26 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.06 % 
-Opencode Cli             18 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.83 % 
+Antigravity IDE          3 hrs 12 mins       ██████████░░░░░░░░░░░░░░░   38.35 % 
+VS Code                  2 hrs 27 mins       ███████░░░░░░░░░░░░░░░░░░   29.29 % 
+Claude Code              1 hr 54 mins        ██████░░░░░░░░░░░░░░░░░░░   22.77 % 
+Cursor                   26 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.27 % 
+Opencode Cli             18 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.68 % 
 
 🐱‍💻 Projects: 
-medfolio                 10 hrs 4 mins       ███████████████████████░░   92.77 % 
-Stash                    22 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.47 % 
-Medfolio v2              20 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.08 % 
-HP                       4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.69 % 
+medfolio                 7 hrs 57 mins       ████████████████████████░   95.11 % 
+Medfolio v2              20 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.99 % 
+HP                       4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.89 % 
 
 💻 Operating System: 
-Windows                  10 hrs 51 mins      █████████████████████████   100.00 % 
+Windows                  8 hrs 21 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 10 hrs 30 mins (96.76%)
+⏱ AI Coding Time: 8 hrs 4 mins (96.61%)
 
-✍️ 7,670 lines written by AI, 67 lines written by hand (99.13% AI-written)
+✍️ 6,918 lines written by AI, 25 lines written by hand (99.64% AI-written)
 
-🔤 6,488,918 Input Tokens, 110,078 Output Tokens
+🔤 4,605,003 Input Tokens, 83,592 Output Tokens
 
-💵 $36.86 Estimated AI Cost This Week
+💵 $26.58 Estimated AI Cost This Week
 
-🧠 40 AI Sessions, 160 AI Prompts
+🧠 34 AI Sessions, 134 AI Prompts
 
-Opus                     5,491 lines         █████████████████░░░░░░░░   68.50 % 
-Gemini                   1,568 lines         █████░░░░░░░░░░░░░░░░░░░░   19.56 % 
-Grok                     957 lines           ███░░░░░░░░░░░░░░░░░░░░░░   11.94 % 
+Opus                     4,739 lines         ████████████████░░░░░░░░░   65.24 % 
+Gemini                   1,568 lines         █████░░░░░░░░░░░░░░░░░░░░   21.59 % 
+Grok                     957 lines           ███░░░░░░░░░░░░░░░░░░░░░░   13.17 % 
 Claude-Code              0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.13% of written lines came from AI
-📚 Verbose Prompter — average 24,703 characters per prompt
+🤖 AI-Driven — 99.64% of written lines came from AI
+📚 Verbose Prompter — average 18,787 characters per prompt
 🔁 Iterative Prompter — average 4 prompts per session
-🚀 High AI Trust — 1.34% of changed lines were hand-edited
+🚀 High AI Trust — 0.47% of changed lines were hand-edited
 ```
 
 **I Mostly Code in JavaScript** 
@@ -265,7 +264,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 19/08/2026 00:42:21 UTC
+ Last Updated on 20/08/2026 00:42:01 UTC
 <!--END_SECTION:waka-->
 </details>
 
