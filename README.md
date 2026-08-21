@@ -200,51 +200,50 @@ Sunday                   118 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-JavaScript               3 hrs 52 mins       ████████████░░░░░░░░░░░░░   46.26 % 
-JSON                     1 hr 30 mins        █████░░░░░░░░░░░░░░░░░░░░   18.03 % 
-Markdown                 1 hr 19 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.88 % 
-Other                    36 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.21 % 
-Bash                     19 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.83 % 
+JavaScript               3 hrs 39 mins       ████████████████░░░░░░░░░   62.49 % 
+Markdown                 1 hr 11 mins        █████░░░░░░░░░░░░░░░░░░░░   20.37 % 
+Other                    21 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.22 % 
+CSS                      16 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.68 % 
+Bash                     14 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.01 % 
 
 🔥 Editors: 
-Antigravity IDE          3 hrs 12 mins       ██████████░░░░░░░░░░░░░░░   38.35 % 
-VS Code                  2 hrs 27 mins       ███████░░░░░░░░░░░░░░░░░░   29.29 % 
-Claude Code              1 hr 54 mins        ██████░░░░░░░░░░░░░░░░░░░   22.77 % 
-Cursor                   26 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.27 % 
-Opencode Cli             18 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.68 % 
+Antigravity IDE          3 hrs 12 mins       ██████████████░░░░░░░░░░░   54.93 % 
+Claude Code              1 hr 26 mins        ██████░░░░░░░░░░░░░░░░░░░   24.75 % 
+Cursor                   26 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.55 % 
+VS Code                  23 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.60 % 
+Opencode Cli             18 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
 
 🐱‍💻 Projects: 
-medfolio                 7 hrs 57 mins       ████████████████████████░   95.11 % 
-Medfolio v2              20 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.99 % 
-HP                       4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.89 % 
+medfolio                 5 hrs 30 mins       ████████████████████████░   94.28 % 
+Medfolio v2              20 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.72 % 
 
 💻 Operating System: 
-Windows                  8 hrs 21 mins       █████████████████████████   100.00 % 
+Windows                  5 hrs 50 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 8 hrs 4 mins (96.61%)
+⏱ AI Coding Time: 5 hrs 49 mins (99.75%)
 
-✍️ 6,918 lines written by AI, 25 lines written by hand (99.64% AI-written)
+✍️ 6,860 lines written by AI, 16 lines written by hand (99.77% AI-written)
 
-🔤 4,605,003 Input Tokens, 83,592 Output Tokens
+🔤 3,389,171 Input Tokens, 65,665 Output Tokens
 
-💵 $26.58 Estimated AI Cost This Week
+💵 $18.91 Estimated AI Cost This Week
 
-🧠 34 AI Sessions, 134 AI Prompts
+🧠 10 AI Sessions, 39 AI Prompts
 
-Opus                     4,739 lines         ████████████████░░░░░░░░░   65.24 % 
-Gemini                   1,568 lines         █████░░░░░░░░░░░░░░░░░░░░   21.59 % 
-Grok                     957 lines           ███░░░░░░░░░░░░░░░░░░░░░░   13.17 % 
+Opus                     4,670 lines         ████████████████░░░░░░░░░   64.91 % 
+Gemini                   1,568 lines         █████░░░░░░░░░░░░░░░░░░░░   21.79 % 
+Grok                     957 lines           ███░░░░░░░░░░░░░░░░░░░░░░   13.30 % 
 Claude-Code              0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.64% of written lines came from AI
-📚 Verbose Prompter — average 18,787 characters per prompt
+🤖 AI-Driven — 99.77% of written lines came from AI
+📝 Concise Prompter — average 121 characters per prompt
 🔁 Iterative Prompter — average 4 prompts per session
-🚀 High AI Trust — 0.47% of changed lines were hand-edited
+🚀 High AI Trust — 0.22% of changed lines were hand-edited
 ```
 
 **I Mostly Code in JavaScript** 
@@ -264,7 +263,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 20/08/2026 00:42:01 UTC
+ Last Updated on 21/08/2026 00:45:32 UTC
 <!--END_SECTION:waka-->
 </details>
 
