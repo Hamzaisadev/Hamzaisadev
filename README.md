@@ -200,47 +200,22 @@ Sunday                   118 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-Markdown                 1 hr 11 mins        ███████████░░░░░░░░░░░░░░   44.08 % 
-JavaScript               57 mins             █████████░░░░░░░░░░░░░░░░   35.73 % 
-Other                    20 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.38 % 
-JSON                     7 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.39 % 
-CSS                      5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.41 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-Claude Code              1 hr 26 mins        █████████████░░░░░░░░░░░░   53.56 % 
-Antigravity IDE          52 mins             ████████░░░░░░░░░░░░░░░░░   32.61 % 
-VS Code                  22 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.83 % 
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-medfolio                 2 hrs 21 mins       ██████████████████████░░░   87.62 % 
-Medfolio v2              20 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.38 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Windows                  2 hrs 41 mins       █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 2 hrs 41 mins (99.46%)
-
-✍️ 4,725 lines written by AI, 16 lines written by hand (99.66% AI-written)
-
-🔤 3,389,171 Input Tokens, 65,665 Output Tokens
-
-💵 $18.91 Estimated AI Cost This Week
-
-🧠 3 AI Sessions, 22 AI Prompts
-
-Opus                     4,607 lines         ████████████████████████░   97.24 % 
-Gemini                   131 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   02.76 % 
-Claude-Code              0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-
-🔎 AI Coding Insights:
-🤖 AI-Driven — 99.66% of written lines came from AI
-📝 Concise Prompter — average 65 characters per prompt
-🔁 Iterative Prompter — average 7 prompts per session
-🚀 High AI Trust — 0.34% of changed lines were hand-edited
+No AI Coding Activity Tracked This Week
 ```
 
 **I Mostly Code in JavaScript** 
@@ -260,7 +235,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 22/08/2026 00:42:19 UTC
+ Last Updated on 23/08/2026 00:45:40 UTC
 <!--END_SECTION:waka-->
 </details>
 
