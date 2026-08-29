@@ -159,13 +159,13 @@ const Hamza = {
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-909.48%20thousand%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.19%20million%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
-> 📦 357.4 kB Used in GitHub's Storage 
+> 📦 357.7 kB Used in GitHub's Storage 
  > 
-> 🏆 67 Contributions in the Year 2026
+> 🏆 70 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -176,21 +176,21 @@ const Hamza = {
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                53 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.90 % 
-🌆 Daytime                293 commits         ████████░░░░░░░░░░░░░░░░░   32.63 % 
-🌃 Evening                358 commits         ██████████░░░░░░░░░░░░░░░   39.87 % 
-🌙 Night                  194 commits         █████░░░░░░░░░░░░░░░░░░░░   21.60 % 
+🌞 Morning                53 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.35 % 
+🌆 Daytime                316 commits         ████████░░░░░░░░░░░░░░░░░   31.89 % 
+🌃 Evening                428 commits         ███████████░░░░░░░░░░░░░░   43.19 % 
+🌙 Night                  194 commits         █████░░░░░░░░░░░░░░░░░░░░   19.58 % 
 ```
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   89 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.91 % 
-Tuesday                  58 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.46 % 
-Wednesday                239 commits         ███████░░░░░░░░░░░░░░░░░░   26.61 % 
-Thursday                 83 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.24 % 
-Friday                   134 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.92 % 
-Saturday                 174 commits         █████░░░░░░░░░░░░░░░░░░░░   19.38 % 
-Sunday                   121 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.47 % 
+Monday                   89 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.98 % 
+Tuesday                  58 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.85 % 
+Wednesday                264 commits         ███████░░░░░░░░░░░░░░░░░░   26.64 % 
+Thursday                 108 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.90 % 
+Friday                   152 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.34 % 
+Saturday                 174 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.56 % 
+Sunday                   146 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.73 % 
 ```
 
 
@@ -235,7 +235,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 28/08/2026 08:05:14 UTC
+ Last Updated on 29/08/2026 04:53:23 UTC
 <!--END_SECTION:waka-->
 </details>
 
