@@ -331,6 +331,6 @@ PHP                      1 repo              █░░░░░░░░░░�
 <!-- ================= ANIMATED FOOTER BANNER ================= -->
 <div align="center">
   <a href="https://hamzaisadev.netlify.app">
-    <img src="./assets/footer-wave.svg" width="100%" alt="Build fast. Design with intention. Ship software that matters. — hamzaisadev.netlify.app" />
+    <img src="./assets/footer-wave.svg?v=2" width="100%" alt="Build fast. Design with intention. Ship software that matters. — hamzaisadev.netlify.app" />
   </a>
 </div>
