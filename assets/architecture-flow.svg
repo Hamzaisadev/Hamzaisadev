@@ -17,9 +17,9 @@
         stroke-dasharray: 8 12;
         animation: streamFlow 3.2s linear infinite;
       }
-      .node-glow-1 { animation: nodePulse 2.4s ease-in-out infinite; transform-origin: 294px 154px; }
-      .node-glow-2 { animation: nodePulse 2.4s ease-in-out 0.6s infinite; transform-origin: 588px 154px; }
-      .node-glow-3 { animation: nodePulse 2.4s ease-in-out 1.2s infinite; transform-origin: 882px 154px; }
+      .node-glow-1 { animation: nodePulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .node-glow-2 { animation: nodePulse 2.4s ease-in-out 0.6s infinite; transform-box: fill-box; transform-origin: center; }
+      .node-glow-3 { animation: nodePulse 2.4s ease-in-out 1.2s infinite; transform-box: fill-box; transform-origin: center; }
 
       @media (prefers-reduced-motion: reduce) {
         .pipe-flow, .node-glow-1, .node-glow-2, .node-glow-3 { animation: none !important; }

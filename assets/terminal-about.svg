@@ -69,10 +69,7 @@
 
   <!-- ================= LEFT PANE: NEOFETCH / SYSTEM SPEC ================= -->
   <g transform="translate(32, 70)" class="font-mono" font-size="12.5">
-    <text x="0" y="0" fill="#34D399" font-weight="700">hamza@karachi</text>
-    <text x="108" y="0" fill="#64748B">:</text>
-    <text x="118" y="0" fill="#38BDF8" font-weight="600">~/profile</text>
-    <text x="194" y="0" fill="#E2E8F0">$ neofetch --engineer</text>
+    <text x="0" y="0" xml:space="preserve"><tspan fill="#34D399" font-weight="700">hamza@karachi</tspan><tspan fill="#64748B">:</tspan><tspan fill="#38BDF8" font-weight="600">~/profile</tspan><tspan fill="#E2E8F0"> $ neofetch --engineer</tspan></text>
 
     <!-- Geometric Monogram Box -->
     <g transform="translate(0, 22)">
@@ -112,8 +109,7 @@
 
       <text x="0" y="156" fill="#34D399" font-weight="700">CONTACT</text>
       <text x="96" y="156" fill="#64748B">::</text>
-      <text x="118" y="156" fill="#F8FAFC">hamzaisadev@gmail.com</text>
-      <rect class="term-cursor" x="284" y="143" width="7" height="15" fill="#34D399" />
+      <text x="118" y="156" fill="#F8FAFC">hamzaisadev@gmail.com <tspan class="term-cursor" fill="#34D399">▋</tspan></text>
     </g>
   </g>
 

@@ -16,7 +16,8 @@
 
       .viewfinder {
         animation: shutterPulse 3s ease-in-out infinite;
-        transform-origin: 48px 29px;
+        transform-box: fill-box;
+        transform-origin: center;
       }
       .rec-dot {
         animation: recBlink 1.5s ease-in-out infinite;

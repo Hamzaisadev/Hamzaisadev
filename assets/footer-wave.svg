@@ -20,7 +20,7 @@
 
       .wave-1 { animation: waveDrift1 9s ease-in-out infinite; }
       .wave-2 { animation: waveDrift2 11s ease-in-out infinite; }
-      .live-dot { animation: pulseDot 2.2s ease-in-out infinite; transform-origin: 416px 128px; }
+      .live-dot { animation: pulseDot 2.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
 
       @media (prefers-reduced-motion: reduce) {
         .wave-1, .wave-2, .live-dot { animation: none !important; }

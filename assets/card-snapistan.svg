@@ -15,7 +15,8 @@
 
       .heart-badge {
         animation: floatHeart 2.5s ease-in-out infinite;
-        transform-origin: 132px 29px;
+        transform-box: fill-box;
+        transform-origin: center;
       }
       .social-edge {
         stroke-dasharray: 4 4;

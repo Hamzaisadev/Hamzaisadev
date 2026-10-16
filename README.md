@@ -2,7 +2,7 @@
 
 <!-- ================= HERO COMMAND CENTER BANNER ================= -->
 <a href="https://hamzaisadev.netlify.app">
-  <img src="./assets/hero-banner.svg" width="100%" alt="Hamza Ishaq — Full-Stack Product Engineer & AI Systems Builder" />
+  <img src="./assets/hero-banner.svg?v=2" width="100%" alt="Hamza Ishaq — Full-Stack Product Engineer & AI Systems Builder" />
 </a>
 
 <br />
@@ -41,19 +41,19 @@
   </a>
 </p>
 
-<img src="./assets/section-divider.svg" width="100%" alt="" />
+<img src="./assets/section-divider.svg?v=2" width="100%" alt="" />
 
 </div>
 
 <!-- ================= TERMINAL & CAPABILITY TELEMETRY ================= -->
 <div align="center">
-  <img src="./assets/terminal-about.svg" width="100%" alt="Hamza Ishaq Developer Terminal and Capability Telemetry" />
+  <img src="./assets/terminal-about.svg?v=2" width="100%" alt="Hamza Ishaq Developer Terminal and Capability Telemetry" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="./assets/section-divider.svg" width="100%" alt="" />
+  <img src="./assets/section-divider.svg?v=2" width="100%" alt="" />
 </div>
 
 <!-- ================= FLAGSHIP BENTO GRID: SHIPPED PRODUCTS ================= -->
@@ -66,7 +66,7 @@
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://curewell-gamma.vercel.app">
-        <img src="./assets/card-curewell.svg" width="100%" alt="Curewell — Personal Health OS & AI Clinical Vault" />
+        <img src="./assets/card-curewell.svg?v=2" width="100%" alt="Curewell — Personal Health OS & AI Clinical Vault" />
       </a>
       <p align="center">
         <a href="https://curewell-gamma.vercel.app"><b>🟢 Live Application ↗</b></a>
@@ -76,7 +76,7 @@
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://stash-ed.vercel.app">
-        <img src="./assets/card-stash.svg" width="100%" alt="Stash — Zero-Login P2P File Sharing & WebRTC Screen Cast" />
+        <img src="./assets/card-stash.svg?v=2" width="100%" alt="Stash — Zero-Login P2P File Sharing & WebRTC Screen Cast" />
       </a>
       <p align="center">
         <a href="https://stash-ed.vercel.app"><b>⚡ Live Application ↗</b></a>
@@ -88,7 +88,7 @@
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://gadi-ghar.vercel.app">
-        <img src="./assets/card-gadighar.svg" width="100%" alt="Gadi Ghar — Full-Stack AI Automotive Marketplace" />
+        <img src="./assets/card-gadighar.svg?v=2" width="100%" alt="Gadi Ghar — Full-Stack AI Automotive Marketplace" />
       </a>
       <p align="center">
         <a href="https://gadi-ghar.vercel.app"><b>🚗 Live Marketplace ↗</b></a>
@@ -98,7 +98,7 @@
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://snapistan.vercel.app">
-        <img src="./assets/card-snapistan.svg" width="100%" alt="Snapistan — Full-Stack Real-Time Social Network" />
+        <img src="./assets/card-snapistan.svg?v=2" width="100%" alt="Snapistan — Full-Stack Real-Time Social Network" />
       </a>
       <p align="center">
         <a href="https://snapistan.vercel.app"><b>💬 Live Platform ↗</b></a>
@@ -110,7 +110,7 @@
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/Hamzaisadev/DevShot">
-        <img src="./assets/card-devshot.svg" width="100%" alt="DevShot — Pro Developer Capture & Mockup Chrome Extension" />
+        <img src="./assets/card-devshot.svg?v=2" width="100%" alt="DevShot — Pro Developer Capture & Mockup Chrome Extension" />
       </a>
       <p align="center">
         <a href="https://github.com/Hamzaisadev/DevShot"><b>📸 Extension &amp; Docs ↗</b></a>
@@ -120,7 +120,7 @@
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://linkwhize.netlify.app/">
-        <img src="./assets/card-linkwhiz.svg" width="100%" alt="LinkWhiz — Fast URL Shortening & Analytics Engine" />
+        <img src="./assets/card-linkwhiz.svg?v=2" width="100%" alt="LinkWhiz — Fast URL Shortening & Analytics Engine" />
       </a>
       <p align="center">
         <a href="https://linkwhize.netlify.app/"><b>🔗 Live Service ↗</b></a>
@@ -181,7 +181,7 @@
 <br />
 
 <div align="center">
-  <img src="./assets/section-divider.svg" width="100%" alt="" />
+  <img src="./assets/section-divider.svg?v=2" width="100%" alt="" />
 </div>
 
 <!-- ================= ARCHITECTURE & TECH STACK PIPELINE ================= -->
@@ -191,7 +191,7 @@
 </p>
 
 <div align="center">
-  <img src="./assets/architecture-flow.svg" width="100%" alt="System Architecture Pipeline" />
+  <img src="./assets/architecture-flow.svg?v=2" width="100%" alt="System Architecture Pipeline" />
 </div>
 
 <br />
@@ -220,7 +220,7 @@
 <br />
 
 <div align="center">
-  <img src="./assets/section-divider.svg" width="100%" alt="" />
+  <img src="./assets/section-divider.svg?v=2" width="100%" alt="" />
 </div>
 
 <!-- ================= LIVE ACTIVITY & TELEMETRY ================= -->
