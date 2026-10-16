@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 310" width="100%" height="100%" role="img" aria-label="Developer Terminal and Engineering Telemetry for Hamza Ishaq">
+  <title>Developer Profile Terminal &amp; Engineering Telemetry</title>
+  <defs>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
+
+      @keyframes barPulse {
+        0%, 100% { opacity: 0.88; }
+        50% { opacity: 1; }
+      }
+      @keyframes cursorBlink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      .metric-bar { animation: barPulse 3s ease-in-out infinite; }
+      .term-cursor { animation: cursorBlink 1s step-end infinite; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .metric-bar, .term-cursor { animation: none !important; }
+      }
+    </style>
+
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C16" />
+      <stop offset="100%" stop-color="#060911" />
+    </linearGradient>
+
+    <linearGradient id="barEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+
+    <linearGradient id="barCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <linearGradient id="barPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#C084FC" />
+    </linearGradient>
+
+    <linearGradient id="barAmber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#FBBF24" />
+    </linearGradient>
+  </defs>
+
+  <!-- Main Outer Container -->
+  <rect x="1" y="1" width="1198" height="308" rx="18" fill="url(#bg)" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Top Window Bar -->
+  <path d="M 1 19 Q 1 1 19 1 L 1181 1 Q 1199 1 1199 19 L 1199 44 L 1 44 Z" fill="#0B101D" />
+  <line x1="1" y1="44" x2="1199" y2="44" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Window Controls -->
+  <circle cx="24" cy="22" r="5.5" fill="#F43F5E" />
+  <circle cx="42" cy="22" r="5.5" fill="#F59E0B" />
+  <circle cx="60" cy="22" r="5.5" fill="#10B981" />
+
+  <text x="600" y="27" text-anchor="middle" class="font-mono" font-size="11.5" font-weight="600" fill="#64748B">
+    hamza@karachi: ~/engineering-profile — zsh (120×30)
+  </text>
+
+  <!-- Center Vertical Divider -->
+  <line x1="620" y1="44" x2="620" y2="309" stroke="#1E293B" stroke-width="1" />
+
+  <!-- ================= LEFT PANE: NEOFETCH / SYSTEM SPEC ================= -->
+  <g transform="translate(32, 70)" class="font-mono" font-size="12.5">
+    <text x="0" y="0" fill="#34D399" font-weight="700">hamza@karachi</text>
+    <text x="108" y="0" fill="#64748B">:</text>
+    <text x="118" y="0" fill="#38BDF8" font-weight="600">~/profile</text>
+    <text x="194" y="0" fill="#E2E8F0">$ neofetch --engineer</text>
+
+    <!-- Geometric Monogram Box -->
+    <g transform="translate(0, 22)">
+      <rect x="0" y="0" width="116" height="164" rx="12" fill="#0B111E" stroke="#1E293B" stroke-width="1.2" />
+      <!-- Stylized 'H' Vector Emblem -->
+      <path d="M 34 38 L 34 126 M 82 38 L 82 126 M 34 82 L 82 82" stroke="url(#barCyan)" stroke-width="8" stroke-linecap="round" />
+      <circle cx="34" cy="38" r="4" fill="#34D399" />
+      <circle cx="82" cy="126" r="4" fill="#C084FC" />
+      <text x="58" y="150" text-anchor="middle" font-size="9.5" fill="#64748B" font-weight="600">HAMZA.DEV</text>
+    </g>
+
+    <!-- Spec Key-Values -->
+    <g transform="translate(138, 34)" font-size="12.5">
+      <text x="0" y="0" fill="#38BDF8" font-weight="700">OS</text>
+      <text x="96" y="0" fill="#64748B">::</text>
+      <text x="118" y="0" fill="#E2E8F0">Full-Stack Web &amp; AI Product Engineering</text>
+
+      <text x="0" y="26" fill="#34D399" font-weight="700">HOST</text>
+      <text x="96" y="26" fill="#64748B">::</text>
+      <text x="118" y="26" fill="#E2E8F0">Karachi, Pakistan (UTC+05:00)</text>
+
+      <text x="0" y="52" fill="#C084FC" font-weight="700">KERNEL</text>
+      <text x="96" y="52" fill="#64748B">::</text>
+      <text x="118" y="52" fill="#E2E8F0">Next.js · React · TypeScript · Node.js</text>
+
+      <text x="0" y="78" fill="#FBBF24" font-weight="700">UPTIME</text>
+      <text x="96" y="78" fill="#64748B">::</text>
+      <text x="118" y="78" fill="#E2E8F0">1.24M+ LOC · 36+ Public Repositories</text>
+
+      <text x="0" y="104" fill="#FB7185" font-weight="700">MISSION</text>
+      <text x="96" y="104" fill="#64748B">::</text>
+      <text x="118" y="104" fill="#E2E8F0">Zero-friction UX meets clinical &amp; AI rigor</text>
+
+      <text x="0" y="130" fill="#38BDF8" font-weight="700">PORTFOLIO</text>
+      <text x="96" y="130" fill="#64748B">::</text>
+      <text x="118" y="130" fill="#34D399">https://hamzaisadev.netlify.app</text>
+
+      <text x="0" y="156" fill="#34D399" font-weight="700">CONTACT</text>
+      <text x="96" y="156" fill="#64748B">::</text>
+      <text x="118" y="156" fill="#F8FAFC">hamzaisadev@gmail.com</text>
+      <rect class="term-cursor" x="284" y="143" width="7" height="15" fill="#34D399" />
+    </g>
+  </g>
+
+  <!-- ================= RIGHT PANE: CAPABILITY TELEMETRY ================= -->
+  <g transform="translate(652, 70)">
+    <text x="0" y="0" class="font-mono" font-size="11.5" font-weight="700" fill="#94A3B8" letter-spacing="1">
+      SYSTEM CAPABILITIES &amp; DOMAIN TELEMETRY
+    </text>
+
+    <!-- Domain 1 -->
+    <g transform="translate(0, 24)">
+      <text x="0" y="14" class="font-sans" font-size="13" font-weight="600" fill="#E2E8F0">Full-Stack Next.js &amp; React Architecture</text>
+      <text x="514" y="14" text-anchor="end" class="font-mono" font-size="11.5" font-weight="700" fill="#34D399">96%</text>
+      <rect x="0" y="22" width="514" height="8" rx="4" fill="#0F172A" />
+      <rect class="metric-bar" x="0" y="22" width="493" height="8" rx="4" fill="url(#barEmerald)" />
+    </g>
+
+    <!-- Domain 2 -->
+    <g transform="translate(0, 74)">
+      <text x="0" y="14" class="font-sans" font-size="13" font-weight="600" fill="#E2E8F0">TypeScript, API Design &amp; Database Modeling</text>
+      <text x="514" y="14" text-anchor="end" class="font-mono" font-size="11.5" font-weight="700" fill="#38BDF8">92%</text>
+      <rect x="0" y="22" width="514" height="8" rx="4" fill="#0F172A" />
+      <rect class="metric-bar" x="0" y="22" width="472" height="8" rx="4" fill="url(#barCyan)" />
+    </g>
+
+    <!-- Domain 3 -->
+    <g transform="translate(0, 124)">
+      <text x="0" y="14" class="font-sans" font-size="13" font-weight="600" fill="#E2E8F0">Applied Generative AI, OCR &amp; Automation</text>
+      <text x="514" y="14" text-anchor="end" class="font-mono" font-size="11.5" font-weight="700" fill="#C084FC">90%</text>
+      <rect x="0" y="22" width="514" height="8" rx="4" fill="#0F172A" />
+      <rect class="metric-bar" x="0" y="22" width="462" height="8" rx="4" fill="url(#barPurple)" />
+    </g>
+
+    <!-- Domain 4 -->
+    <g transform="translate(0, 174)">
+      <text x="0" y="14" class="font-sans" font-size="13" font-weight="600" fill="#E2E8F0">Real-Time Systems, WebRTC &amp; Interactive UI/UX</text>
+      <text x="514" y="14" text-anchor="end" class="font-mono" font-size="11.5" font-weight="700" fill="#FBBF24">94%</text>
+      <rect x="0" y="22" width="514" height="8" rx="4" fill="#0F172A" />
+      <rect class="metric-bar" x="0" y="22" width="483" height="8" rx="4" fill="url(#barAmber)" />
+    </g>
+  </g>
+</svg>

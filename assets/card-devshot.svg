@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 245" width="100%" height="100%" role="img" aria-label="DevShot — Pro Screenshot, 4K Recording and Device Mockup Chrome Extension">
+  <title>DevShot — Pro Screenshot, 4K Recording &amp; Device Mockup Suite</title>
+  <defs>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
+
+      @keyframes shutterPulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(0.92); }
+      }
+      @keyframes recBlink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.25; }
+      }
+
+      .viewfinder {
+        animation: shutterPulse 3s ease-in-out infinite;
+        transform-origin: 48px 29px;
+      }
+      .rec-dot {
+        animation: recBlink 1.5s ease-in-out infinite;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .viewfinder, .rec-dot { animation: none !important; }
+      }
+    </style>
+
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B111E" />
+      <stop offset="100%" stop-color="#070B14" />
+    </linearGradient>
+
+    <radialGradient id="glow" cx="88%" cy="18%" r="55%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#070B14" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.55" />
+      <stop offset="50%" stop-color="#1E293B" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="1" y="1" width="578" height="243" rx="16" fill="url(#bg)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  <rect x="1" y="1" width="578" height="243" rx="16" fill="url(#glow)" />
+
+  <!-- Top Left Icon & Category Badge -->
+  <g transform="translate(26, 24)">
+    <rect x="0" y="0" width="42" height="42" rx="10" fill="#083344" fill-opacity="0.7" stroke="#06B6D4" stroke-width="1.2" />
+    <!-- Camera / Frame Aperture Icon -->
+    <rect x="11" y="13" width="20" height="16" rx="3" fill="none" stroke="#22D3EE" stroke-width="2" />
+    <circle cx="21" cy="21" r="4" fill="none" stroke="#67E8F9" stroke-width="1.8" />
+
+    <rect x="54" y="6" width="188" height="26" rx="13" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <circle cx="68" cy="19" r="3.5" fill="#22D3EE" />
+    <text x="79" y="23" class="font-mono" font-size="10.5" font-weight="600" fill="#67E8F9" letter-spacing="0.5">
+      CHROME EXTENSION · 4K
+    </text>
+  </g>
+
+  <!-- Top Right Animated Viewfinder & 4K Rec Graphic -->
+  <g transform="translate(380, 20)">
+    <rect x="0" y="0" width="172" height="58" rx="10" fill="#090D16" fill-opacity="0.85" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Animated Viewfinder Frame -->
+    <g class="viewfinder">
+      <path d="M 22 19 L 22 13 L 28 13" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" />
+      <path d="M 74 19 L 74 13 L 68 13" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" />
+      <path d="M 22 39 L 22 45 L 28 45" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" />
+      <path d="M 74 39 L 74 45 L 68 45" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" />
+      <rect x="30" y="19" width="36" height="20" rx="3" fill="#083344" stroke="#06B6D4" stroke-width="1" />
+    </g>
+
+    <!-- 4K 60FPS Indicator -->
+    <rect x="90" y="16" width="68" height="26" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <circle class="rec-dot" cx="103" cy="29" r="4" fill="#F43F5E" />
+    <text x="113" y="33" class="font-mono" font-size="10.5" font-weight="700" fill="#E2E8F0">
+      4K 60fps
+    </text>
+  </g>
+
+  <!-- Project Title & Subtitle -->
+  <text x="26" y="102" class="font-sans" font-size="24" font-weight="800" fill="#F8FAFC" letter-spacing="-0.4">
+    DevShot
+  </text>
+  <text x="136" y="101" class="font-mono" font-size="12" fill="#22D3EE" font-weight="600">
+    ↗ github.com/Hamzaisadev/DevShot
+  </text>
+
+  <!-- Description -->
+  <text x="26" y="132" class="font-sans" font-size="13.8" fill="#94A3B8">
+    Privacy-first developer toolkit for full-page responsive captures,
+  </text>
+  <text x="26" y="153" class="font-sans" font-size="13.8" fill="#94A3B8">
+    watermark-free 4K/60fps screen recording &amp; instant device mockups.
+  </text>
+
+  <!-- Divider -->
+  <line x1="26" y1="180" x2="554" y2="180" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Tech Stack Pills -->
+  <g transform="translate(26, 196)" class="font-mono" font-size="11" font-weight="600">
+    <rect x="0" y="0" width="96" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+    <text x="48" y="17" text-anchor="middle" fill="#22D3EE">Chrome APIs</text>
+
+    <rect x="104" y="0" width="88" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+    <text x="148" y="17" text-anchor="middle" fill="#FBBF24">JavaScript</text>
+
+    <rect x="200" y="0" width="86" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+    <text x="243" y="17" text-anchor="middle" fill="#34D399">IndexedDB</text>
+
+    <rect x="294" y="0" width="94" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+    <text x="341" y="17" text-anchor="middle" fill="#818CF8">Canvas 2D</text>
+
+    <rect x="396" y="0" width="92" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+    <text x="442" y="17" text-anchor="middle" fill="#F472B6">100% Local</text>
+  </g>
+</svg>

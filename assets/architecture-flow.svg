@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 290" width="100%" height="100%" role="img" aria-label="Hamza Ishaq — Full-Stack Architecture and Tech Stack Pipeline">
+  <title>System Architecture &amp; Technology Stack Pipeline</title>
+  <defs>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
+
+      @keyframes streamFlow {
+        to { stroke-dashoffset: -120; }
+      }
+      @keyframes nodePulse {
+        0%, 100% { opacity: 0.55; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.25); }
+      }
+
+      .pipe-flow {
+        stroke-dasharray: 8 12;
+        animation: streamFlow 3.2s linear infinite;
+      }
+      .node-glow-1 { animation: nodePulse 2.4s ease-in-out infinite; transform-origin: 294px 154px; }
+      .node-glow-2 { animation: nodePulse 2.4s ease-in-out 0.6s infinite; transform-origin: 588px 154px; }
+      .node-glow-3 { animation: nodePulse 2.4s ease-in-out 1.2s infinite; transform-origin: 882px 154px; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .pipe-flow, .node-glow-1, .node-glow-2, .node-glow-3 { animation: none !important; }
+      }
+    </style>
+
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070A12" />
+      <stop offset="50%" stop-color="#0B101D" />
+      <stop offset="100%" stop-color="#070A12" />
+    </linearGradient>
+
+    <linearGradient id="pipeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="35%" stop-color="#34D399" />
+      <stop offset="70%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+
+    <pattern id="subGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="16" cy="16" r="0.8" fill="#1E293B" />
+    </pattern>
+  </defs>
+
+  <!-- Canvas -->
+  <rect x="1" y="1" width="1198" height="288" rx="18" fill="url(#bg)" stroke="#1E293B" stroke-width="1.5" />
+  <rect x="1" y="1" width="1198" height="288" rx="18" fill="url(#subGrid)" />
+
+  <!-- Section Header Inside Graphic -->
+  <text x="36" y="38" class="font-mono" font-size="11.5" font-weight="700" fill="#34D399" letter-spacing="1.2">
+    ⚡ ARCHITECTURE PIPELINE // END-TO-END PRODUCT ENGINEERING
+  </text>
+  <text x="1164" y="38" text-anchor="end" class="font-mono" font-size="11" fill="#64748B">
+    EDGE · AI · REAL-TIME · CLOUD
+  </text>
+  <line x1="36" y1="52" x2="1164" y2="52" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Connecting Pipeline Conduit Lines -->
+  <line x1="274" y1="154" x2="920" y2="154" stroke="#1E293B" stroke-width="3" />
+  <line class="pipe-flow" x1="274" y1="154" x2="920" y2="154" stroke="url(#pipeGrad)" stroke-width="3" />
+
+  <!-- Connector Nodes Between Cards -->
+  <circle class="node-glow-1" cx="294" cy="154" r="6" fill="#38BDF8" />
+  <circle class="node-glow-2" cx="588" cy="154" r="6" fill="#34D399" />
+  <circle class="node-glow-3" cx="882" cy="154" r="6" fill="#A855F7" />
+
+  <!-- ================= STAGE 1: CLIENT & MOTION UI ================= -->
+  <g transform="translate(36, 74)">
+    <rect x="0" y="0" width="242" height="186" rx="14" fill="#0B111E" stroke="#0284C7" stroke-width="1.2" stroke-opacity="0.65" />
+    <rect x="16" y="16" width="54" height="22" rx="6" fill="#082F49" />
+    <text x="43" y="31" text-anchor="middle" class="font-mono" font-size="10.5" font-weight="700" fill="#38BDF8">01 / UI</text>
+    <text x="80" y="31" class="font-sans" font-size="13.5" font-weight="700" fill="#F8FAFC">Client &amp; Motion</text>
+
+    <!-- Stack Items -->
+    <g transform="translate(16, 52)" class="font-mono" font-size="11.5">
+      <rect x="0" y="0" width="210" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="14" cy="13" r="3.5" fill="#F8FAFC" />
+      <text x="26" y="17" fill="#E2E8F0" font-weight="600">Next.js (App Router)</text>
+
+      <rect x="0" y="33" width="210" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="14" cy="46" r="3.5" fill="#61DAFB" />
+      <text x="26" y="50" fill="#E2E8F0" font-weight="600">React 19 &amp; Hooks</text>
+
+      <rect x="0" y="66" width="210" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="14" cy="79" r="3.5" fill="#38BDF8" />
+      <text x="26" y="83" fill="#E2E8F0" font-weight="600">Tailwind CSS &amp; shadcn</text>
+
+      <rect x="0" y="99" width="210" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="14" cy="112" r="3.5" fill="#F472B6" />
+      <text x="26" y="116" fill="#E2E8F0" font-weight="600">Responsive / WCAG AA</text>
+    </g>
+  </g>
+
+  <!-- ================= STAGE 2: APPLICATION CORE ================= -->
+  <g transform="translate(330, 74)">
+    <rect x="0" y="0" width="242" height="186" rx="14" fill="#0B111E" stroke="#10B981" stroke-width="1.2" stroke-opacity="0.65" />
+    <rect x="16" y="16" width="64" height="22" rx="6" fill="#064E3B" />
+    <text x="48" y="31" text-anchor="middle" class="font-mono" font-size="10.5" font-weight="700" fill="#34D399">02 / API</text>
+    <text x="90" y="31" class="font-sans" font-size="13.5" font-weight="700" fill="#F8FAFC">Type-Safe Core</text>
+
+    <g transform="translate(16, 52)" class="font-mono" font-size="11.5">
+      <rect x="0" y="0" width="210" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="14" cy="13" r="3.5" fill="#38BDF8" />
+      <text x="26" y="17" fill="#E2E8F0" font-weight="600">TypeScript &amp; ES6+</text>
+
+      <rect x="0" y="33" width="210" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="14" cy="46" r="3.5" fill="#34D399" />
+      <text x="26" y="50" fill="#E2E8F0" font-weight="600">Node.js &amp; Express</text>
+
+      <rect x="0" y="66" width="210" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="14" cy="79" r="3.5" fill="#F43F5E" />
+      <text x="26" y="83" fill="#E2E8F0" font-weight="600">TanStack React Query</text>
+
+      <rect x="0" y="99" width="210" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="14" cy="112" r="3.5" fill="#FBBF24" />
+      <text x="26" y="116" fill="#E2E8F0" font-weight="600">Zod &amp; Vitest Testing</text>
+    </g>
+  </g>
+
+  <!-- ================= STAGE 3: AI & REAL-TIME ENGINE ================= -->
+  <g transform="translate(624, 74)">
+    <rect x="0" y="0" width="242" height="186" rx="14" fill="#0B111E" stroke="#A855F7" stroke-width="1.2" stroke-opacity="0.65" />
+    <rect x="16" y="16" width="56" height="22" rx="6" fill="#3B0764" />
+    <text x="44" y="31" text-anchor="middle" class="font-mono" font-size="10.5" font-weight="700" fill="#C084FC">03 / AI</text>
+    <text x="82" y="31" class="font-sans" font-size="13.5" font-weight="700" fill="#F8FAFC">AI &amp; Real-Time</text>
+
+    <g transform="translate(16, 52)" class="font-mono" font-size="11.5">
+      <rect x="0" y="0" width="210" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="14" cy="13" r="3.5" fill="#C084FC" />
+      <text x="26" y="17" fill="#E2E8F0" font-weight="600">Google Gemini AI SDK</text>
+
+      <rect x="0" y="33" width="210" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="14" cy="46" r="3.5" fill="#34D399" />
+      <text x="26" y="50" fill="#E2E8F0" font-weight="600">Multimodal Vision OCR</text>
+
+      <rect x="0" y="66" width="210" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="14" cy="79" r="3.5" fill="#818CF8" />
+      <text x="26" y="83" fill="#E2E8F0" font-weight="600">WebRTC &amp; P2P Streams</text>
+
+      <rect x="0" y="99" width="210" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="14" cy="112" r="3.5" fill="#38BDF8" />
+      <text x="26" y="116" fill="#E2E8F0" font-weight="600">n8n AI Automation</text>
+    </g>
+  </g>
+
+  <!-- ================= STAGE 4: DATA & CLOUD INFRA ================= -->
+  <g transform="translate(918, 74)">
+    <rect x="0" y="0" width="246" height="186" rx="14" fill="#0B111E" stroke="#F59E0B" stroke-width="1.2" stroke-opacity="0.65" />
+    <rect x="16" y="16" width="60" height="22" rx="6" fill="#451A03" />
+    <text x="46" y="31" text-anchor="middle" class="font-mono" font-size="10.5" font-weight="700" fill="#FBBF24">04 / DB</text>
+    <text x="86" y="31" class="font-sans" font-size="13.5" font-weight="700" fill="#F8FAFC">Data &amp; Cloud</text>
+
+    <g transform="translate(16, 52)" class="font-mono" font-size="11.5">
+      <rect x="0" y="0" width="214" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="14" cy="13" r="3.5" fill="#34D399" />
+      <text x="26" y="17" fill="#E2E8F0" font-weight="600">Supabase (Auth / DB)</text>
+
+      <rect x="0" y="33" width="214" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="14" cy="46" r="3.5" fill="#60A5FA" />
+      <text x="26" y="50" fill="#E2E8F0" font-weight="600">PostgreSQL &amp; Prisma</text>
+
+      <rect x="0" y="66" width="214" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="14" cy="79" r="3.5" fill="#4ADE80" />
+      <text x="26" y="83" fill="#E2E8F0" font-weight="600">MongoDB &amp; IndexedDB</text>
+
+      <rect x="0" y="99" width="214" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="14" cy="112" r="3.5" fill="#FBBF24" />
+      <text x="26" y="116" fill="#E2E8F0" font-weight="600">Vercel · GitHub CI/CD</text>
+    </g>
+  </g>
+</svg>

@@ -1,156 +1,242 @@
+<div align="center">
 
-<p align="center">
- <a href="https://github.com/Hamzaisadev"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=F75C7E&center=true&vCenter=true&repeat=false&width=435&lines=Hamza+Ishaq" alt="Typing SVG" /></a>
-</p>
- 
-<p align="center">
- <a href="https://github.com/Hamzaisadev"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=500&color=F75C7E&center=true&vCenter=true&repeat=false&width=435&lines=Hi%2C+I'm+a+Web+Developer;I+build+sleek+Next.js+websites%2C;Let's+bring+your+ideas+to+life." alt="Typing SVG" /></a>
- </p>
- 
- 
- 
- 
- <p align="center">
-   <a href="https://youtube.com/channel/UCPR0FgOTackPp82nMyPqf5A"><img width="32px" alt="Youtube" title="Youtube" src="https://i.imgur.com/qiXu7b2.png"/></a>
-   &#8287;&#8287;&#8287;&#8287;&#8287;
-   <a href="https://www.linkedin.com/in/hamzaisadev/"><img width="32px" alt="LinkedIn" title="LinkedIn" src="https://i.imgur.com/yRpa1dQ.png"/></a>
-   &#8287;&#8287;&#8287;&#8287;&#8287;
-   <a href="https://twitter.com/hamzaisadev"><img width="32px" alt="Twitter" title="Twitter" src="https://i.imgur.com/AixJgnm.png"/></a>
-   &#8287;&#8287;&#8287;&#8287;&#8287;
-   <a href="https://discord.gg/hamzaisadev" alzt="Discord" title="Dev Pro Tips Discord Server"><img width="32px" src="https://i.imgur.com/OViZO8J.png"/></a>
-   &#8287;&#8287;&#8287;&#8287;&#8287
- 
- 
- 
- 
- </p>
- 
- ###
- <p align="center"> 
-    <a href="https://github.com/Hamzaisadev?tab=repositories&sort=stargazers">
-     <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/Hamzaisadev?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
-   <a href="https://github.com/Hamzaisadev?tab=followers">
-     <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/Hamzaisadev?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a                      
-    <a href="https://github.com/Hamzaisadev?tab=followers">
-     <img alt="Visitors"  src="https://komarev.com/ghpvc/?username=hamzaisadev&abbreviated=true?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Visitors&logoColor=white"/></a 
- </p>
+<!-- ================= HERO COMMAND CENTER BANNER ================= -->
+<a href="https://hamzaisadev.netlify.app">
+  <img src="./assets/hero-banner.svg" width="100%" alt="Hamza Ishaq — Full-Stack Product Engineer & AI Systems Builder" />
+</a>
 
+<br />
+<br />
 
+<!-- ================= UNIFIED NAVIGATION & SOCIAL DOCK ================= -->
 <p align="center">
- <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=hamzaisadev" alt="GitHub Streak" /></a>
+  <a href="https://hamzaisadev.netlify.app">
+    <img src="https://img.shields.io/badge/PORTFOLIO-hamzaisadev.netlify.app-0B111E?style=for-the-badge&logo=vercel&logoColor=34D399&labelColor=070A12" alt="Portfolio Website" />
+  </a>
+  <a href="https://www.linkedin.com/in/hamzaisadev/">
+    <img src="https://img.shields.io/badge/LINKEDIN-%40hamzaisadev-0B111E?style=for-the-badge&logo=linkedin&logoColor=38BDF8&labelColor=070A12" alt="LinkedIn" />
+  </a>
+  <a href="https://twitter.com/hamzaisadev">
+    <img src="https://img.shields.io/badge/X_%2F_TWITTER-%40hamzaisadev-0B111E?style=for-the-badge&logo=x&logoColor=F8FAFC&labelColor=070A12" alt="X / Twitter" />
+  </a>
+  <a href="https://youtube.com/channel/UCPR0FgOTackPp82nMyPqf5A">
+    <img src="https://img.shields.io/badge/YOUTUBE-Channel-0B111E?style=for-the-badge&logo=youtube&logoColor=F43F5E&labelColor=070A12" alt="YouTube" />
+  </a>
+  <a href="mailto:hamzaisadev@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-hamzaisadev%40gmail.com-0B111E?style=for-the-badge&logo=gmail&logoColor=FBBF24&labelColor=070A12" alt="Email" />
+  </a>
 </p>
 
- </p>
- 
- <br/>
- <br/>
+<p align="center">
+  <a href="https://github.com/Hamzaisadev?tab=followers">
+    <img src="https://custom-icon-badges.demolab.com/github/followers/Hamzaisadev?color=0B111E&labelColor=070A12&style=flat-square&logo=person-add&label=Followers&logoColor=34D399" alt="GitHub Followers" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Hamzaisadev?tab=repositories&sort=stargazers">
+    <img src="https://custom-icon-badges.demolab.com/github/stars/Hamzaisadev?color=0B111E&labelColor=070A12&style=flat-square&logo=star&label=Total%20Stars&logoColor=FBBF24" alt="Total Stars" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Hamzaisadev">
+    <img src="https://komarev.com/ghpvc/?username=hamzaisadev&abbreviated=true&color=0B111E&style=flat-square&label=Profile+Views" alt="Profile Views" />
+  </a>
+</p>
 
+<img src="./assets/section-divider.svg" width="100%" alt="" />
 
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
+</div>
 
-```javascript
-const Hamza = {
-    pronouns: "He" | "Him",
-    country: "Pakistan"
-    askMeAbout: ["web dev", "app dev", "UI/UX", "tech trends"],
-    portfolio: "hamzaisadev.netlify.app",
-    currentFocus: "Leading a way in generative AI innovation",
-    funFact: "I can debug faster with a coffee in hand!",
-    workingOn: "Gadi Ghar",
-    learning: "Next.Js",
-    reachMe: "hamzaisadev@gmail.com",
-};
-```
+<!-- ================= TERMINAL & CAPABILITY TELEMETRY ================= -->
+<div align="center">
+  <img src="./assets/terminal-about.svg" width="100%" alt="Hamza Ishaq Developer Terminal and Capability Telemetry" />
+</div>
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
+<br />
 
+<div align="center">
+  <img src="./assets/section-divider.svg" width="100%" alt="" />
+</div>
 
+<!-- ================= FLAGSHIP BENTO GRID: SHIPPED PRODUCTS ================= -->
+<h2 align="center">🚀 Flagship Products &amp; Systems</h2>
+<p align="center">
+  <sub>Production-grade full-stack applications, AI clinical systems, and real-time developer utilities engineered from the ground up.</sub>
+</p>
 
-<details open> 
-  <summary><h2>📘 My Top Open Source Projects</h2></summary>
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://curewell-gamma.vercel.app">
+        <img src="./assets/card-curewell.svg" width="100%" alt="Curewell — Personal Health OS & AI Clinical Vault" />
+      </a>
+      <p align="center">
+        <a href="https://curewell-gamma.vercel.app"><b>🟢 Live Application ↗</b></a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/Hamzaisadev/Curewell"><b>📦 Source Code ↗</b></a>
+      </p>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://stash-ed.vercel.app">
+        <img src="./assets/card-stash.svg" width="100%" alt="Stash — Zero-Login P2P File Sharing & WebRTC Screen Cast" />
+      </a>
+      <p align="center">
+        <a href="https://stash-ed.vercel.app"><b>⚡ Live Application ↗</b></a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/Hamzaisadev/Stash"><b>📦 Source Code ↗</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://gadi-ghar.vercel.app">
+        <img src="./assets/card-gadighar.svg" width="100%" alt="Gadi Ghar — Full-Stack AI Automotive Marketplace" />
+      </a>
+      <p align="center">
+        <a href="https://gadi-ghar.vercel.app"><b>🚗 Live Marketplace ↗</b></a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/Hamzaisadev/gadi-ghar"><b>📦 Source Code ↗</b></a>
+      </p>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://snapistan.vercel.app">
+        <img src="./assets/card-snapistan.svg" width="100%" alt="Snapistan — Full-Stack Real-Time Social Network" />
+      </a>
+      <p align="center">
+        <a href="https://snapistan.vercel.app"><b>💬 Live Platform ↗</b></a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/Hamzaisadev/Snapistan"><b>📦 Source Code ↗</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/Hamzaisadev/DevShot">
+        <img src="./assets/card-devshot.svg" width="100%" alt="DevShot — Pro Developer Capture & Mockup Chrome Extension" />
+      </a>
+      <p align="center">
+        <a href="https://github.com/Hamzaisadev/DevShot"><b>📸 Extension &amp; Docs ↗</b></a>
+        &nbsp;·&nbsp;
+        <a href="https://codeload.github.com/Hamzaisadev/DevShot/zip/refs/heads/main"><b>⬇️ Download Preview ↗</b></a>
+      </p>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://linkwhize.netlify.app/">
+        <img src="./assets/card-linkwhiz.svg" width="100%" alt="LinkWhiz — Fast URL Shortening & Analytics Engine" />
+      </a>
+      <p align="center">
+        <a href="https://linkwhize.netlify.app/"><b>🔗 Live Service ↗</b></a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/Hamzaisadev/LinkWhiz"><b>📦 Source Code ↗</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
-  <!-- Repo info cards - https://github.com/anuraghazra/github-readme-stats -->
-  <!-- Small repo cards (fork) - https://github.com/DenverCoder1/github-readme-stats -->
-  <p align="left">
-    <a href="https://github.com/Hamzaisadev/gadi-ghar"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=hamzaisadev&repo=gadi-ghar&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="readme-typing-svg"></a>
-    <a href="https://github.com/hamzaisadev/snapistan"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=hamzaisadev&repo=snapistan&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="github-readme-streak-stats"></a>
-    <a href="https://github.com/Hamzaisadev/LinkWhiz"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin?username=hamzaisadev&repo=LinkWhiz&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="custom-icon-badges"></a>
-    <a href="https://github.com/Hamzaisadev/PennyWise"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=hamzaisadev&repo=Pennywise&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="github-readme-youtube-cards"></a>
-    <a href="https://github.com/Hamzaisadev/Vidiyo"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=hamzaisadev&repo=Vidiyo&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="unedit-for-reddit"></a>
-    <a href="https://github.com/Hamzaisadev/Arcane-Website-In-React"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=hamzaisadev&repo=Arcane-Website-In-React&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="unicode-formatter"></a>
-    
-  </p>
-
-  <a href="https://github.com/hamzaisadev?tab=repositories&sort=stargazers"><img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.demolab.com/badge/-Click%20Here%20For%20All%20My%20Repos-1F222E?style=for-the-badge&logoColor=white&logo=repo"/></a>
+<details>
+  <summary align="center"><b>📂 Explore More Shipped Projects &amp; Open-Source Tools (Click to Expand)</b></summary>
+  <br />
+  <table width="100%">
+    <thead>
+      <tr>
+        <th align="left">Project</th>
+        <th align="left">What It Solves</th>
+        <th align="left">Core Stack</th>
+        <th align="left">Links</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>💰 PennyWise</b></td>
+        <td>Personal budgeting &amp; cash-flow tracking application with visual expense breakdowns.</td>
+        <td><code>React</code> · <code>React Router</code> · <code>JavaScript</code></td>
+        <td><a href="https://pennywisse.netlify.app/">Live Demo</a> · <a href="https://github.com/Hamzaisadev/PennyWise">Repo</a></td>
+      </tr>
+      <tr>
+        <td><b>🎬 Vidiyo</b></td>
+        <td>Responsive video discovery, streaming, and sharing web platform.</td>
+        <td><code>React</code> · <code>REST APIs</code> · <code>CSS3</code></td>
+        <td><a href="https://vidiyoo.netlify.app">Live Demo</a> · <a href="https://github.com/Hamzaisadev/Vidiyo">Repo</a></td>
+      </tr>
+      <tr>
+        <td><b>🖼️ SmartPress Optimizer</b></td>
+        <td>Automated WordPress image compression and next-gen format optimization plugin.</td>
+        <td><code>PHP</code> · <code>WordPress API</code></td>
+        <td><a href="https://github.com/Hamzaisadev/smartpress-image-optimizer">Repo</a></td>
+      </tr>
+      <tr>
+        <td><b>🤖 Sabrina AI Assistant</b></td>
+        <td>Conversational AI assistant interface with natural language task execution.</td>
+        <td><code>JavaScript</code> · <code>AI APIs</code></td>
+        <td><a href="https://github.com/Hamzaisadev/Sabrina-Ai-Assistant">Repo</a></td>
+      </tr>
+      <tr>
+        <td><b>⚡ JavaScript Lab</b></td>
+        <td>Curated collection of interactive vanilla JavaScript micro-apps and DOM experiments.</td>
+        <td><code>HTML5</code> · <code>CSS3</code> · <code>ES6+</code></td>
+        <td><a href="https://hamzaisadev.github.io/Java-Script-Projects/">Live Lab</a> · <a href="https://github.com/Hamzaisadev/Java-Script-Projects">Repo</a></td>
+      </tr>
+    </tbody>
+  </table>
 </details>
 
+<br />
 
+<div align="center">
+  <img src="./assets/section-divider.svg" width="100%" alt="" />
+</div>
 
-<details open> 
-  <summary><h2>🛠️ My Favorite Tools</h2></summary>
-  <!-- Some badges are from https://github.com/Ileriayo/markdown-badges -->
+<!-- ================= ARCHITECTURE & TECH STACK PIPELINE ================= -->
+<h2 align="center">🛠️ Architecture &amp; Technical Ecosystem</h2>
+<p align="center">
+  <sub>How I design, build, test, and deploy resilient software from browser edge to cloud database.</sub>
+</p>
 
-  <h3>👨‍💻 Programming and Markup Languages</h3>
+<div align="center">
+  <img src="./assets/architecture-flow.svg" width="100%" alt="System Architecture Pipeline" />
+</div>
 
+<br />
+
+<div align="center">
   <p>
-      <a href="https://github.com/search?q=user%3Ahamzaisadev+language%3Acss"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a>
-      <a href="https://github.com/search?q=user%3Ahamzaisadev+language%3Ahtml"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>
-      <a href="https://github.com/search?q=user%3Ahamzaisadev+language%3Ajavascript"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a>
-      <a href="https://github.com/search?q=user%3Ahamzaisadev+language%3Amarkdown"><img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000.svg?logo=markdown&logoColor=white"></a>
-      <a href="https://github.com/search?q=user%3Ahamzaisadev+language%3Ajavascript"><img alt="Node.js" src="https://img.shields.io/badge/Node.js-43853D.svg?logo=node.js&logoColor=white"></a>
-      <a href="https://github.com/search?q=user%3Ahamzaisadev+language%3Apython"><img alt="Python" src="https://img.shields.io/badge/Python-14354C.svg?logo=python&logoColor=white"></a>
-      <a href="https://github.com/search?q=user%3Ahamzaisadev+language%3Asql"><img alt="SQL" src="https://custom-icon-badges.demolab.com/badge/SQL-025E8C.svg?logo=database&logoColor=white"></a>
-      <a href="https://github.com/search?q=user%3Ahamzaisadev+language%3AtypeScript"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC.svg?logo=typescript&logoColor=white"></a>
+    <img src="https://img.shields.io/badge/TypeScript-0B111E?style=for-the-badge&logo=typescript&logoColor=38BDF8" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/JavaScript_ES6+-0B111E?style=for-the-badge&logo=javascript&logoColor=FBBF24" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/Next.js_15-0B111E?style=for-the-badge&logo=next.js&logoColor=F8FAFC" alt="Next.js" />
+    <img src="https://img.shields.io/badge/React_19-0B111E?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-0B111E?style=for-the-badge&logo=tailwind-css&logoColor=38BDF8" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Node.js-0B111E?style=for-the-badge&logo=node.js&logoColor=34D399" alt="Node.js" />
+    <img src="https://img.shields.io/badge/Express-0B111E?style=for-the-badge&logo=express&logoColor=F8FAFC" alt="Express" />
   </p>
-
-  <h3>🧰 Frameworks and Libraries</h3>
-
   <p>
-      <a href="#"><img alt="Next.js" src="https://img.shields.io/badge/Next-black?logo=next.js&logoColor=white"></a>
-      <a href="#"><img alt="React.js" src="https://img.shields.io/badge/react-%2320232a.svg?logo=react&logoColor=%2361DAFB"></a>
-      <a href="#"><img alt="React Query" src="https://img.shields.io/badge/-React%20Query-FF4154?logo=react%20query&logoColor=white"></a>
-      <a href="#"><img alt="React Router" src="https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white"></a>
-      <a href="#"><img alt="tailwindcss" src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?logo=tailwind-css&logoColor=white"></a>
-      <a href="#"><img alt="Express.js" src="https://img.shields.io/badge/Express.js-404d59.svg?logo=express&logoColor=white"></a>
-      <a href="#"><img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2671E5.svg?logo=github%20actions&logoColor=white"></a>
-      <a href="#"><img alt="Wordpress" src="https://img.shields.io/badge/Wordpress-21759B?logo=wordpress&logoColor=white"></a>
-
+    <img src="https://img.shields.io/badge/Supabase-0B111E?style=for-the-badge&logo=supabase&logoColor=34D399" alt="Supabase" />
+    <img src="https://img.shields.io/badge/PostgreSQL-0B111E?style=for-the-badge&logo=postgresql&logoColor=60A5FA" alt="PostgreSQL" />
+    <img src="https://img.shields.io/badge/Prisma_ORM-0B111E?style=for-the-badge&logo=prisma&logoColor=C084FC" alt="Prisma" />
+    <img src="https://img.shields.io/badge/MongoDB-0B111E?style=for-the-badge&logo=mongodb&logoColor=4ADE80" alt="MongoDB" />
+    <img src="https://img.shields.io/badge/Gemini_AI-0B111E?style=for-the-badge&logo=googlegemini&logoColor=A855F7" alt="Google Gemini AI" />
+    <img src="https://img.shields.io/badge/Python-0B111E?style=for-the-badge&logo=python&logoColor=38BDF8" alt="Python" />
+    <img src="https://img.shields.io/badge/Vercel-0B111E?style=for-the-badge&logo=vercel&logoColor=F8FAFC" alt="Vercel" />
   </p>
+</div>
 
-  <h3>🗄️ Databases and Cloud Hosting</h3>
+<br />
 
-  <p>
-      <a href="#"><img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-327FC7.svg?logo=github&logoColor=white"></a>
-      <a href="#"><img alt="Heroku" src="https://img.shields.io/badge/Heroku-430098.svg?logo=heroku&logoColor=white"></a>
-      <a href="#"><img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-4ea94b.svg?logo=mongodb&logoColor=white"></a>
-      <a href="#"><img alt="MySQL" src="https://img.shields.io/badge/MySQL-00f.svg?logo=mysql&logoColor=white"></a>
-      <a href="#"><img alt="Notion" src="https://img.shields.io/badge/Notion-010101.svg?logo=notion&logoColor=white"></a>
-      <a href="#"><img alt="Oracle" src ="https://img.shields.io/badge/Oracle-F00000.svg?logo=oracle&logoColor=white"></a>
-      <a href="#"><img alt="PostgreSQL" src ="https://img.shields.io/badge/PostgreSQL-316192.svg?logo=postgresql&logoColor=white"></a>
-      <a href="#"><img alt="Render" src="https://img.shields.io/badge/Render-00979D.svg?logo=render&logoColor=white"></a>
-      <a href="#"><img alt="SQLite" src ="https://img.shields.io/badge/SQLite-07405e.svg?logo=sqlite&logoColor=white"></a>
-      <a href="#"><img alt="Vercel" src="https://img.shields.io/badge/Vercel-000000.svg?logo=vercel&logoColor=white"></a>
-  </p>
+<div align="center">
+  <img src="./assets/section-divider.svg" width="100%" alt="" />
+</div>
 
-  <h3>💻 Software and Tools</h3>
+<!-- ================= LIVE ACTIVITY & TELEMETRY ================= -->
+<h2 align="center">📈 Activity &amp; Engineering Pulse</h2>
 
-  <p>
-      <a href="#"><img alt="Adobe" src="https://img.shields.io/badge/Adobe-FF0000.svg?logo=adobe&logoColor=white"></a>
-      <a href="#"><img alt="Brave" src="https://img.shields.io/badge/-Brave-FB542B?logo=brave&logoColor=white"></a>
-      <a href="#"><img alt="Discord" src="https://img.shields.io/badge/-Discord-5865F2.svg?logo=discord&logoColor=white"></a>
-      <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git-F05033.svg?logo=git&logoColor=white"></a>
-      <a href="#"><img alt="GitHub Desktop" src="https://img.shields.io/badge/GitHub%20Desktop-8034A9.svg?logo=github&logoColor=white"></a>
-      <a href="#"><img alt="Google Sheets" src="https://img.shields.io/badge/Sheets-34A853.svg?logo=google%20sheets&logoColor=white"></a>
-      <a href="#"><img alt="OBS Studio" src="https://img.shields.io/badge/-OBS-302E31?logo=obs-studio&logoColor=white"></a>
-      <a href="#"><img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white"></a>
-      <a href="#"><img alt="Stack Overflow" src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?logo=stack-overflow&logoColor=white"></a>
-      <a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?logo=visual-studio-code&logoColor=white"></a>
-  </p>
-</details>
+<div align="center">
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=hamzaisadev&theme=dark&background=0B111E&border=1E293B&border_radius=14&ring=34D399&fire=38BDF8&currStreakLabel=34D399&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B" width="56%" alt="Hamza Ishaq GitHub Streak" />
+  </a>
+</div>
 
-<details open > 
-  <summary><h2>Stats</h2></summary>
+<br />
 
+<details>
+  <summary align="center"><b>📊 View Automated WakaTime &amp; Repository Telemetry (Updated Daily via GitHub Actions)</b></summary>
+  <br />
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-347%20hrs%207%20mins-blue?style=flat)
@@ -237,16 +323,14 @@ PHP                      1 repo              █░░░░░░░░░░�
 
  Last Updated on 16/10/2026 02:21:47 UTC
 <!--END_SECTION:waka-->
+
 </details>
 
+<br />
 
-
-
-
-###
-
-
-
-###
-
-
+<!-- ================= ANIMATED FOOTER BANNER ================= -->
+<div align="center">
+  <a href="https://hamzaisadev.netlify.app">
+    <img src="./assets/footer-wave.svg" width="100%" alt="Build fast. Design with intention. Ship software that matters. — hamzaisadev.netlify.app" />
+  </a>
+</div>

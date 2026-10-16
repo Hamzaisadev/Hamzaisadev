@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 245" width="100%" height="100%" role="img" aria-label="Curewell — Personal Health OS and AI Clinical Vault">
+  <title>Curewell — Personal Health OS &amp; AI Clinical Vault</title>
+  <defs>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
+
+      @keyframes ecgDraw {
+        0% { stroke-dashoffset: 260; opacity: 0.3; }
+        50% { opacity: 1; }
+        100% { stroke-dashoffset: 0; opacity: 0.3; }
+      }
+      @keyframes pulseNode {
+        0%, 100% { transform: scale(1); opacity: 0.9; }
+        50% { transform: scale(1.45); opacity: 0.35; }
+      }
+      @keyframes ocrScan {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(28px); }
+      }
+
+      .ecg-line {
+        stroke-dasharray: 260;
+        animation: ecgDraw 3.5s ease-in-out infinite;
+      }
+      .pulse-dot {
+        animation: pulseNode 2s ease-in-out infinite;
+        transform-origin: 522px 52px;
+      }
+      .ocr-beam {
+        animation: ocrScan 2.8s ease-in-out infinite;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .ecg-line, .pulse-dot, .ocr-beam { animation: none !important; stroke-dashoffset: 0 !important; }
+      }
+    </style>
+
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B111E" />
+      <stop offset="100%" stop-color="#070B14" />
+    </linearGradient>
+
+    <radialGradient id="glow" cx="88%" cy="18%" r="55%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#070B14" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.55" />
+      <stop offset="50%" stop-color="#1E293B" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.35" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="1" y="1" width="578" height="243" rx="16" fill="url(#bg)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  <rect x="1" y="1" width="578" height="243" rx="16" fill="url(#glow)" />
+
+  <!-- Top Left Icon & Category Badge -->
+  <g transform="translate(26, 24)">
+    <rect x="0" y="0" width="42" height="42" rx="10" fill="#064E3B" fill-opacity="0.6" stroke="#10B981" stroke-width="1.2" />
+    <!-- Medical Cross + AI Sparkle Icon -->
+    <path d="M 21 12 L 21 30 M 12 21 L 30 21" stroke="#34D399" stroke-width="2.6" stroke-linecap="round" />
+    <circle cx="29" cy="13" r="2.2" fill="#A7F3D0" />
+
+    <rect x="54" y="6" width="166" height="26" rx="13" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <circle cx="68" cy="19" r="3.5" fill="#10B981" />
+    <text x="79" y="23" class="font-mono" font-size="10.5" font-weight="600" fill="#34D399" letter-spacing="0.5">
+      CLINICAL AI · v4.0
+    </text>
+  </g>
+
+  <!-- Top Right Animated ECG & OCR Graphic -->
+  <g transform="translate(380, 20)">
+    <rect x="0" y="0" width="172" height="58" rx="10" fill="#090D16" fill-opacity="0.85" stroke="#1E293B" stroke-width="1" />
+    <!-- Mini OCR Scanner Icon -->
+    <g transform="translate(12, 11)">
+      <rect x="0" y="0" width="28" height="36" rx="4" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <line x1="6" y1="9" x2="22" y2="9" stroke="#475569" stroke-width="1.5" stroke-linecap="round" />
+      <line x1="6" y1="16" x2="18" y2="16" stroke="#475569" stroke-width="1.5" stroke-linecap="round" />
+      <line x1="6" y1="23" x2="20" y2="23" stroke="#475569" stroke-width="1.5" stroke-linecap="round" />
+      <line class="ocr-beam" x1="2" y1="4" x2="26" y2="4" stroke="#34D399" stroke-width="2" stroke-linecap="round" />
+    </g>
+    <!-- Animated ECG Waveform -->
+    <path d="M 52 32 L 74 32 L 82 20 L 90 44 L 99 10 L 108 46 L 115 26 L 122 32 L 142 32" fill="none" stroke="#064E3B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path class="ecg-line" d="M 52 32 L 74 32 L 82 20 L 90 44 L 99 10 L 108 46 L 115 26 L 122 32 L 142 32" fill="none" stroke="#34D399" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    <circle class="pulse-dot" cx="142" cy="32" r="5" fill="#10B981" />
+    <circle cx="142" cy="32" r="3" fill="#A7F3D0" />
+  </g>
+
+  <!-- Project Title & Subtitle -->
+  <text x="26" y="102" class="font-sans" font-size="24" font-weight="800" fill="#F8FAFC" letter-spacing="-0.4">
+    Curewell
+  </text>
+  <text x="136" y="101" class="font-mono" font-size="12" fill="#34D399" font-weight="600">
+    ↗ curewell-gamma.vercel.app
+  </text>
+
+  <!-- Description -->
+  <text x="26" y="132" class="font-sans" font-size="13.8" fill="#94A3B8">
+    Personal health operating system for handwritten prescription OCR,
+  </text>
+  <text x="26" y="153" class="font-sans" font-size="13.8" fill="#94A3B8">
+    meal-timed medication scheduling, lab biomarker trends &amp; doctor briefs.
+  </text>
+
+  <!-- Divider -->
+  <line x1="26" y1="180" x2="554" y2="180" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Tech Stack Pills -->
+  <g transform="translate(26, 196)" class="font-mono" font-size="11" font-weight="600">
+    <rect x="0" y="0" width="88" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+    <text x="44" y="17" text-anchor="middle" fill="#38BDF8">TypeScript</text>
+
+    <rect x="96" y="0" width="64" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+    <text x="128" y="17" text-anchor="middle" fill="#61DAFB">React</text>
+
+    <rect x="168" y="0" width="80" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+    <text x="208" y="17" text-anchor="middle" fill="#34D399">Supabase</text>
+
+    <rect x="256" y="0" width="98" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+    <text x="305" y="17" text-anchor="middle" fill="#A78BFA">Vision OCR</text>
+
+    <rect x="362" y="0" width="96" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+    <text x="410" y="17" text-anchor="middle" fill="#FBBF24">Offline-First</text>
+  </g>
+</svg>

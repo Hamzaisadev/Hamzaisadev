@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 245" width="100%" height="100%" role="img" aria-label="Gadi Ghar — AI-Powered Full-Stack Car Marketplace">
+  <title>Gadi Ghar — Full-Stack AI Automotive Marketplace for Pakistan</title>
+  <defs>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
+
+      @keyframes gaugeSweep {
+        0%, 100% { transform: rotate(-35deg); }
+        50% { transform: rotate(42deg); }
+      }
+      @keyframes sparkPulse {
+        0%, 100% { opacity: 0.4; transform: scale(0.9); }
+        50% { opacity: 1; transform: scale(1.15); }
+      }
+
+      .needle {
+        animation: gaugeSweep 3.4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+        transform-origin: 48px 42px;
+      }
+      .ai-tag {
+        animation: sparkPulse 2.4s ease-in-out infinite;
+        transform-origin: 122px 29px;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .needle, .ai-tag { animation: none !important; }
+      }
+    </style>
+
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B111E" />
+      <stop offset="100%" stop-color="#070B14" />
+    </linearGradient>
+
+    <radialGradient id="glow" cx="88%" cy="18%" r="55%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#070B14" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.55" />
+      <stop offset="50%" stop-color="#1E293B" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#EF4444" stop-opacity="0.35" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="1" y="1" width="578" height="243" rx="16" fill="url(#bg)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  <rect x="1" y="1" width="578" height="243" rx="16" fill="url(#glow)" />
+
+  <!-- Top Left Icon & Category Badge -->
+  <g transform="translate(26, 24)">
+    <rect x="0" y="0" width="42" height="42" rx="10" fill="#451A03" fill-opacity="0.7" stroke="#F59E0B" stroke-width="1.2" />
+    <!-- Automotive Steering / Speed Icon -->
+    <circle cx="21" cy="21" r="10" fill="none" stroke="#FBBF24" stroke-width="2" />
+    <circle cx="21" cy="21" r="3" fill="#FBBF24" />
+    <line x1="21" y1="11" x2="21" y2="18" stroke="#FBBF24" stroke-width="1.8" />
+    <line x1="12" y1="25" x2="18" y2="22" stroke="#FBBF24" stroke-width="1.8" />
+    <line x1="30" y1="25" x2="24" y2="22" stroke="#FBBF24" stroke-width="1.8" />
+
+    <rect x="54" y="6" width="184" height="26" rx="13" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <circle cx="68" cy="19" r="3.5" fill="#F59E0B" />
+    <text x="79" y="23" class="font-mono" font-size="10.5" font-weight="600" fill="#FBBF24" letter-spacing="0.5">
+      AI MARKETPLACE · PK
+    </text>
+  </g>
+
+  <!-- Top Right Animated Speedometer & AI Price Tag -->
+  <g transform="translate(380, 20)">
+    <rect x="0" y="0" width="172" height="58" rx="10" fill="#090D16" fill-opacity="0.85" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Tachometer Arc -->
+    <path d="M 24 42 A 24 24 0 0 1 72 42" fill="none" stroke="#1E293B" stroke-width="4" stroke-linecap="round" />
+    <path d="M 24 42 A 24 24 0 0 1 64 22" fill="none" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" />
+    <!-- Animated Gauge Needle -->
+    <g class="needle">
+      <line x1="48" y1="42" x2="48" y2="21" stroke="#FDE68A" stroke-width="2.2" stroke-linecap="round" />
+    </g>
+    <circle cx="48" cy="42" r="3.5" fill="#F59E0B" />
+
+    <!-- AI Match Pill -->
+    <g class="ai-tag">
+      <rect x="86" y="16" width="72" height="26" rx="6" fill="#451A03" fill-opacity="0.6" stroke="#F59E0B" stroke-width="1" />
+      <text x="122" y="33" text-anchor="middle" class="font-mono" font-size="10.5" font-weight="700" fill="#FDE68A">
+        ✦ AI MATCH
+      </text>
+    </g>
+  </g>
+
+  <!-- Project Title & Subtitle -->
+  <text x="26" y="102" class="font-sans" font-size="24" font-weight="800" fill="#F8FAFC" letter-spacing="-0.4">
+    Gadi Ghar
+  </text>
+  <text x="150" y="101" class="font-mono" font-size="12" fill="#FBBF24" font-weight="600">
+    ↗ gadi-ghar.vercel.app
+  </text>
+
+  <!-- Description -->
+  <text x="26" y="132" class="font-sans" font-size="13.8" fill="#94A3B8">
+    Full-stack AI automotive marketplace tailored for Pakistan—featuring
+  </text>
+  <text x="26" y="153" class="font-sans" font-size="13.8" fill="#94A3B8">
+    Gemini-powered car discovery, smart filtering, and dealer management.
+  </text>
+
+  <!-- Divider -->
+  <line x1="26" y1="180" x2="554" y2="180" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Tech Stack Pills -->
+  <g transform="translate(26, 196)" class="font-mono" font-size="11" font-weight="600">
+    <rect x="0" y="0" width="74" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+    <text x="37" y="17" text-anchor="middle" fill="#F8FAFC">Next.js</text>
+
+    <rect x="82" y="0" width="88" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+    <text x="126" y="17" text-anchor="middle" fill="#FBBF24">Gemini AI</text>
+
+    <rect x="178" y="0" width="82" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+    <text x="219" y="17" text-anchor="middle" fill="#34D399">Supabase</text>
+
+    <rect x="268" y="0" width="98" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+    <text x="317" y="17" text-anchor="middle" fill="#38BDF8">Tailwind CSS</text>
+
+    <rect x="374" y="0" width="86" height="26" rx="6" fill="#0F172A" stroke="#1E293B" />
+    <text x="417" y="17" text-anchor="middle" fill="#FB923C">Full-Stack</text>
+  </g>
+</svg>

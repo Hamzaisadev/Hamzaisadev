@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 185" width="100%" height="100%" role="img" aria-label="Let's build something extraordinary together — Hamza Ishaq">
+  <title>Let's Build Something Extraordinary Together — Hamza Ishaq</title>
+  <defs>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
+
+      @keyframes waveDrift1 {
+        0%, 100% { transform: translateX(0px); }
+        50% { transform: translateX(-45px); }
+      }
+      @keyframes waveDrift2 {
+        0%, 100% { transform: translateX(0px); }
+        50% { transform: translateX(45px); }
+      }
+      @keyframes pulseDot {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(1.4); }
+      }
+
+      .wave-1 { animation: waveDrift1 9s ease-in-out infinite; }
+      .wave-2 { animation: waveDrift2 11s ease-in-out infinite; }
+      .live-dot { animation: pulseDot 2.2s ease-in-out infinite; transform-origin: 416px 128px; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .wave-1, .wave-2, .live-dot { animation: none !important; }
+      }
+    </style>
+
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06080E" />
+      <stop offset="50%" stop-color="#0B101D" />
+      <stop offset="100%" stop-color="#06080E" />
+    </linearGradient>
+
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.18" />
+      <stop offset="50%" stop-color="#06B6D4" stop-opacity="0.24" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.18" />
+    </linearGradient>
+
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.15" />
+      <stop offset="50%" stop-color="#34D399" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.15" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#A855F7" />
+    </linearGradient>
+
+    <clipPath id="footerClip">
+      <rect x="1" y="1" width="1198" height="183" rx="18" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#footerClip)">
+    <rect x="1" y="1" width="1198" height="183" rx="18" fill="url(#bg)" />
+
+    <!-- Animated Aurora Waves at Bottom -->
+    <path class="wave-1" d="M -100 135 Q 200 95 500 135 T 1100 130 T 1400 135 L 1400 200 L -100 200 Z" fill="url(#waveGrad1)" />
+    <path class="wave-2" d="M -100 150 Q 260 115 600 148 T 1260 140 L 1350 200 L -100 200 Z" fill="url(#waveGrad2)" />
+
+    <!-- Quote / Engineering Motto -->
+    <text x="600" y="58" text-anchor="middle" class="font-sans" font-size="22" font-weight="800" fill="#F8FAFC" letter-spacing="-0.3">
+      “Build fast. Design with intention. <tspan fill="url(#textGrad)">Ship software that matters.</tspan>”
+    </text>
+
+    <text x="600" y="88" text-anchor="middle" class="font-sans" font-size="13.5" fill="#94A3B8">
+      Open to full-stack engineering roles, product collaborations, and ambitious AI builds.
+    </text>
+
+    <!-- Bottom Pill Strip -->
+    <rect x="394" y="110" width="412" height="36" rx="18" fill="#0F172A" fill-opacity="0.9" stroke="#1E293B" stroke-width="1.2" />
+    <circle class="live-dot" cx="416" cy="128" r="4" fill="#34D399" />
+    <text x="608" y="132" text-anchor="middle" class="font-mono" font-size="11.5" font-weight="600" fill="#CBD5E1">
+      hamzaisadev.netlify.app <tspan fill="#475569">·</tspan> <tspan fill="#38BDF8">hamzaisadev@gmail.com</tspan>
+    </text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="183" rx="18" fill="none" stroke="#1E293B" stroke-width="1.5" />
+</svg>
