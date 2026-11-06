@@ -284,10 +284,6 @@
   <br />
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-347%20hrs%207%20mins-blue?style=flat)
-
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-40%20hrs%201%20min-blue?style=flat)
-
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.30%20million%20lines%20of%20code-blue?style=flat)
@@ -295,41 +291,37 @@
 **🐱 My GitHub Data** 
 
 > 📦 400.9 kB Used in GitHub's Storage 
- >
-
-> 🏆 103 Contributions in the Year 2026
- >
-
+ > 
+> 🏆 120 Contributions in the Year 2026
+ > 
 > 🚫 Not Opted to Hire
- >
-
-> 📜 36 Public Repositories 
- >
-
+ > 
+> 📜 41 Public Repositories 
+ > 
 > 🔑 11 Private Repositories 
- >
+ > 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                58 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.64 % 
-🌆 Daytime                334 commits         ████████░░░░░░░░░░░░░░░░░   32.49 % 
-🌃 Evening                434 commits         ███████████░░░░░░░░░░░░░░   42.22 % 
-🌙 Night                  202 commits         █████░░░░░░░░░░░░░░░░░░░░   19.65 % 
+🌞 Morning                58 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.60 % 
+🌆 Daytime                340 commits         ████████░░░░░░░░░░░░░░░░░   32.82 % 
+🌃 Evening                434 commits         ██████████░░░░░░░░░░░░░░░   41.89 % 
+🌙 Night                  204 commits         █████░░░░░░░░░░░░░░░░░░░░   19.69 % 
 ```
-📅 **I'm Most Productive on Wednesday**
+📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   93 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.05 % 
-Tuesday                  68 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.61 % 
-Wednesday                272 commits         ███████░░░░░░░░░░░░░░░░░░   26.46 % 
-Thursday                 109 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.60 % 
-Friday                   159 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.47 % 
-Saturday                 180 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.51 % 
-Sunday                   147 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.30 % 
+Monday                   93 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.98 % 
+Tuesday                  68 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.56 % 
+Wednesday                272 commits         ███████░░░░░░░░░░░░░░░░░░   26.25 % 
+Thursday                 109 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.52 % 
+Friday                   165 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.93 % 
+Saturday                 182 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.57 % 
+Sunday                   147 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.19 % 
 ```
 
 
-📊 **This Week I Spent My Time On**
+📊 **This Week I Spent My Time On** 
 
 ```text
 🕑︎ Time Zone: Asia/Karachi
@@ -347,20 +339,20 @@ No Activity Tracked This Week
 No Activity Tracked This Week
 ```
 
-🤖 **AI Coding This Week**
+🤖 **AI Coding This Week** 
 
 ```text
 No AI Coding Activity Tracked This Week
 ```
 
-**I Mostly Code in JavaScript**
+**I Mostly Code in JavaScript** 
 
 ```text
-JavaScript               20 repos            ████████████░░░░░░░░░░░░░   46.51 % 
-Python                   7 repos             ████░░░░░░░░░░░░░░░░░░░░   16.28 % 
-TypeScript               4 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.30 % 
-C                        2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.65 % 
-PHP                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   02.33 % 
+JavaScript               20 repos            ██████████░░░░░░░░░░░░░░░   41.67 % 
+Python                   10 repos            █████░░░░░░░░░░░░░░░░░░░░   20.83 % 
+TypeScript               5 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.42 % 
+C                        2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.17 % 
+PHP                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   02.08 % 
 ```
 
 
@@ -370,7 +362,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 01/11/2026 03:23:32 UTC
+ Last Updated on 06/11/2026 22:10:16 UTC
 <!--END_SECTION:waka-->
 
 </details>
