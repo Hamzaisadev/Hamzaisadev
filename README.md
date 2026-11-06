@@ -41,6 +41,15 @@
   </a>
 </p>
 
+<p align="center">
+  <b>Founder, Albatix — I build production web apps and e-commerce that solve a business problem.</b><br />
+  <sub>Full-stack developer in Karachi, Pakistan. Available for freelance web development and for front-end roles, Karachi / remote, React, Next.js, TypeScript.</sub>
+</p>
+
+<p align="center">
+  <sub>How I work: measured by whether the product brings more customers, sales, or profit, not by how much code I write. Technical understanding still matters, to direct, evaluate, and debug AI output.</sub>
+</p>
+
 <img src="./assets/section-divider.svg?v=2" width="100%" alt="" />
 
 </div>
@@ -56,8 +65,26 @@
   <img src="./assets/section-divider.svg?v=2" width="100%" alt="" />
 </div>
 
+<!-- ================= CURRENTLY ================= -->
+<h2 align="center">🎯 Currently</h2>
+<p align="center">
+  <sub>What I am building and what I am open to, right now.</sub>
+</p>
+
+- 🔨 Building full-stack web apps and e-commerce with Next.js, React, TypeScript, Tailwind, Prisma, PostgreSQL, Supabase, and MongoDB
+- 🏥 Curewell — personal health OS with medication scheduling, lab tracking, prescription OCR, and AI clinical insights. Bano Qabil x Alibaba Cloud AI Hackathon national finalist, Islamabad, Oct 24, 2026
+- 🏢 Founder, Albatix — freelance web development for businesses that need a site that sells, not just a site that exists
+- 💼 Open to front-end roles — Karachi / remote, React, Next.js, TypeScript, Tailwind. CV and portfolio on request
+- 📬 Fastest contact: hamzaisadev@gmail.com — tell me your business goal, pages you need, and a rough budget range, and I will reply with a scoped plan
+
+<br />
+
+<div align="center">
+  <img src="./assets/section-divider.svg?v=2" width="100%" alt="" />
+</div>
+
 <!-- ================= FLAGSHIP BENTO GRID: SHIPPED PRODUCTS ================= -->
-<h2 align="center">🚀 Flagship Products &amp; Systems</h2>
+<h2 align="center">🚀 Flagship Products & Systems</h2>
 <p align="center">
   <sub>Production-grade full-stack applications, AI clinical systems, and real-time developer utilities engineered from the ground up.</sub>
 </p>
@@ -113,7 +140,7 @@
         <img src="./assets/card-devshot.svg?v=2" width="100%" alt="DevShot — Pro Developer Capture & Mockup Chrome Extension" />
       </a>
       <p align="center">
-        <a href="https://github.com/Hamzaisadev/DevShot"><b>📸 Extension &amp; Docs ↗</b></a>
+        <a href="https://github.com/Hamzaisadev/DevShot"><b>📸 Extension & Docs ↗</b></a>
         &nbsp;·&nbsp;
         <a href="https://codeload.github.com/Hamzaisadev/DevShot/zip/refs/heads/main"><b>⬇️ Download Preview ↗</b></a>
       </p>
@@ -132,7 +159,7 @@
 </table>
 
 <details>
-  <summary align="center"><b>📂 Explore More Shipped Projects &amp; Open-Source Tools (Click to Expand)</b></summary>
+  <summary align="center"><b>📂 Explore More Shipped Projects & Open-Source Tools (Click to Expand)</b></summary>
   <br />
   <table width="100%">
     <thead>
@@ -146,13 +173,13 @@
     <tbody>
       <tr>
         <td><b>🏛️ Daily Dev Vault</b></td>
-        <td>Automated daily engineering vault: production-grade distributed systems, architecture deep dives &amp; high-performance patterns.</td>
+        <td>Automated daily engineering vault: production-grade distributed systems, architecture deep dives & high-performance patterns.</td>
         <td><code>Python</code> · <code>TypeScript</code> · <code>GitHub Actions</code></td>
-        <td><a href="https://github.com/Hamzaisadev/daily-dev-vault"><b>Explore Vault &amp; Star ⭐</b></a></td>
+        <td><a href="https://github.com/Hamzaisadev/daily-dev-vault"><b>Explore Vault & Star ⭐</b></a></td>
       </tr>
       <tr>
         <td><b>💰 PennyWise</b></td>
-        <td>Personal budgeting &amp; cash-flow tracking application with visual expense breakdowns.</td>
+        <td>Personal budgeting & cash-flow tracking application with visual expense breakdowns.</td>
         <td><code>React</code> · <code>React Router</code> · <code>JavaScript</code></td>
         <td><a href="https://pennywisse.netlify.app/">Live Demo</a> · <a href="https://github.com/Hamzaisadev/PennyWise">Repo</a></td>
       </tr>
@@ -180,6 +207,18 @@
         <td><code>HTML5</code> · <code>CSS3</code> · <code>ES6+</code></td>
         <td><a href="https://hamzaisadev.github.io/Java-Script-Projects/">Live Lab</a> · <a href="https://github.com/Hamzaisadev/Java-Script-Projects">Repo</a></td>
       </tr>
+      <tr>
+        <td><b>👕 Riwayat</b></td>
+        <td>Men's traditional clothing e-commerce.</td>
+        <td><code>Next.js</code> · <code>React</code> · <code>Tailwind</code></td>
+        <td><a href="https://hamzaisadev.netlify.app">Portfolio</a></td>
+      </tr>
+      <tr>
+        <td><b>👟 Shoeaholic</b></td>
+        <td>Footwear e-commerce, product structure and SEO.</td>
+        <td><code>Next.js</code> · <code>React</code></td>
+        <td><a href="https://hamzaisadev.netlify.app">Portfolio</a></td>
+      </tr>
     </tbody>
   </table>
 </details>
@@ -191,7 +230,7 @@
 </div>
 
 <!-- ================= ARCHITECTURE & TECH STACK PIPELINE ================= -->
-<h2 align="center">🛠️ Architecture &amp; Technical Ecosystem</h2>
+<h2 align="center">🛠️ Architecture & Technical Ecosystem</h2>
 <p align="center">
   <sub>How I design, build, test, and deploy resilient software from browser edge to cloud database.</sub>
 </p>
@@ -230,7 +269,7 @@
 </div>
 
 <!-- ================= LIVE ACTIVITY & TELEMETRY ================= -->
-<h2 align="center">📈 Activity &amp; Engineering Pulse</h2>
+<h2 align="center">📈 Activity & Engineering Pulse</h2>
 
 <div align="center">
   <a href="https://git.io/streak-stats">
@@ -241,7 +280,7 @@
 <br />
 
 <details>
-  <summary align="center"><b>📊 View Automated WakaTime &amp; Repository Telemetry (Updated Daily via GitHub Actions)</b></summary>
+  <summary align="center"><b>📊 View Automated WakaTime & Repository Telemetry (Updated Daily via GitHub Actions)</b></summary>
   <br />
 
 <!--START_SECTION:waka-->
@@ -256,15 +295,19 @@
 **🐱 My GitHub Data** 
 
 > 📦 400.9 kB Used in GitHub's Storage 
- > 
+ >
+
 > 🏆 103 Contributions in the Year 2026
- > 
+ >
+
 > 🚫 Not Opted to Hire
- > 
+ >
+
 > 📜 36 Public Repositories 
- > 
+ >
+
 > 🔑 11 Private Repositories 
- > 
+ >
 **I'm a Night 🦉** 
 
 ```text
@@ -273,7 +316,7 @@
 🌃 Evening                434 commits         ███████████░░░░░░░░░░░░░░   42.22 % 
 🌙 Night                  202 commits         █████░░░░░░░░░░░░░░░░░░░░   19.65 % 
 ```
-📅 **I'm Most Productive on Wednesday** 
+📅 **I'm Most Productive on Wednesday**
 
 ```text
 Monday                   93 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.05 % 
@@ -286,7 +329,7 @@ Sunday                   147 commits         ████░░░░░░░�
 ```
 
 
-📊 **This Week I Spent My Time On** 
+📊 **This Week I Spent My Time On**
 
 ```text
 🕑︎ Time Zone: Asia/Karachi
@@ -304,17 +347,17 @@ No Activity Tracked This Week
 No Activity Tracked This Week
 ```
 
-🤖 **AI Coding This Week** 
+🤖 **AI Coding This Week**
 
 ```text
 No AI Coding Activity Tracked This Week
 ```
 
-**I Mostly Code in JavaScript** 
+**I Mostly Code in JavaScript**
 
 ```text
 JavaScript               20 repos            ████████████░░░░░░░░░░░░░   46.51 % 
-Python                   7 repos             ████░░░░░░░░░░░░░░░░░░░░░   16.28 % 
+Python                   7 repos             ████░░░░░░░░░░░░░░░░░░░░   16.28 % 
 TypeScript               4 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.30 % 
 C                        2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.65 % 
 PHP                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   02.33 % 
