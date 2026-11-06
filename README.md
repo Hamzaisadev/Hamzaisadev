@@ -145,6 +145,12 @@
     </thead>
     <tbody>
       <tr>
+        <td><b>🏛️ Daily Dev Vault</b></td>
+        <td>Automated daily engineering vault: production-grade distributed systems, architecture deep dives &amp; high-performance patterns.</td>
+        <td><code>Python</code> · <code>TypeScript</code> · <code>GitHub Actions</code></td>
+        <td><a href="https://github.com/Hamzaisadev/daily-dev-vault"><b>Explore Vault &amp; Star ⭐</b></a></td>
+      </tr>
+      <tr>
         <td><b>💰 PennyWise</b></td>
         <td>Personal budgeting &amp; cash-flow tracking application with visual expense breakdowns.</td>
         <td><code>React</code> · <code>React Router</code> · <code>JavaScript</code></td>
