@@ -520,10 +520,6 @@ SMALL = [
     dict(slug="79stauto", num="05", kind="Client · Auto repair", name="79st Auto Center", motif=m_devshot,
          desc="Website for a family-owned Miami repair shop serving drivers since 1974: services up front, 50 years of trust.",
          tags=["Landing page", "Local SEO", "Vercel"]),
-    dict(slug="linkwhiz", num="06", kind="Utility", name="LinkWhiz", motif=m_link,
-         desc="A URL shortener that turns long, tracked links into short ones you can share anywhere.", tags=["React", "React Router", "REST"]),
-    dict(slug="vault", num="07", kind="Writing · Automation", name="Dev Vault", motif=m_vault,
-         desc="A daily, automated archive of deep dives on systems design and performance patterns.", tags=["Python", "TypeScript", "Actions"]),
 ]
 
 

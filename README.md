@@ -99,31 +99,6 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
   </tr>
 </table>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-<a href="https://linkwhize.netlify.app/">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-linkwhiz-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-linkwhiz-light.svg" />
-  <img src="./assets/card-linkwhiz-light.svg" width="100%" alt="LinkWhiz — URL shortener." />
-</picture>
-</a>
-<p align="center"><a href="https://linkwhize.netlify.app/"><b>Live ↗</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/Hamzaisadev/LinkWhiz"><b>Source</b></a></p>
-    </td>
-    <td width="50%" valign="top">
-<a href="https://github.com/Hamzaisadev/daily-dev-vault">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-vault-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-vault-light.svg" />
-  <img src="./assets/card-vault-light.svg" width="100%" alt="Daily Dev Vault — automated daily deep dives on systems design." />
-</picture>
-</a>
-<p align="center"><a href="https://github.com/Hamzaisadev/daily-dev-vault"><b>Read the vault</b></a></p>
-    </td>
-  </tr>
-</table>
-
 <details>
 <summary><b>From the archive</b> — older and smaller builds</summary>
 <br />

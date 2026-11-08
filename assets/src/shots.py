@@ -10,7 +10,6 @@ SITES = {
     "curewell": "https://curewell-ai.vercel.app",
     "gadighar": "https://gadi-ghar.vercel.app",
     "snapistan": "https://snapistan.vercel.app",
-    "linkwhiz": "https://linkwhize.netlify.app/",
     "almuzzammil": "https://al-muzzammil.vercel.app",
     "79stauto": "https://79st-auto-website.vercel.app",
 }
