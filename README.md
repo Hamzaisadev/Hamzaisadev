@@ -14,6 +14,29 @@
 
 <a href="https://hamzaisadev.netlify.app"><b>Portfolio</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.linkedin.com/in/hamzaisadev/"><b>LinkedIn</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://twitter.com/hamzaisadev"><b>X</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://youtube.com/channel/UCPR0FgOTackPp82nMyPqf5A"><b>YouTube</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="mailto:hamzaisadev@gmail.com"><b>Email</b></a>
 
+<br />
+
+<p align="center">
+<a href="https://github.com/Hamzaisadev/Hamzaisadev/issues/new?title=theme%3A%20light&body=Press%20%E2%80%9CSubmit%20new%20issue%E2%80%9D%20and%20GitHub%20Actions%20will%20repaint%20the%20whole%20profile%20for%20every%20visitor.%20The%20issue%20closes%20itself."><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/seg-light-off-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/seg-light-off-light.svg" />
+  <img src="./assets/seg-light-off-light.svg" height="44" alt="Light theme" />
+</picture></a>
+<a href="https://github.com/Hamzaisadev/Hamzaisadev/issues/new?title=theme%3A%20auto&body=Press%20%E2%80%9CSubmit%20new%20issue%E2%80%9D%20and%20GitHub%20Actions%20will%20repaint%20the%20whole%20profile%20for%20every%20visitor.%20The%20issue%20closes%20itself."><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/seg-auto-on-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/seg-auto-on-light.svg" />
+  <img src="./assets/seg-auto-on-light.svg" height="44" alt="Auto theme" />
+</picture></a>
+<a href="https://github.com/Hamzaisadev/Hamzaisadev/issues/new?title=theme%3A%20dark&body=Press%20%E2%80%9CSubmit%20new%20issue%E2%80%9D%20and%20GitHub%20Actions%20will%20repaint%20the%20whole%20profile%20for%20every%20visitor.%20The%20issue%20closes%20itself."><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/seg-dark-off-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/seg-dark-off-light.svg" />
+  <img src="./assets/seg-dark-off-light.svg" height="44" alt="Dark theme" />
+</picture></a>
+</p>
+
+<p align="center"><sub><!--THEME:START-->Theme: <b>auto</b> — follows your GitHub setting · flipped 0 times. Pick one above; GitHub Actions repaints the page.<!--THEME:END--></sub></p>
+
+
 </div>
 
 <br />

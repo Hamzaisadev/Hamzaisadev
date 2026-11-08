@@ -45,4 +45,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/pulse-*.svg
-          git diff --cached --quiet || (git commit -m "Redraw Pulse panel" && git push)
+          git diff --cached --quiet || (git commit -m "Redraw Pulse panel" && git pull --rebase -q && git push)
