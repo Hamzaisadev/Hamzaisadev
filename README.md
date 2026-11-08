@@ -173,20 +173,18 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/output/snake-light.svg" />
-  <img src="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/output/snake-light.svg" width="100%" alt="A snake eating my contribution graph" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/pulse-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/pulse-light.svg" />
+  <img src="./assets/pulse-light.svg" width="100%" alt="Contribution heatmap for the last 12 months, plus contributions, commits, merged pull requests and streaks — redrawn daily from the GitHub API" />
 </picture>
 
 <br /><br />
 
-<a href="https://git.io/streak-stats">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Hamzaisadev&hide_border=true&border_radius=0&background=0E0E0D&ring=FF5A2E&fire=FF5A2E&currStreakNum=EEE9DF&sideNums=EEE9DF&currStreakLabel=FF5A2E&sideLabels=8D877C&dates=8D877C&stroke=2B2926" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Hamzaisadev&hide_border=true&border_radius=0&background=F3EFE7&ring=FF4A1C&fire=FF4A1C&currStreakNum=141311&sideNums=141311&currStreakLabel=FF4A1C&sideLabels=6E685E&dates=6E685E&stroke=D6CFC2" />
-  <img src="https://streak-stats.demolab.com?user=Hamzaisadev&hide_border=true&border_radius=0&background=F3EFE7&ring=FF4A1C&fire=FF4A1C&currStreakNum=141311&sideNums=141311&currStreakLabel=FF4A1C&sideLabels=6E685E&dates=6E685E&stroke=D6CFC2" width="560" alt="GitHub contribution streak" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/output/snake-light.svg" />
+  <img src="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/output/snake-light.svg" width="100%" alt="A snake eating my contribution graph" />
 </picture>
-</a>
 
 </div>
 
