@@ -47,7 +47,7 @@ def reveal_word(word, font, size, x, y, fill, delay0, step, clip_id, cls="rv"):
 
 # ---------------------------------------------------------------- HERO
 def hero(th):
-    W, H = 1200, 600
+    W, H = 1200, 640
     css = (f".rv{{animation:rise 1.25s {EASE} both;}}"
            f"@keyframes rise{{from{{transform:translateY(105%);}}}}"
            ".rv{transform-box:fill-box;}"
@@ -103,7 +103,7 @@ def hero(th):
     b.append(f'<g class="bob"><g class="fade" style="animation-delay:1.3s">{T("↘", 640, 380, "sans", 64, fill=th["accent"])}</g></g>')
 
     # marquee band (drawn underneath the name so the q's tail overlaps it)
-    y0 = 548
+    y0 = 590
     band = []
     band.append(f'<rect x="0" y="{y0}" width="{W}" height="{H - y0}" fill="{th["ink"]}"/>')
     items = ["NEXT.JS", "REACT", "TYPESCRIPT", "TAILWIND", "NODE.JS", "PRISMA", "POSTGRESQL", "SUPABASE", "MONGODB", "GEMINI", "WEBRTC", "PYTHON"]
@@ -496,30 +496,6 @@ def button(th, label, primary):
     return svg(W, H, "".join(b), css, dict(th, paper="none") if False else th, label, grain=False).replace(f'<rect width="{W}" height="{H}" fill="{th["paper"]}"/>', "", 1)
 
 
-# ---------------------------------------------------------------- THEME SWITCH SEGMENTS
-def seg(th, mode, on):
-    W, H = 168, 56
-    label = mode.upper()
-    bg = th["accent"] if on else th["paper"]
-    fg = th["onaccent"] if on else th["ink"]
-    cx, cy = 34, H / 2
-    css = (".spin{animation:spin 10s linear infinite;transform-origin:34px 28px;}@keyframes spin{to{transform:rotate(360deg);}}"
-           ".bob{animation:bob 2.4s ease-in-out infinite;transform-origin:34px 28px;}@keyframes bob{50%{transform:rotate(-14deg);}}"
-           ".pl{animation:pl 2s ease-in-out infinite;}@keyframes pl{50%{opacity:.35;}}")
-    if mode == "light":
-        rays = "".join(f'<line x1="{cx + 9 * math.cos(a):.1f}" y1="{cy + 9 * math.sin(a):.1f}" x2="{cx + 13 * math.cos(a):.1f}" y2="{cy + 13 * math.sin(a):.1f}" stroke="{fg}" stroke-width="2" stroke-linecap="round"/>'
-                       for a in [i * math.pi / 4 for i in range(8)])
-        icon = f'<g class="{"spin" if on else ""}"><circle cx="{cx}" cy="{cy}" r="5.5" fill="{fg}"/>{rays}</g>'
-    elif mode == "dark":
-        icon = (f'<g class="{"bob" if on else ""}"><path d="M{cx + 4} {cy - 11} A11 11 0 1 0 {cx + 11} {cy + 5} A8.5 8.5 0 0 1 {cx + 4} {cy - 11}z" fill="{fg}"/></g>')
-    else:
-        icon = (f'<g class="{"pl" if on else ""}"><circle cx="{cx}" cy="{cy}" r="10" fill="none" stroke="{fg}" stroke-width="2"/>'
-                f'<path d="M{cx} {cy - 10} A10 10 0 0 1 {cx} {cy + 10}z" fill="{fg}"/></g>')
-    b = [f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="27" fill="{bg}" stroke="{bg if on else th["rule"]}" stroke-width="1.5"/>',
-         icon, T(label, 58, 33, "mono-md", 14, tracking=.12, fill=fg)]
-    out = svg(W, H, "".join(b), css, th, f"{label} theme" + (" (active)" if on else ""), grain=False)
-    return out.replace(f'<rect width="{W}" height="{H}" fill="{th["paper"]}"/>', "", 1)
-
 
 # ---------------------------------------------------------------- FOOTER
 def footer(th):
@@ -560,9 +536,8 @@ if __name__ == "__main__":
             files["card-" + p["slug"]] = card_big(th, p)
         for p in SMALL:
             files["card-" + p["slug"]] = card_small(th, p)
-        for m in ("light", "auto", "dark"):
-            for on in (True, False):
-                files[f"seg-{m}-{'on' if on else 'off'}"] = seg(th, m, on)
+        for lab in ("PORTFOLIO", "LINKEDIN", "X", "YOUTUBE", "EMAIL"):
+            files["nav-" + lab.lower()] = button(th, lab, lab == "PORTFOLIO")
         for k, v in files.items():
             with open(f"{OUT}/{k}-{tn}.svg", "w") as f:
                 f.write(v)

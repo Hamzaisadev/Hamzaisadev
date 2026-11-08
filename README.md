@@ -12,29 +12,7 @@
 
 <br />
 
-<a href="https://hamzaisadev.netlify.app"><b>Portfolio</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.linkedin.com/in/hamzaisadev/"><b>LinkedIn</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://twitter.com/hamzaisadev"><b>X</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://youtube.com/channel/UCPR0FgOTackPp82nMyPqf5A"><b>YouTube</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="mailto:hamzaisadev@gmail.com"><b>Email</b></a>
-
-<br />
-
-<p align="center">
-<a href="https://github.com/Hamzaisadev/Hamzaisadev/issues/new?title=theme%3A%20light&body=Press%20%E2%80%9CSubmit%20new%20issue%E2%80%9D%20and%20GitHub%20Actions%20will%20repaint%20the%20whole%20profile%20for%20every%20visitor.%20The%20issue%20closes%20itself."><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/seg-light-off-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/seg-light-off-light.svg" />
-  <img src="./assets/seg-light-off-light.svg" height="44" alt="Light theme" />
-</picture></a>
-<a href="https://github.com/Hamzaisadev/Hamzaisadev/issues/new?title=theme%3A%20auto&body=Press%20%E2%80%9CSubmit%20new%20issue%E2%80%9D%20and%20GitHub%20Actions%20will%20repaint%20the%20whole%20profile%20for%20every%20visitor.%20The%20issue%20closes%20itself."><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/seg-auto-on-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/seg-auto-on-light.svg" />
-  <img src="./assets/seg-auto-on-light.svg" height="44" alt="Auto theme" />
-</picture></a>
-<a href="https://github.com/Hamzaisadev/Hamzaisadev/issues/new?title=theme%3A%20dark&body=Press%20%E2%80%9CSubmit%20new%20issue%E2%80%9D%20and%20GitHub%20Actions%20will%20repaint%20the%20whole%20profile%20for%20every%20visitor.%20The%20issue%20closes%20itself."><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/seg-dark-off-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/seg-dark-off-light.svg" />
-  <img src="./assets/seg-dark-off-light.svg" height="44" alt="Dark theme" />
-</picture></a>
-</p>
-
-<p align="center"><sub><!--THEME:START-->Theme: <b>auto</b> — follows your GitHub setting · flipped 0 times. Pick one above; GitHub Actions repaints the page.<!--THEME:END--></sub></p>
+<p align="center"><a href="https://hamzaisadev.netlify.app"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/nav-portfolio-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/nav-portfolio-light.svg" /><img src="./assets/nav-portfolio-light.svg" height="40" alt="Portfolio" /></picture></a>&nbsp;<a href="https://www.linkedin.com/in/hamzaisadev/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/nav-linkedin-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/nav-linkedin-light.svg" /><img src="./assets/nav-linkedin-light.svg" height="40" alt="LinkedIn" /></picture></a>&nbsp;<a href="https://twitter.com/hamzaisadev"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/nav-x-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/nav-x-light.svg" /><img src="./assets/nav-x-light.svg" height="40" alt="X" /></picture></a>&nbsp;<a href="https://youtube.com/channel/UCPR0FgOTackPp82nMyPqf5A"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/nav-youtube-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/nav-youtube-light.svg" /><img src="./assets/nav-youtube-light.svg" height="40" alt="YouTube" /></picture></a>&nbsp;<a href="mailto:hamzaisadev@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/nav-email-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/nav-email-light.svg" /><img src="./assets/nav-email-light.svg" height="40" alt="Email" /></picture></a></p>
 
 
 </div>
@@ -344,21 +322,7 @@ PHP                      1 repo              █░░░░░░░░░░�
   <img src="./assets/work-light.svg" width="100%" alt="Work with me. For teams hiring: front-end roles, React, Next.js, TypeScript, Karachi or remote, CV on request. For businesses: websites, online stores and landing pages through Albatix." />
 </picture>
 
-<p align="center">
-<a href="https://github.com/Hamzaisadev/Hamzaisadev/issues/new?template=start-a-project.yml">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/btn-project-dark.svg" />
-  <img src="./assets/btn-project-light.svg" height="52" alt="Start a project" />
-</picture>
-</a>
-&nbsp;&nbsp;
-<a href="mailto:hamzaisadev@gmail.com?subject=Front-end%20role%20%E2%80%94%20CV%20request">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/btn-cv-dark.svg" />
-  <img src="./assets/btn-cv-light.svg" height="52" alt="Request my CV" />
-</picture>
-</a>
-</p>
+<p align="center"><a href="https://github.com/Hamzaisadev/Hamzaisadev/issues/new?template=start-a-project.yml"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/btn-project-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/btn-project-light.svg" /><img src="./assets/btn-project-light.svg" height="52" alt="Start a project" /></picture></a>&nbsp;&nbsp;<a href="mailto:hamzaisadev@gmail.com?subject=Front-end%20role%20%E2%80%94%20CV%20request"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/btn-cv-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/btn-cv-light.svg" /><img src="./assets/btn-cv-light.svg" height="52" alt="Request my CV" /></picture></a></p>
 
 <p align="center"><sub>“Start a project” opens a short brief form here on GitHub: goal, pages, budget and timeline. Prefer private? Email works too.</sub></p>
 
