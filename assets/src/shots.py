@@ -7,8 +7,7 @@ from playwright.sync_api import sync_playwright
 OUT = os.path.join(sys.argv[1] if len(sys.argv) > 1 else "..", "shots")
 os.makedirs(OUT, exist_ok=True)
 SITES = {
-    "curewell": "https://curewell-gamma.vercel.app",
-    "stash": "https://stash-ed.vercel.app",
+    "curewell": "https://curewell-ai.vercel.app",
     "gadighar": "https://gadi-ghar.vercel.app",
     "snapistan": "https://snapistan.vercel.app",
     "linkwhiz": "https://linkwhize.netlify.app/",

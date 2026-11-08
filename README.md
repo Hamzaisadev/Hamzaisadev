@@ -42,7 +42,7 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
   <img src="./assets/h01-light.svg" width="100%" alt="01 — Selected work" />
 </picture>
 
-<a href="https://curewell-gamma.vercel.app">
+<a href="https://curewell-ai.vercel.app">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-curewell-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-curewell-light.svg" />
@@ -50,17 +50,7 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
 </picture>
 </a>
 
-<p align="center"><a href="https://curewell-gamma.vercel.app"><b>Live ↗</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/Hamzaisadev/Curewell"><b>Source</b></a></p>
-
-<a href="https://stash-ed.vercel.app">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-stash-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-stash-light.svg" />
-  <img src="./assets/card-stash-light.svg" width="100%" alt="Stash — file sharing, screen casting and clipboard sync between devices, no login." />
-</picture>
-</a>
-
-<p align="center"><a href="https://stash-ed.vercel.app"><b>Live ↗</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/Hamzaisadev/Stash"><b>Source</b></a></p>
+<p align="center"><a href="https://curewell-ai.vercel.app"><b>Live ↗</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/Hamzaisadev/Curewell"><b>Source</b></a></p>
 
 <a href="https://gadi-ghar.vercel.app">
 <picture>
@@ -72,9 +62,6 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
 
 <p align="center"><a href="https://gadi-ghar.vercel.app"><b>Live ↗</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/Hamzaisadev/gadi-ghar"><b>Source</b></a></p>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
 <a href="https://snapistan.vercel.app">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-snapistan-dark.svg" />
@@ -82,19 +69,10 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
   <img src="./assets/card-snapistan-light.svg" width="100%" alt="Snapistan — social network built with Next.js, Prisma and PostgreSQL." />
 </picture>
 </a>
+
 <p align="center"><a href="https://snapistan.vercel.app"><b>Live ↗</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/Hamzaisadev/Snapistan"><b>Source</b></a></p>
-    </td>
-    <td width="50%" valign="top">
-<a href="https://github.com/Hamzaisadev/DevShot">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-devshot-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-devshot-light.svg" />
-  <img src="./assets/card-devshot-light.svg" width="100%" alt="DevShot — Chrome extension for page captures and device mockups." />
-</picture>
-</a>
-<p align="center"><a href="https://github.com/Hamzaisadev/DevShot"><b>Source</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://codeload.github.com/Hamzaisadev/DevShot/zip/refs/heads/main"><b>Download zip</b></a></p>
-    </td>
-  </tr>
+
+<table>
   <tr>
     <td width="50%" valign="top">
 <a href="https://linkwhize.netlify.app/">

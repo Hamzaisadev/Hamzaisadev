@@ -506,21 +506,17 @@ BIG = [
     dict(slug="curewell", num="01", kind="Health · AI", name="Curewell", motif=m_curewell, badge="Bano Qabil × Alibaba Cloud AI Hackathon — national finalist",
          desc="A personal health OS for Pakistan: reads handwritten prescriptions, schedules doses around meals, tracks lab results over time.",
          tags=["TypeScript", "React", "Supabase", "OCR", "Offline-first"]),
-    dict(slug="stash", num="02", kind="Real-time · P2P", name="Stash", motif=m_stash,
-         desc="Send files, cast your screen and sync your clipboard between any two devices. No account, no install — open the page and go.",
-         tags=["JavaScript", "WebRTC", "Real-time", "PWA"]),
-    dict(slug="gadighar", num="03", kind="Marketplace", name="Gadi Ghar", motif=m_gadi,
+    dict(slug="gadighar", num="02", kind="Marketplace", name="Gadi Ghar", motif=m_gadi,
          desc="A full-stack car marketplace built for the Pakistani market, with Gemini helping buyers and sellers through listings.",
          tags=["Next.js", "Supabase", "Gemini API", "Tailwind"]),
+    dict(slug="snapistan", num="03", kind="Social", name="Snapistan", motif=m_snap,
+         desc="A social network with sign-in, posts, likes and notifications, typed end to end from database to UI.",
+         tags=["Next.js", "TypeScript", "Prisma", "PostgreSQL"]),
 ]
 SMALL = [
-    dict(slug="snapistan", num="04", kind="Social", name="Snapistan", motif=m_snap,
-         desc="A social network with auth, posts, likes and notifications, typed end to end.", tags=["Next.js", "Prisma", "PostgreSQL"]),
-    dict(slug="devshot", num="05", kind="Chrome extension", name="DevShot", motif=m_devshot,
-         desc="Capture a page and drop it into a clean device mockup without leaving the browser.", tags=["JavaScript", "Chrome APIs", "Canvas"]),
-    dict(slug="linkwhiz", num="06", kind="Utility", name="LinkWhiz", motif=m_link,
+    dict(slug="linkwhiz", num="04", kind="Utility", name="LinkWhiz", motif=m_link,
          desc="A URL shortener that turns long, tracked links into short ones you can share anywhere.", tags=["React", "React Router", "REST"]),
-    dict(slug="vault", num="07", kind="Writing · Automation", name="Dev Vault", motif=m_vault,
+    dict(slug="vault", num="05", kind="Writing · Automation", name="Dev Vault", motif=m_vault,
          desc="A daily, automated archive of deep dives on systems design and performance patterns.", tags=["Python", "TypeScript", "Actions"]),
 ]
 
@@ -654,7 +650,7 @@ def footer(th):
     return svg(W, H, "".join(b), css, th, "Got a business problem? Let's ship the fix. Email hamzaisadev@gmail.com")
 
 
-SECTIONS = [(1, "Selected work", "seven things I've shipped"), (2, "Right now", "what's on the desk"),
+SECTIONS = [(1, "Selected work", "five things I've shipped"), (2, "Right now", "what's on the desk"),
             (3, "Toolbox", "what I reach for"), (4, "Pulse", "commits, streaks, hours"),
             (5, "Work with me", "two ways in"), (6, "Guestbook", "sign it, vote, ask")]
 
