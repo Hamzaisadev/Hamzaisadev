@@ -1,0 +1,66 @@
+name: Start a project
+description: Tell me what you need built. I'll reply with a scoped plan and a quote.
+title: "[Project] "
+labels: ["project-brief"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out. This form takes about two minutes.
+        **Heads up:** this repository is public, so anyone can read what you write here. Leave out anything private and email it to **hamzaisadev@gmail.com** instead.
+  - type: dropdown
+    id: who
+    attributes:
+      label: What brings you here?
+      options:
+        - I need a website or online store for my business
+        - I'm hiring for a front-end role
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: How should I reach you?
+      description: Email, LinkedIn or WhatsApp. Only share what you're happy to make public.
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: What's the business goal?
+      description: More customers, more online sales, bookings, a new launch… What should this project change?
+      placeholder: e.g. We sell handmade shoes on Instagram and want our own store with online payments.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Pages and features you have in mind
+      placeholder: Home, shop, product pages, cart and checkout, about, contact…
+  - type: dropdown
+    id: budget
+    attributes:
+      label: Rough budget
+      options:
+        - Under $500
+        - $500 – $1,500
+        - $1,500 – $5,000
+        - $5,000+
+        - Not sure yet
+    validations:
+      required: true
+  - type: dropdown
+    id: timeline
+    attributes:
+      label: When do you need it?
+      options:
+        - As soon as possible
+        - Within a month
+        - In 1–3 months
+        - Flexible
+  - type: input
+    id: links
+    attributes:
+      label: Existing site or references (optional)
+      placeholder: Your current site, or sites you like

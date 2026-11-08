@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Email me privately
+    url: mailto:hamzaisadev@gmail.com
+    about: For anything you'd rather not post publicly.
+  - name: Portfolio
+    url: https://hamzaisadev.netlify.app
+    about: See more of my work.
