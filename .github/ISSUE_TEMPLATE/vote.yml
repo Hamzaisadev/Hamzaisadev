@@ -1,0 +1,18 @@
+name: Vote in the poll
+description: Help me pick what to build next. One vote per person; voting again replaces your earlier pick.
+title: "Vote: my pick"
+body:
+  - type: dropdown
+    id: pick
+    attributes:
+      label: Your pick
+      options:
+        - A Curewell mobile app
+        - An open-source Next.js store starter
+        - A Stash desktop app
+        - Something with AI agents
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: Press **Submit new issue**. The live results on my profile update within a minute or two, and this issue closes itself.

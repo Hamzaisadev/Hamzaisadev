@@ -88,7 +88,8 @@ if __name__ == "__main__":
          "sans-sb": "geist-sans/files/geist-sans-latin-600-normal.woff2",
          "mono": "geist-mono/files/geist-mono-latin-400-normal.woff2",
          "mono-md": "geist-mono/files/geist-mono-latin-500-normal.woff2",
-         "urdu": "noto-nastaliq-urdu/files/noto-nastaliq-urdu-arabic-400-normal.woff2"}
+         "urdu": "noto-nastaliq-urdu/files/noto-nastaliq-urdu-arabic-400-normal.woff2",
+         "script": "mrs-saint-delafield/files/mrs-saint-delafield-latin-400-normal.woff2"}
     os.makedirs(FONT_DIR, exist_ok=True)
     for k, v in m.items():
         f = TTFont(F + v); f.flavor = None; f.save(FONT_DIR + k + ".ttf")

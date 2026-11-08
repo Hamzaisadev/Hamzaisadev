@@ -149,6 +149,18 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
   <img src="./assets/now-light.svg" width="100%" alt="Now building: AnyRef. Latest: Curewell, hackathon national finalist. Open to front-end roles. Taking on freelance builds. Based in Karachi, UTC+5." />
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/live-commit-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/live-commit-light.svg" />
+  <img src="./assets/live-commit-light.svg" width="100%" alt="Latest commit, redrawn hourly" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/live-shipped-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/live-shipped-light.svg" />
+  <img src="./assets/live-shipped-light.svg" width="100%" alt="Shipped this week, auto-listed from GitHub" />
+</picture>
+
 <br />
 
 <picture>
@@ -185,6 +197,14 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/output/snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/output/snake-light.svg" />
   <img src="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/output/snake-light.svg" width="100%" alt="A snake eating my contribution graph" />
+</picture>
+
+<br /><br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/live-visitors-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/live-visitors-light.svg" />
+  <img src="./assets/live-visitors-light.svg" width="100%" alt="Profile visits, updated hourly" />
 </picture>
 
 </div>
@@ -328,6 +348,44 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 <br />
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/h06-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/h06-light.svg" />
+  <img src="./assets/h06-light.svg" width="100%" alt="06 — Guestbook" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/live-guestbook-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/live-guestbook-light.svg" />
+  <img src="./assets/live-guestbook-light.svg" width="100%" alt="Guestbook board with the latest signatures" />
+</picture>
+
+<p align="center"><a href="https://github.com/Hamzaisadev/Hamzaisadev/issues/new?template=guestbook.yml"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/btn-sign-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/btn-sign-light.svg" /><img src="./assets/btn-sign-light.svg" height="52" alt="Sign the guestbook" /></picture></a></p>
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/live-poll-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/live-poll-light.svg" />
+  <img src="./assets/live-poll-light.svg" width="100%" alt="Poll: what should I build next? Live results" />
+</picture>
+
+<p align="center"><a href="https://github.com/Hamzaisadev/Hamzaisadev/issues/new?template=vote.yml"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/btn-vote-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/btn-vote-light.svg" /><img src="./assets/btn-vote-light.svg" height="52" alt="Vote in the poll" /></picture></a></p>
+
+<br />
+
+<h3 align="center">Ask me anything</h3>
+
+<!--AMA:START-->
+<p align="center"><sub>No questions answered yet. Ask the first one.</sub></p>
+<!--AMA:END-->
+
+<p align="center"><a href="https://github.com/Hamzaisadev/Hamzaisadev/issues/new?template=ama.yml"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/btn-ama-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/btn-ama-light.svg" /><img src="./assets/btn-ama-light.svg" height="52" alt="Ask me anything" /></picture></a></p>
+
+<p align="center"><sub>Signing, voting and asking open a short GitHub form. Press submit, and a GitHub Action updates this page within a couple of minutes.</sub></p>
+
+<br />
+
 <a href="mailto:hamzaisadev@gmail.com">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/footer-dark.svg" />
@@ -335,3 +393,7 @@ PHP                      1 repo              █░░░░░░░░░░�
   <img src="./assets/footer-light.svg" width="100%" alt="Got a business problem? Let's ship the fix. Email hamzaisadev@gmail.com" />
 </picture>
 </a>
+
+<p align="center"><sub><a href="./docs/HOW-IT-WORKS.md">How this README redraws itself →</a></sub></p>
+
+<img src="https://komarev.com/ghpvc/?username=hamzaisadev&style=flat-square&color=F3EFE7" width="1" height="1" alt="" />

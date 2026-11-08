@@ -46,7 +46,7 @@ def reveal_word(word, font, size, x, y, fill, delay0, step, clip_id, cls="rv"):
 
 
 # ---------------------------------------------------------------- HERO
-def hero(th):
+def hero(th, ctx=None, season=None):
     W, H = 1200, 640
     css = (f".rv{{animation:rise 1.25s {EASE} both;}}"
            f"@keyframes rise{{from{{transform:translateY(105%);}}}}"
@@ -56,7 +56,9 @@ def hero(th):
            ".mq{animation:mq 38s linear infinite;}@keyframes mq{to{transform:translateX(var(--w));}}"
            ".pulse{animation:pulse 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center;}@keyframes pulse{50%{opacity:.25;}}"
            f".draw{{stroke-dasharray:1200;animation:draw 1.6s {EASE} .2s both;}}@keyframes draw{{from{{stroke-dashoffset:1200;}}}}"
-           ".bob{animation:bob 3.2s ease-in-out infinite;}@keyframes bob{50%{transform:translate(6px,6px);}}")
+           ".bob{animation:bob 3.2s ease-in-out infinite;}@keyframes bob{50%{transform:translate(6px,6px);}}"
+           ".glow{animation:glow 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center;}@keyframes glow{50%{transform:scale(1.5);opacity:.05;}}"
+           ".tw{animation:tw 2.6s ease-in-out infinite;}@keyframes tw{50%{opacity:.15;}}")
     b = []
     # meta row
     m = 13
@@ -75,7 +77,7 @@ def hero(th):
 
     # rotating badge
     cx, cy, R = 1052, 190, 92
-    ring_text = "AVAILABLE FOR WORK · FREELANCE + FULL-TIME · "
+    ring_text = (season or {}).get("ring") or "AVAILABLE FOR WORK · FREELANCE + FULL-TIME · "
     gl, tw = glyphs(ring_text, "mono-md", 13.5, tracking=.16)
     circ = 2 * math.pi * (R - 14)
     scale = circ / tw
@@ -100,7 +102,12 @@ def hero(th):
     b.append(f'<circle class="pulse" cx="45" cy="476" r="5" fill="{th["accent"]}"/>')
     b.append(T("OPEN TO FRONT-END ROLES & FREELANCE BUILDS", 60, 481, "mono", 12.5, tracking=.06, fill=th["mute"]))
     b.append("</g>")
-    b.append(f'<g class="bob"><g class="fade" style="animation-delay:1.3s">{T("↘", 640, 380, "sans", 64, fill=th["accent"])}</g></g>')
+    if season and season.get("ornament"):
+        b.append(f'<g class="bob"><g class="fade" style="animation-delay:1.3s">{crescent(668, 352, 26, th["accent"], th["paper"])}</g></g>')
+    else:
+        b.append(f'<g class="bob"><g class="fade" style="animation-delay:1.3s">{T("↘", 640, 380, "sans", 64, fill=th["accent"])}</g></g>')
+    if ctx:
+        b.append(sky(th, ctx))
 
     # marquee band (drawn underneath the name so the q's tail overlaps it)
     y0 = 590
@@ -315,6 +322,126 @@ def m_vault(th, X, Y, w, h):
     return css, "".join(b)
 
 
+
+# ---------------------------------------------------------------- SEASONS + SKY
+def season_for(day):
+    """Seasonal palette and badge text for Pakistani holidays (Hijri dates via Umm al-Qura)."""
+    try:
+        from hijridate import Gregorian
+        h = Gregorian(day.year, day.month, day.day).to_hijri()
+        hm, hd = h.month, h.day
+    except Exception:
+        hm = hd = 0
+    if day.month == 8 and day.day <= 15:
+        return dict(name="independence", light="#01632E", dark="#35B26B", ring="PAKISTAN ZINDABAD · 14 AUGUST · ", ornament=True)
+    if hm == 9:
+        return dict(name="ramadan", light="#A8721A", dark="#E2A93F", ring="RAMADAN KAREEM · RAMADAN KAREEM · ", ornament=True)
+    if (hm == 10 and hd <= 3) or (hm == 12 and 10 <= hd <= 13):
+        return dict(name="eid", light="#0D7A55", dark="#3DC08A", ring="EID MUBARAK · EID MUBARAK · EID MUBARAK · ", ornament=True)
+    return None
+
+
+def seasonal(themes, season):
+    if not season:
+        return themes
+    return {k: dict(v, accent=season[k]) for k, v in themes.items()}
+
+
+def crescent(cx, cy, r, fill, cut):
+    pts = []
+    for i in range(10):
+        a = -math.pi / 2 + math.pi * i / 5
+        rr = r * .34 if i % 2 == 0 else r * .14
+        pts.append(f"{cx + r * .55 + rr * math.cos(a):.1f},{cy - r * .2 + rr * math.sin(a):.1f}")
+    return (f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{fill}"/><circle cx="{cx + r * .38:.1f}" cy="{cy - r * .18:.1f}" r="{r * .82:.1f}" fill="{cut}"/>'
+            f'<polygon points="{" ".join(pts)}" fill="{fill}"/>')
+
+
+def sky(th, ctx):
+    """Little sky dial between the name and the badge: sun or moon riding an arc, Karachi time + weather."""
+    cx, cy, R = 806, 236, 112
+    h = ctx["hour"]
+    rise, sset = ctx.get("sunrise", 6.5), ctx.get("sunset", 17.8)
+    day = rise <= h < sset
+    if day:
+        f = (h - rise) / (sset - rise)
+    else:
+        span = 24 - sset + rise
+        f = ((h - sset) % 24) / span
+    a = math.pi * (1 - f)
+    px, py = cx + R * math.cos(a), cy - R * math.sin(a)
+    out = [f'<g class="fade" style="animation-delay:1.2s">',
+           f'<path d="M{cx - R} {cy} A{R} {R} 0 0 1 {cx + R} {cy}" fill="{th["panel"] if not day else "none"}" stroke="{th["rule"]}" stroke-width="1.2" stroke-dasharray="3 5"/>',
+           f'<line x1="{cx - R - 14}" y1="{cy}" x2="{cx + R + 14}" y2="{cy}" stroke="{th["ink"]}" stroke-width="1.2"/>']
+    if day:
+        out.append(f'<circle class="glow" cx="{px:.1f}" cy="{py:.1f}" r="20" fill="{th["accent"]}" opacity=".18"/><circle cx="{px:.1f}" cy="{py:.1f}" r="10" fill="{th["accent"]}"/>')
+    else:
+        rnd = [(0.22, .55), (0.35, .8), (0.5, .45), (0.63, .78), (0.78, .5), (0.42, .25), (0.7, .28)]
+        for i, (fx, fy) in enumerate(rnd):
+            sx, sy = cx - R + fx * 2 * R, cy - fy * R * .9
+            if (sx - cx) ** 2 + (cy - sy) ** 2 < (R - 8) ** 2:
+                out.append(f'<circle class="tw" style="animation-delay:{i * .37:.2f}s" cx="{sx:.1f}" cy="{sy:.1f}" r="1.6" fill="{th["ink"]}"/>')
+        out.append(crescent(px, py, 11, th["ink"], th["panel"]))
+    label = f'KARACHI · {ctx["time"]}' + (f' · {ctx["temp"]}' if ctx.get("temp") else "")
+    out.append(T(label, cx, cy + 24, "mono", 12, anchor="middle", tracking=.08, fill=th["mute"]))
+    out.append("</g>")
+    return "".join(out)
+
+
+# ---------------------------------------------------------------- DEVICE FRAMES WITH REAL SCREENSHOTS
+def _img_uri(path, width, max_h=None):
+    import base64, io
+    from PIL import Image
+    im = Image.open(path).convert("RGB")
+    im = im.resize((width, int(im.height * width / im.width)), Image.LANCZOS)
+    if max_h and im.height > max_h:
+        im = im.crop((0, 0, width, max_h))
+    buf = io.BytesIO()
+    im.save(buf, "JPEG", quality=70, optimize=True, progressive=True)
+    return "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode(), im.height
+
+
+def shots_for(slug):
+    d = os.path.join(OUT, "shots")
+    dk, mb = os.path.join(d, slug + "-desktop.jpg"), os.path.join(d, slug + "-mobile.jpg")
+    return (dk, mb) if os.path.exists(dk) and os.path.exists(mb) else None
+
+
+def m_shots(slug):
+    """Laptop + phone showing the real site; both screens slowly scroll the full page."""
+    def motif(th, X, Y, w, h):
+        dk, mb = shots_for(slug)
+        ink = th["ink"]
+        small = h < 300
+        lw = (w - 130) if not small else 330
+        lw = min(lw, 420)
+        lh = lw * 0.625
+        lx = X + (w - lw - (60 if not small else 40)) / 2 - (10 if small else 20)
+        ly = Y + (h - lh) / 2 - 12
+        pw = 104 if not small else 78
+        ph = pw * 2.05
+        px, py = lx + lw - pw * .35, Y + h - ph - (14 if small else 20)
+        ds, dh = _img_uri(dk, int(lw - 16) * 2, max_h=int((lw - 16) * 2 * 3.2))
+        ms, mh = _img_uri(mb, int(pw - 10) * 2, max_h=int((pw - 10) * 2 * 4.2))
+        sw, sh = lw - 16, lh - 16
+        dh, mh = dh / 2, mh / 2
+        travel_d = max(0, dh - sh)
+        travel_m = max(0, mh - (ph - 28))
+        css = (f".sd{slug}{{animation:sd{slug} 14s ease-in-out infinite;}}@keyframes sd{slug}{{0%,12%{{transform:translateY(0)}}55%,67%{{transform:translateY(-{travel_d:.0f}px)}}100%{{transform:translateY(0)}}}}"
+               f".sm{slug}{{animation:sm{slug} 11s ease-in-out 1.5s infinite;}}@keyframes sm{slug}{{0%,15%{{transform:translateY(0)}}55%,70%{{transform:translateY(-{travel_m:.0f}px)}}100%{{transform:translateY(0)}}}}"
+               f".fl{slug}{{animation:fl{slug} 5s ease-in-out infinite;}}@keyframes fl{slug}{{50%{{transform:translateY(-6px)}}}}")
+        b = [f'<rect x="{lx:.0f}" y="{ly:.0f}" width="{lw:.0f}" height="{lh:.0f}" rx="8" fill="{ink}"/>',
+             f'<clipPath id="cd{slug}"><rect x="{lx + 8:.0f}" y="{ly + 8:.0f}" width="{sw:.0f}" height="{sh:.0f}" rx="2"/></clipPath>',
+             f'<g clip-path="url(#cd{slug})"><image class="sd{slug}" href="{ds}" x="{lx + 8:.0f}" y="{ly + 8:.0f}" width="{sw:.0f}" height="{dh:.0f}"/></g>',
+             f'<path d="M{lx - 22:.0f} {ly + lh:.0f}h{lw + 44:.0f}l-10 11h{-(lw + 24):.0f}z" fill="{ink}"/>',
+             f'<g class="fl{slug}"><rect x="{px:.0f}" y="{py:.0f}" width="{pw:.0f}" height="{ph:.0f}" rx="16" fill="{ink}"/>',
+             f'<clipPath id="cm{slug}"><rect x="{px + 5:.0f}" y="{py + 14:.0f}" width="{pw - 10:.0f}" height="{ph - 28:.0f}" rx="4"/></clipPath>',
+             f'<g clip-path="url(#cm{slug})"><image class="sm{slug}" href="{ms}" x="{px + 5:.0f}" y="{py + 14:.0f}" width="{pw - 10:.0f}" height="{mh:.0f}"/></g>',
+             f'<rect x="{px + pw / 2 - 12:.0f}" y="{py + 5:.0f}" width="24" height="4" rx="2" fill="{th["panel"]}"/></g>']
+        return css, "".join(b)
+    return motif
+
+
 # ---------------------------------------------------------------- CARDS
 def wrap(s, font, size, maxw):
     words, lines, cur = s.split(), [], ""
@@ -345,7 +472,7 @@ BASE_CARD_CSS = (f".rv{{animation:rise 1.1s {EASE} both;transform-box:fill-box;}
 def card_big(th, p):
     W, H = 1200, 420
     PX, PY, PW, PH = 620, 30, 550, 360
-    css, motif = p["motif"](th, PX, PY, PW, PH)
+    css, motif = (m_shots(p["slug"]) if shots_for(p["slug"]) else p["motif"])(th, PX, PY, PW, PH)
     b = [f'<rect x="{PX}" y="{PY}" width="{PW}" height="{PH}" fill="{th["panel"]}"/>', motif,
          f'<rect x=".75" y=".75" width="{W - 1.5}" height="{H - 1.5}" fill="none" stroke="{th["rule"]}" stroke-width="1.5"/>']
     b.append(f'<g class="fade">{T(p["num"] + "  /  " + p["kind"].upper(), 40, 66, "mono-md", 13, tracking=.08, fill=th["accent"])}</g>')
@@ -363,7 +490,7 @@ def card_big(th, p):
 def card_small(th, p):
     W, H = 600, 490
     PX, PY, PW, PH = 24, 24, 552, 230
-    css, motif = p["motif"](th, PX, PY, PW, PH)
+    css, motif = (m_shots(p["slug"]) if shots_for(p["slug"]) else p["motif"])(th, PX, PY, PW, PH)
     b = [f'<rect x="{PX}" y="{PY}" width="{PW}" height="{PH}" fill="{th["panel"]}"/>', motif,
          f'<rect x=".75" y=".75" width="{W - 1.5}" height="{H - 1.5}" fill="none" stroke="{th["rule"]}" stroke-width="1.5"/>']
     b.append(f'<g class="fade">{T(p["num"] + "  /  " + p["kind"].upper(), 30, 292, "mono-md", 12.5, tracking=.08, fill=th["accent"])}</g>')
@@ -499,37 +626,49 @@ def button(th, label, primary):
 
 # ---------------------------------------------------------------- FOOTER
 def footer(th):
-    W, H = 1200, 420
+    W, H = 1200, 470
     css = (f".rv{{animation:rise 1.2s {EASE} both;transform-box:fill-box;}}@keyframes rise{{from{{transform:translateY(105%);}}}}"
            ".fade{animation:fade 1s ease .9s both;}@keyframes fade{from{opacity:0;}}"
            ".ar{animation:ar 1.8s ease-in-out infinite;}@keyframes ar{50%{transform:translateX(10px);}}"
-           ".sp{animation:sp 12s linear infinite;transform-box:fill-box;transform-origin:center;}@keyframes sp{to{transform:rotate(360deg);}}")
+           ".sp{animation:sp 12s linear infinite;transform-box:fill-box;transform-origin:center;}@keyframes sp{to{transform:rotate(360deg);}}"
+           ".sig{fill-opacity:0;stroke-dasharray:1400;stroke-dashoffset:0;animation:sig 4.5s cubic-bezier(.6,0,.3,1) 1s both, sigf .8s ease 4.6s forwards;}"
+           "@keyframes sig{from{stroke-dashoffset:1400;}}@keyframes sigf{to{fill-opacity:1;}}"
+           "@media (prefers-reduced-motion: reduce){.sig{fill-opacity:1;}}")
     b = [f'<line x1="36" y1="30" x2="1164" y2="30" stroke="{th["ink"]}" stroke-width="1.2"/>',
-         f'<g class="fade">{T("(06)  SAY HELLO", 36, 66, "mono-md", 13, tracking=.08, fill=th["accent"])}</g>']
+         f'<g class="fade">{T("(07)  SAY HELLO", 36, 66, "mono-md", 13, tracking=.08, fill=th["accent"])}</g>']
     s1, w1 = reveal_word("Got a business problem?", "serif", 100, 30, 176, th["ink"], .1, .025, "f1")
     s2, w2 = reveal_word("Let's ship the fix.", "serif-it", 100, 30, 280, th["accent"], .4, .025, "f2")
     b += [s1, s2]
     b.append(f'<g class="fade">{star(30 + w2 + 56, 246, 30, th["ink"], "sp")}</g>')
+    sw = measure("Hamza Ishaq", "script", 96)
+    b.append(T("Hamza Ishaq", 1150 - sw, 360, "script", 96, class_="sig", fill=th["ink"], stroke=th["ink"], stroke_width="1.1"))
     b.append('<g class="fade">')
-    b.append(T("hamzaisadev@gmail.com", 36, 342, "mono-md", 20, fill=th["ink"]))
+    b.append(T("hamzaisadev@gmail.com", 36, 352, "mono-md", 20, fill=th["ink"]))
     em = measure("hamzaisadev@gmail.com", "mono-md", 20)
-    b.append(f'<g class="ar">{T("→", 36 + em + 14, 343, "sans", 22, fill=th["accent"])}</g>')
-    b.append(T("Tell me the goal, the pages you need and a rough budget — I'll reply with a scoped plan.", 1164, 342, "sans", 15, anchor="end", fill=th["mute"]))
-    b.append(f'<line x1="36" y1="370" x2="1164" y2="370" stroke="{th["rule"]}"/>')
-    b.append(T("SET IN INSTRUMENT SERIF, GEIST & NOTO NASTALIQ URDU — EVERY LETTER OUTLINED TO VECTOR", 36, 398, "mono", 11, tracking=.08, fill=th["mute"]))
-    b.append(T("© 2026 HAMZA ISHAQ · KARACHI", 1164, 398, "mono", 11, anchor="end", tracking=.08, fill=th["mute"]))
+    b.append(f'<g class="ar">{T("→", 36 + em + 14, 353, "sans", 22, fill=th["accent"])}</g>')
+    b.append(T("Tell me the goal, the pages you need and a rough budget — I'll reply with a scoped plan.", 36, 384, "sans", 15, fill=th["mute"]))
+    b.append(f'<line x1="36" y1="416" x2="1164" y2="416" stroke="{th["rule"]}"/>')
+    b.append(T("SET IN INSTRUMENT SERIF, GEIST, NOTO NASTALIQ URDU & MRS SAINT DELAFIELD — EVERY LETTER OUTLINED TO VECTOR", 36, 446, "mono", 11, tracking=.08, fill=th["mute"]))
+    b.append(T("© 2026 HAMZA ISHAQ · KARACHI", 1164, 446, "mono", 11, anchor="end", tracking=.08, fill=th["mute"]))
     b.append("</g>")
     return svg(W, H, "".join(b), css, th, "Got a business problem? Let's ship the fix. Email hamzaisadev@gmail.com")
 
 
 SECTIONS = [(1, "Selected work", "seven things I've shipped"), (2, "Right now", "what's on the desk"),
             (3, "Toolbox", "what I reach for"), (4, "Pulse", "commits, streaks, hours"),
-            (5, "Work with me", "two ways in")]
+            (5, "Work with me", "two ways in"), (6, "Guestbook", "sign it, vote, ask")]
 
-if __name__ == "__main__":
-    for tn, th in THEMES.items():
-        files = {"hero": hero(th), "now": board(th), "toolbox": toolbox(th), "footer": footer(th), "work": work(th),
-                 "btn-project": button(th, "START A PROJECT", True), "btn-cv": button(th, "REQUEST MY CV", False)}
+def build(out=None, ctx=None, day=None):
+    """Write every static asset. ctx = Karachi time/weather for the hero sky; day picks the seasonal palette."""
+    import datetime as _dt
+    out = out or OUT
+    os.makedirs(out, exist_ok=True)
+    season = season_for(day or _dt.date.today())
+    for tn, th in seasonal(THEMES, season).items():
+        files = {"hero": hero(th, ctx, season), "now": board(th), "toolbox": toolbox(th), "footer": footer(th), "work": work(th),
+                 "btn-project": button(th, "START A PROJECT", True), "btn-cv": button(th, "REQUEST MY CV", False),
+                 "btn-sign": button(th, "SIGN THE GUESTBOOK", True), "btn-vote": button(th, "VOTE", False),
+                 "btn-ama": button(th, "ASK ME ANYTHING", False)}
         for n, t, note in SECTIONS:
             files[f"h{n:02d}"] = section(th, n, t, note)
         for p in BIG:
@@ -539,6 +678,11 @@ if __name__ == "__main__":
         for lab in ("PORTFOLIO", "LINKEDIN", "X", "YOUTUBE", "EMAIL"):
             files["nav-" + lab.lower()] = button(th, lab, lab == "PORTFOLIO")
         for k, v in files.items():
-            with open(f"{OUT}/{k}-{tn}.svg", "w") as f:
+            with open(f"{out}/{k}-{tn}.svg", "w") as f:
                 f.write(v)
+    return season
+
+
+if __name__ == "__main__":
+    build()
     print("ok", len(os.listdir(OUT)))

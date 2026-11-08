@@ -1,0 +1,74 @@
+name: Live
+
+on:
+  schedule:
+    - cron: "7 * * * *"          # hourly
+  workflow_dispatch:
+  issues:
+    types: [opened, edited, deleted]
+  issue_comment:
+    types: [created]
+  push:
+    branches: [main]
+    paths: ["assets/src/**", ".github/workflows/live.yml", "assets/shots/**"]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: live
+  cancel-in-progress: false
+
+jobs:
+  live:
+    # issue comments only matter when I answer an AMA
+    if: github.event_name != 'issue_comment' || github.event.comment.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: .github/workflows/live.yml
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Cache fonts
+        uses: actions/cache@v4
+        with:
+          path: |
+            assets/src/node_modules
+            assets/src/fonts
+          key: fonts-v2
+
+      - name: Install
+        working-directory: assets/src
+        run: |
+          pip install -q uharfbuzz fonttools brotli pillow hijridate
+          if [ ! -f fonts/script.ttf ]; then
+            npm i --no-save --silent @fontsource/instrument-serif @fontsource/geist-sans @fontsource/geist-mono @fontsource/noto-nastaliq-urdu @fontsource/mrs-saint-delafield
+            python typeset.py
+          fi
+
+      - name: Draw everything
+        env:
+          GH_TOKEN: ${{ secrets.PULSE_TOKEN || github.token }}
+          GITHUB_TOKEN: ${{ secrets.PULSE_TOKEN || github.token }}
+          REPO_TOKEN: ${{ github.token }}
+        run: python assets/src/live.py assets
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets README.md
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Live update"
+          for i in 1 2 3 4; do git pull -q --rebase -X theirs && git push -q && exit 0; sleep 5; done
+          exit 1

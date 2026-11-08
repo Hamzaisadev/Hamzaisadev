@@ -1,0 +1,16 @@
+name: Sign the guestbook
+description: Leave your name on the split-flap board on my profile.
+title: "Guestbook: hi from me"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Just press **Submit new issue**. Your GitHub username and a short message show up on the board at github.com/Hamzaisadev within a minute or two, and this issue closes itself.
+  - type: input
+    id: message
+    attributes:
+      label: Leave a short message
+      description: Around 20 characters fits the board. Letters, numbers and basic punctuation only.
+      placeholder: Salam from Lahore!
+    validations:
+      required: false

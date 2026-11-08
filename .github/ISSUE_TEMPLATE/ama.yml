@@ -1,0 +1,11 @@
+name: Ask me anything
+description: Ask about my work, stack, freelancing or anything else. My answers get pinned on my profile.
+title: "AMA: "
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      placeholder: How do you decide what to charge for a website?
+    validations:
+      required: true
