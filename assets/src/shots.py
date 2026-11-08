@@ -31,8 +31,18 @@ with sync_playwright() as p:
             ctx = browser.new_context(**opts, color_scheme="light", reduced_motion="reduce")
             page = ctx.new_page()
             try:
-                page.goto(url, wait_until="networkidle", timeout=60000)
+                resp = page.goto(url, wait_until="networkidle", timeout=60000)
                 page.wait_for_timeout(3000)
+                dead = (resp is None or resp.status >= 400
+                        or "page doesn't exist" in page.content().lower() or "page not found" in page.title().lower())
+                if dead:
+                    # a 404 in a device frame looks worse than the drawn motif; drop the old shot too
+                    for k in SPECS:
+                        f = os.path.join(OUT, f"{slug}-{k}.jpg")
+                        if os.path.exists(f):
+                            os.remove(f)
+                    print("dead", slug, resp and resp.status)
+                    break
                 # nudge lazy-loaded sections, then return to top
                 page.evaluate("async()=>{for(let y=0;y<document.body.scrollHeight;y+=600){scrollTo(0,y);await new Promise(r=>setTimeout(r,120))}scrollTo(0,0)}")
                 page.wait_for_timeout(1200)
