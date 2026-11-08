@@ -4,8 +4,8 @@
 
 <a href="https://hamzaisadev.netlify.app">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/hero-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/hero-light.svg" />
   <img src="./assets/hero-light.svg" width="100%" alt="Hamza Ishaq — full-stack developer in Karachi. Open to front-end roles and freelance builds." />
 </picture>
 </a>
@@ -19,8 +19,8 @@
 <br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/monogram-dark.gif" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/monogram-light.gif" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/monogram-dark.gif" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/monogram-light.gif" />
   <img align="right" src="./assets/monogram-light.gif" width="220" alt="A dithered 3D H, slowly turning" />
 </picture>
 
@@ -36,15 +36,15 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
 <br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/h01-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/h01-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/h01-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/h01-light.svg" />
   <img src="./assets/h01-light.svg" width="100%" alt="01 — Selected work" />
 </picture>
 
 <a href="https://curewell-gamma.vercel.app">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-curewell-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/card-curewell-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-curewell-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-curewell-light.svg" />
   <img src="./assets/card-curewell-light.svg" width="100%" alt="Curewell — personal health OS: prescription OCR, meal-timed doses, lab tracking. Hackathon national finalist." />
 </picture>
 </a>
@@ -53,8 +53,8 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
 
 <a href="https://stash-ed.vercel.app">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-stash-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/card-stash-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-stash-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-stash-light.svg" />
   <img src="./assets/card-stash-light.svg" width="100%" alt="Stash — file sharing, screen casting and clipboard sync between devices, no login." />
 </picture>
 </a>
@@ -63,8 +63,8 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
 
 <a href="https://gadi-ghar.vercel.app">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-gadighar-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/card-gadighar-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-gadighar-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-gadighar-light.svg" />
   <img src="./assets/card-gadighar-light.svg" width="100%" alt="Gadi Ghar — full-stack car marketplace for Pakistan." />
 </picture>
 </a>
@@ -76,8 +76,8 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
     <td width="50%" valign="top">
 <a href="https://snapistan.vercel.app">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-snapistan-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/card-snapistan-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-snapistan-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-snapistan-light.svg" />
   <img src="./assets/card-snapistan-light.svg" width="100%" alt="Snapistan — social network built with Next.js, Prisma and PostgreSQL." />
 </picture>
 </a>
@@ -86,8 +86,8 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
     <td width="50%" valign="top">
 <a href="https://github.com/Hamzaisadev/DevShot">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-devshot-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/card-devshot-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-devshot-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-devshot-light.svg" />
   <img src="./assets/card-devshot-light.svg" width="100%" alt="DevShot — Chrome extension for page captures and device mockups." />
 </picture>
 </a>
@@ -98,8 +98,8 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
     <td width="50%" valign="top">
 <a href="https://linkwhize.netlify.app/">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-linkwhiz-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/card-linkwhiz-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-linkwhiz-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-linkwhiz-light.svg" />
   <img src="./assets/card-linkwhiz-light.svg" width="100%" alt="LinkWhiz — URL shortener." />
 </picture>
 </a>
@@ -108,8 +108,8 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
     <td width="50%" valign="top">
 <a href="https://github.com/Hamzaisadev/daily-dev-vault">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-vault-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/card-vault-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-vault-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-vault-light.svg" />
   <img src="./assets/card-vault-light.svg" width="100%" alt="Daily Dev Vault — automated daily deep dives on systems design." />
 </picture>
 </a>
@@ -137,36 +137,36 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
 <br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/h02-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/h02-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/h02-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/h02-light.svg" />
   <img src="./assets/h02-light.svg" width="100%" alt="02 — Right now" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/now-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/now-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/now-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/now-light.svg" />
   <img src="./assets/now-light.svg" width="100%" alt="Now building: AnyRef. Latest: Curewell, hackathon national finalist. Open to front-end roles. Taking on freelance builds. Based in Karachi, UTC+5." />
 </picture>
 
 <br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/h03-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/h03-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/h03-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/h03-light.svg" />
   <img src="./assets/h03-light.svg" width="100%" alt="03 — Toolbox" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/toolbox-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/toolbox-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/toolbox-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/toolbox-light.svg" />
   <img src="./assets/toolbox-light.svg" width="100%" alt="Interface: Next.js, React, TypeScript, Tailwind. Server: Node.js, Express, Prisma, REST. Data: PostgreSQL, Supabase, MongoDB. AI: Gemini, Vision OCR, LLM workflows. Shipping: Vercel, GitHub Actions, Vitest, Python." />
 </picture>
 
 <br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/h04-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/h04-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/h04-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/h04-light.svg" />
   <img src="./assets/h04-light.svg" width="100%" alt="04 — Pulse" />
 </picture>
 
@@ -312,28 +312,28 @@ PHP                      1 repo              █░░░░░░░░░░�
 <br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/h05-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/h05-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/h05-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/h05-light.svg" />
   <img src="./assets/h05-light.svg" width="100%" alt="05 — Work with me" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/work-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/work-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/work-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/work-light.svg" />
   <img src="./assets/work-light.svg" width="100%" alt="Work with me. For teams hiring: front-end roles, React, Next.js, TypeScript, Karachi or remote, CV on request. For businesses: websites, online stores and landing pages through Albatix." />
 </picture>
 
 <p align="center">
 <a href="https://github.com/Hamzaisadev/Hamzaisadev/issues/new?template=start-a-project.yml">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/btn-project-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/btn-project-dark.svg" />
   <img src="./assets/btn-project-light.svg" height="52" alt="Start a project" />
 </picture>
 </a>
 &nbsp;&nbsp;
 <a href="mailto:hamzaisadev@gmail.com?subject=Front-end%20role%20%E2%80%94%20CV%20request">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/btn-cv-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/btn-cv-dark.svg" />
   <img src="./assets/btn-cv-light.svg" height="52" alt="Request my CV" />
 </picture>
 </a>
@@ -345,8 +345,8 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 <a href="mailto:hamzaisadev@gmail.com">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/footer-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/footer-light.svg" />
   <img src="./assets/footer-light.svg" width="100%" alt="Got a business problem? Let's ship the fix. Email hamzaisadev@gmail.com" />
 </picture>
 </a>

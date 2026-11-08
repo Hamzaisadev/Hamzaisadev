@@ -8,8 +8,8 @@ waka = re.search(r"<!--START_SECTION:waka-->.*?<!--END_SECTION:waka-->", open(SR
 
 
 def pic(name, alt, width="100%", href=None, ext="svg"):
-    tag = (f'<picture>\n  <source media="(prefers-color-scheme: dark)" srcset="./assets/{name}-dark.{ext}" />\n'
-           f'  <source media="(prefers-color-scheme: light)" srcset="./assets/{name}-light.{ext}" />\n'
+    tag = (f'<picture>\n  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/{name}-dark.{ext}" />\n'
+           f'  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/{name}-light.{ext}" />\n'
            f'  <img src="./assets/{name}-light.{ext}" width="{width}" alt="{alt}" />\n</picture>')
     return f'<a href="{href}">\n{tag}\n</a>' if href else tag
 
@@ -158,14 +158,14 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
 <p align="center">
 <a href="https://github.com/Hamzaisadev/Hamzaisadev/issues/new?template=start-a-project.yml">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/btn-project-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/btn-project-dark.svg" />
   <img src="./assets/btn-project-light.svg" height="52" alt="Start a project" />
 </picture>
 </a>
 &nbsp;&nbsp;
 <a href="mailto:hamzaisadev@gmail.com?subject=Front-end%20role%20%E2%80%94%20CV%20request">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/btn-cv-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/btn-cv-dark.svg" />
   <img src="./assets/btn-cv-light.svg" height="52" alt="Request my CV" />
 </picture>
 </a>
