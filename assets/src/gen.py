@@ -514,9 +514,15 @@ BIG = [
          tags=["Next.js", "TypeScript", "Prisma", "PostgreSQL"]),
 ]
 SMALL = [
-    dict(slug="linkwhiz", num="04", kind="Utility", name="LinkWhiz", motif=m_link,
+    dict(slug="almuzzammil", num="04", kind="Client · Real estate", name="Al-Muzzamil", motif=m_devshot,
+         desc="Website for a Karachi real-estate agency with a decade in the market, built to turn visitors into booked consultations.",
+         tags=["Landing page", "Lead capture", "Vercel"]),
+    dict(slug="79stauto", num="05", kind="Client · Auto repair", name="79st Auto Center", motif=m_devshot,
+         desc="Website for a family-owned Miami repair shop serving drivers since 1974: services up front, 50 years of trust.",
+         tags=["Landing page", "Local SEO", "Vercel"]),
+    dict(slug="linkwhiz", num="06", kind="Utility", name="LinkWhiz", motif=m_link,
          desc="A URL shortener that turns long, tracked links into short ones you can share anywhere.", tags=["React", "React Router", "REST"]),
-    dict(slug="vault", num="05", kind="Writing · Automation", name="Dev Vault", motif=m_vault,
+    dict(slug="vault", num="07", kind="Writing · Automation", name="Dev Vault", motif=m_vault,
          desc="A daily, automated archive of deep dives on systems design and performance patterns.", tags=["Python", "TypeScript", "Actions"]),
 ]
 
@@ -650,7 +656,7 @@ def footer(th):
     return svg(W, H, "".join(b), css, th, "Got a business problem? Let's ship the fix. Email hamzaisadev@gmail.com")
 
 
-SECTIONS = [(1, "Selected work", "five things I've shipped"), (2, "Right now", "what's on the desk"),
+SECTIONS = [(1, "Selected work", "products + client sites"), (2, "Right now", "what's on the desk"),
             (3, "Toolbox", "what I reach for"), (4, "Pulse", "commits, streaks, hours"),
             (5, "Work with me", "two ways in"), (6, "Guestbook", "sign it, vote, ask")]
 

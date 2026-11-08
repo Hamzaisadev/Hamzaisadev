@@ -72,6 +72,33 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
 
 <p align="center"><a href="https://snapistan.vercel.app"><b>Live ↗</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/Hamzaisadev/Snapistan"><b>Source</b></a></p>
 
+<p align="center"><sub><b>CLIENT WEBSITES</b> · designed and built through Albatix, my studio</sub></p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+<a href="https://al-muzzammil.vercel.app">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-almuzzammil-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-almuzzammil-light.svg" />
+  <img src="./assets/card-almuzzammil-light.svg" width="100%" alt="Al-Muzzamil Real Estate — website for a Karachi real-estate agency" />
+</picture>
+</a>
+<p align="center"><a href="https://al-muzzammil.vercel.app"><b>Visit site ↗</b></a></p>
+    </td>
+    <td width="50%" valign="top">
+<a href="https://79st-auto-website.vercel.app">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-79stauto-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/card-79stauto-light.svg" />
+  <img src="./assets/card-79stauto-light.svg" width="100%" alt="79st Auto Center — website for a family-owned Miami auto repair shop" />
+</picture>
+</a>
+<p align="center"><a href="https://79st-auto-website.vercel.app"><b>Visit site ↗</b></a></p>
+    </td>
+  </tr>
+</table>
+
 <table>
   <tr>
     <td width="50%" valign="top">
