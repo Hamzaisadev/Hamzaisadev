@@ -11,6 +11,8 @@ SITES = {
     "gadighar": "https://gadi-ghar.vercel.app",
     "snapistan": "https://snapistan.vercel.app",
     "linkwhiz": "https://linkwhize.netlify.app/",
+    "almuzzammil": "https://al-muzzammil.vercel.app",
+    "79stauto": "https://79st-auto-website.vercel.app",
 }
 SPECS = {"desktop": dict(viewport={"width": 1440, "height": 900}, device_scale_factor=1, out_w=1000, max_h=3600),
          "mobile": dict(viewport={"width": 390, "height": 844}, device_scale_factor=2, is_mobile=True, has_touch=True, out_w=420, max_h=4200)}
@@ -46,7 +48,9 @@ with sync_playwright() as p:
                 page.evaluate("async()=>{for(let y=0;y<document.body.scrollHeight;y+=600){scrollTo(0,y);await new Promise(r=>setTimeout(r,120))}scrollTo(0,0)}")
                 page.wait_for_timeout(1200)
                 save(page.screenshot(full_page=True), os.path.join(OUT, f"{slug}-{kind}.jpg"), spec["out_w"], spec["max_h"])
-                print("ok", slug, kind)
+                desc = page.evaluate("()=>(document.querySelector('meta[name=description]')||{}).content||''")
+                h1 = page.evaluate("()=>[...document.querySelectorAll('h1,h2')].slice(0,3).map(e=>e.innerText.trim()).join(' | ')")
+                print("ok", slug, kind, "| title:", page.title(), "| desc:", desc[:160], "| h:", h1[:200].replace("\n", " "))
             except Exception as e:
                 print("skip", slug, kind, e)          # keep last week's shot, or the drawn motif
             finally:
