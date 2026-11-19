@@ -204,9 +204,9 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
 
 **🐱 My GitHub Data** 
 
-> 📦 444.0 kB Used in GitHub's Storage 
+> 📦 444.2 kB Used in GitHub's Storage 
  > 
-> 🏆 299 Contributions in the Year 2026
+> 🏆 300 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -217,21 +217,21 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                973 commits         ████████░░░░░░░░░░░░░░░░░   32.98 % 
-🌆 Daytime                903 commits         ████████░░░░░░░░░░░░░░░░░   30.61 % 
-🌃 Evening                635 commits         █████░░░░░░░░░░░░░░░░░░░░   21.53 % 
-🌙 Night                  439 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.88 % 
+🌞 Morning                973 commits         ████████░░░░░░░░░░░░░░░░░   33.15 % 
+🌆 Daytime                887 commits         ████████░░░░░░░░░░░░░░░░░   30.22 % 
+🌃 Evening                636 commits         █████░░░░░░░░░░░░░░░░░░░░   21.67 % 
+🌙 Night                  439 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.96 % 
 ```
 📅 **I'm Most Productive on Thursday** 
 
 ```text
-Monday                   120 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.07 % 
-Tuesday                  194 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.58 % 
-Wednesday                303 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.27 % 
-Thursday                 1264 commits        ███████████░░░░░░░░░░░░░░   42.85 % 
-Friday                   615 commits         █████░░░░░░░░░░░░░░░░░░░░   20.85 % 
-Saturday                 200 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.78 % 
-Sunday                   254 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.61 % 
+Monday                   120 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.09 % 
+Tuesday                  194 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.61 % 
+Wednesday                304 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.36 % 
+Thursday                 1264 commits        ███████████░░░░░░░░░░░░░░   43.07 % 
+Friday                   607 commits         █████░░░░░░░░░░░░░░░░░░░░   20.68 % 
+Saturday                 192 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.54 % 
+Sunday                   254 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.65 % 
 ```
 
 
@@ -241,44 +241,44 @@ Sunday                   254 commits         ██░░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-TypeScript               9 hrs 21 mins       ███████████░░░░░░░░░░░░░░   42.42 % 
-Markdown                 7 hrs 16 mins       ████████░░░░░░░░░░░░░░░░░   32.95 % 
-JavaScript               2 hrs 29 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.27 % 
-Other                    1 hr                █░░░░░░░░░░░░░░░░░░░░░░░░   04.54 % 
-CSS                      40 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.09 % 
+TypeScript               5 hrs 24 mins       █████████░░░░░░░░░░░░░░░░   37.68 % 
+Markdown                 4 hrs               ███████░░░░░░░░░░░░░░░░░░   28.01 % 
+JavaScript               2 hrs 19 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.25 % 
+Other                    58 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.83 % 
+CSS                      25 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.02 % 
 
 🔥 Editors: 
-Claude Code              21 hrs 45 mins      █████████████████████████   98.59 % 
-VS Code                  18 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.41 % 
+Claude Code              14 hrs 5 mins       █████████████████████████   98.26 % 
+VS Code                  14 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.74 % 
 
 🐱‍💻 Projects: 
-Asaan Karobaar           20 hrs 34 mins      ███████████████████████░░   93.19 % 
-Stash                    1 hr 30 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.81 % 
+Asaan Karobaar           12 hrs 49 mins      ██████████████████████░░░   89.52 % 
+Stash                    1 hr 30 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.48 % 
 
 💻 Operating System: 
-Windows                  22 hrs 4 mins       █████████████████████████   100.00 % 
+Windows                  14 hrs 20 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 21 hrs 48 mins (98.83%)
+⏱ AI Coding Time: 14 hrs 7 mins (98.5%)
 
-✍️ 40,249 lines written by AI, 5 lines written by hand (99.99% AI-written)
+✍️ 28,404 lines written by AI, 3 lines written by hand (99.99% AI-written)
 
-🔤 9,442,653 Input Tokens, 1,582,506 Output Tokens
+🔤 7,602,146 Input Tokens, 1,124,734 Output Tokens
 
-💵 $417.58 Estimated AI Cost This Week
+💵 $318.14 Estimated AI Cost This Week
 
-🧠 23 AI Sessions, 110 AI Prompts
+🧠 17 AI Sessions, 65 AI Prompts
 
-Opus                     40,535 lines        █████████████████████████   100.00 % 
+Opus                     28,674 lines        █████████████████████████   100.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 99.99% of written lines came from AI
-📄 Detailed Prompter — average 1,254 characters per prompt
-🔁 Iterative Prompter — average 5 prompts per session
-🚀 High AI Trust — 0.03% of changed lines were hand-edited
+📝 Concise Prompter — average 207 characters per prompt
+🔁 Iterative Prompter — average 4 prompts per session
+🚀 High AI Trust — 0.01% of changed lines were hand-edited
 ```
 
 **I Mostly Code in JavaScript** 
@@ -298,7 +298,7 @@ PHP                      1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 18/11/2026 05:27:54 UTC
+ Last Updated on 19/11/2026 05:23:13 UTC
 <!--END_SECTION:waka-->
 
 </details>
