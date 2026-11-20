@@ -204,9 +204,9 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
 
 **🐱 My GitHub Data** 
 
-> 📦 444.2 kB Used in GitHub's Storage 
+> 📦 444.3 kB Used in GitHub's Storage 
  > 
-> 🏆 300 Contributions in the Year 2026
+> 🏆 301 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -218,17 +218,17 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
 
 ```text
 🌞 Morning                973 commits         ████████░░░░░░░░░░░░░░░░░   33.15 % 
-🌆 Daytime                887 commits         ████████░░░░░░░░░░░░░░░░░   30.22 % 
-🌃 Evening                636 commits         █████░░░░░░░░░░░░░░░░░░░░   21.67 % 
+🌆 Daytime                886 commits         ████████░░░░░░░░░░░░░░░░░   30.19 % 
+🌃 Evening                637 commits         █████░░░░░░░░░░░░░░░░░░░░   21.70 % 
 🌙 Night                  439 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.96 % 
 ```
 📅 **I'm Most Productive on Thursday** 
 
 ```text
 Monday                   120 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.09 % 
-Tuesday                  194 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.61 % 
+Tuesday                  193 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.58 % 
 Wednesday                304 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.36 % 
-Thursday                 1264 commits        ███████████░░░░░░░░░░░░░░   43.07 % 
+Thursday                 1265 commits        ███████████░░░░░░░░░░░░░░   43.10 % 
 Friday                   607 commits         █████░░░░░░░░░░░░░░░░░░░░   20.68 % 
 Saturday                 192 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.54 % 
 Sunday                   254 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.65 % 
@@ -241,42 +241,42 @@ Sunday                   254 commits         ██░░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-TypeScript               5 hrs 24 mins       █████████░░░░░░░░░░░░░░░░   37.68 % 
-Markdown                 4 hrs               ███████░░░░░░░░░░░░░░░░░░   28.01 % 
-JavaScript               2 hrs 19 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.25 % 
-Other                    58 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.83 % 
-CSS                      25 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.02 % 
+TypeScript               3 hrs 49 mins       █████████░░░░░░░░░░░░░░░░   36.30 % 
+Markdown                 3 hrs               ███████░░░░░░░░░░░░░░░░░░   28.53 % 
+JavaScript               1 hr 10 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.18 % 
+Other                    58 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.30 % 
+CSS                      25 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.11 % 
 
 🔥 Editors: 
-Claude Code              14 hrs 5 mins       █████████████████████████   98.26 % 
-VS Code                  14 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.74 % 
+Claude Code              10 hrs 16 mins      ████████████████████████░   97.63 % 
+VS Code                  14 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.37 % 
 
 🐱‍💻 Projects: 
-Asaan Karobaar           12 hrs 49 mins      ██████████████████████░░░   89.52 % 
-Stash                    1 hr 30 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.48 % 
+Asaan Karobaar           9 hrs 1 min         █████████████████████░░░░   85.72 % 
+Stash                    1 hr 30 mins        ████░░░░░░░░░░░░░░░░░░░░░   14.28 % 
 
 💻 Operating System: 
-Windows                  14 hrs 20 mins      █████████████████████████   100.00 % 
+Windows                  10 hrs 31 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 14 hrs 7 mins (98.5%)
+⏱ AI Coding Time: 10 hrs 18 mins (97.96%)
 
-✍️ 28,404 lines written by AI, 3 lines written by hand (99.99% AI-written)
+✍️ 21,821 lines written by AI, 3 lines written by hand (99.99% AI-written)
 
-🔤 7,602,146 Input Tokens, 1,124,734 Output Tokens
+🔤 5,836,636 Input Tokens, 921,219 Output Tokens
 
-💵 $318.14 Estimated AI Cost This Week
+💵 $260.24 Estimated AI Cost This Week
 
-🧠 17 AI Sessions, 65 AI Prompts
+🧠 13 AI Sessions, 56 AI Prompts
 
-Opus                     28,674 lines        █████████████████████████   100.00 % 
+Opus                     22,493 lines        █████████████████████████   100.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 99.99% of written lines came from AI
-📝 Concise Prompter — average 207 characters per prompt
+📝 Concise Prompter — average 174 characters per prompt
 🔁 Iterative Prompter — average 4 prompts per session
 🚀 High AI Trust — 0.01% of changed lines were hand-edited
 ```
@@ -298,7 +298,7 @@ PHP                      1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 19/11/2026 05:23:13 UTC
+ Last Updated on 20/11/2026 05:12:48 UTC
 <!--END_SECTION:waka-->
 
 </details>
