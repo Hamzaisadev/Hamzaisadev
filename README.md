@@ -204,9 +204,9 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
 
 **🐱 My GitHub Data** 
 
-> 📦 444.3 kB Used in GitHub's Storage 
+> 📦 444.4 kB Used in GitHub's Storage 
  > 
-> 🏆 301 Contributions in the Year 2026
+> 🏆 304 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -217,21 +217,21 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                973 commits         ████████░░░░░░░░░░░░░░░░░   33.15 % 
-🌆 Daytime                886 commits         ████████░░░░░░░░░░░░░░░░░   30.19 % 
-🌃 Evening                637 commits         █████░░░░░░░░░░░░░░░░░░░░   21.70 % 
-🌙 Night                  439 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.96 % 
+🌞 Morning                973 commits         ████████░░░░░░░░░░░░░░░░░   33.10 % 
+🌆 Daytime                890 commits         ████████░░░░░░░░░░░░░░░░░   30.27 % 
+🌃 Evening                638 commits         █████░░░░░░░░░░░░░░░░░░░░   21.70 % 
+🌙 Night                  439 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.93 % 
 ```
 📅 **I'm Most Productive on Thursday** 
 
 ```text
-Monday                   120 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.09 % 
-Tuesday                  193 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.58 % 
-Wednesday                304 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.36 % 
-Thursday                 1265 commits        ███████████░░░░░░░░░░░░░░   43.10 % 
-Friday                   607 commits         █████░░░░░░░░░░░░░░░░░░░░   20.68 % 
-Saturday                 192 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.54 % 
-Sunday                   254 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.65 % 
+Monday                   120 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.08 % 
+Tuesday                  195 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.63 % 
+Wednesday                304 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.34 % 
+Thursday                 1265 commits        ███████████░░░░░░░░░░░░░░   43.03 % 
+Friday                   610 commits         █████░░░░░░░░░░░░░░░░░░░░   20.75 % 
+Saturday                 192 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.53 % 
+Sunday                   254 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.64 % 
 ```
 
 
@@ -241,54 +241,53 @@ Sunday                   254 commits         ██░░░░░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-TypeScript               3 hrs 49 mins       █████████░░░░░░░░░░░░░░░░   36.30 % 
-Markdown                 3 hrs               ███████░░░░░░░░░░░░░░░░░░   28.53 % 
-JavaScript               1 hr 10 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.18 % 
-Other                    58 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.30 % 
-CSS                      25 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.11 % 
+TypeScript               2 hrs 16 mins       █████████░░░░░░░░░░░░░░░░   36.46 % 
+Markdown                 2 hrs 4 mins        ████████░░░░░░░░░░░░░░░░░   33.12 % 
+Other                    47 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.56 % 
+CSS                      25 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.92 % 
+JSON                     11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.94 % 
 
 🔥 Editors: 
-Claude Code              10 hrs 16 mins      ████████████████████████░   97.63 % 
-VS Code                  14 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.37 % 
+Claude Code              6 hrs 1 min         ████████████████████████░   96.28 % 
+VS Code                  13 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.72 % 
 
 🐱‍💻 Projects: 
-Asaan Karobaar           9 hrs 1 min         █████████████████████░░░░   85.72 % 
-Stash                    1 hr 30 mins        ████░░░░░░░░░░░░░░░░░░░░░   14.28 % 
+Asaan Karobaar           6 hrs 14 mins       █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  10 hrs 31 mins      █████████████████████████   100.00 % 
+Windows                  6 hrs 14 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 10 hrs 18 mins (97.96%)
+⏱ AI Coding Time: 6 hrs 2 mins (96.57%)
 
-✍️ 21,821 lines written by AI, 3 lines written by hand (99.99% AI-written)
+✍️ 7,667 lines written by AI, 3 lines written by hand (99.96% AI-written)
 
-🔤 5,836,636 Input Tokens, 921,219 Output Tokens
+🔤 2,843,577 Input Tokens, 445,170 Output Tokens
 
-💵 $260.24 Estimated AI Cost This Week
+💵 $173.29 Estimated AI Cost This Week
 
-🧠 13 AI Sessions, 56 AI Prompts
+🧠 11 AI Sessions, 44 AI Prompts
 
-Opus                     22,493 lines        █████████████████████████   100.00 % 
+Opus                     8,293 lines         █████████████████████████   100.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.99% of written lines came from AI
-📝 Concise Prompter — average 174 characters per prompt
+🤖 AI-Driven — 99.96% of written lines came from AI
+📝 Concise Prompter — average 209 characters per prompt
 🔁 Iterative Prompter — average 4 prompts per session
-🚀 High AI Trust — 0.01% of changed lines were hand-edited
+🚀 High AI Trust — 0.04% of changed lines were hand-edited
 ```
 
 **I Mostly Code in JavaScript** 
 
 ```text
-JavaScript               21 repos            █████████░░░░░░░░░░░░░░░░   36.21 % 
-TypeScript               13 repos            ██████░░░░░░░░░░░░░░░░░░░   22.41 % 
-Python                   11 repos            █████░░░░░░░░░░░░░░░░░░░░   18.97 % 
-C                        2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 % 
-PHP                      1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.72 % 
+JavaScript               21 repos            █████████░░░░░░░░░░░░░░░░   35.59 % 
+TypeScript               13 repos            ██████░░░░░░░░░░░░░░░░░░░   22.03 % 
+Python                   12 repos            █████░░░░░░░░░░░░░░░░░░░░   20.34 % 
+C                        2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.39 % 
+PHP                      1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.69 % 
 ```
 
 
@@ -298,7 +297,7 @@ PHP                      1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/bar_graph.png)
 
 
- Last Updated on 20/11/2026 05:12:48 UTC
+ Last Updated on 21/11/2026 05:06:57 UTC
 <!--END_SECTION:waka-->
 
 </details>
