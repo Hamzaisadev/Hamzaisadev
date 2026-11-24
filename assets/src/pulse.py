@@ -11,8 +11,8 @@ OUT = sys.argv[1] if len(sys.argv) > 1 else "out"
 LOGIN = next((a for a in sys.argv[2:] if not a.startswith("--")), "Hamzaisadev")
 DEMO = "--demo" in sys.argv
 
-RAMP = {"light": ["#E6DFD2", "#F6C7B4", "#FC9A78", "#FF6A3D", "#FF4A1C"],
-        "dark": ["#1E1D1B", "#4A2418", "#8A3519", "#C9431D", "#FF5A2E"]}
+RAMP = {"light": ["#EFF2F5", "#C9D2FB", "#93A5F7", "#5A74F3", "#2D4BF0"],
+        "dark": ["#151B23", "#1F2A5C", "#2F4295", "#4D67D6", "#6F8CFF"]}
 LEVEL = {"NONE": 0, "FIRST_QUARTILE": 1, "SECOND_QUARTILE": 2, "THIRD_QUARTILE": 3, "FOURTH_QUARTILE": 4}
 
 
@@ -179,7 +179,7 @@ def pulse(th, tn, data):
         od, ocss, ow = odometer(v, x + (22 if i else 0), top + 112, 92, acc if hot else ink, .5 + i * .15, i)
         b.append(od); css += ocss
         if hot:
-            b.append(f'<g class="fade" style="animation-delay:2.4s">{star(x + 22 + ow + 18, top + 52, 10, acc)}</g>')
+            b.append(f'<g class="fade" style="animation-delay:2.4s">{star(x + 22 + ow + 14, top + 58, 6, acc)}</g>')
         b.append(T(lab, x + (24 if i else 2), top + 152, "mono-md", 11.5, tracking=.08, fill=mute))
     alt = (f"Contributions in {data['year']}: {data['year_total']}. Commits: {data['year_commits']}. "
            f"Pull requests merged: {data['merged']}. Current streak: {cur} days. Longest streak: {best} days.")

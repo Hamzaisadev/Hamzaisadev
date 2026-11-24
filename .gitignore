@@ -1,0 +1,4 @@
+assets/src/node_modules/
+assets/src/fonts/
+__pycache__/
+*.pyc

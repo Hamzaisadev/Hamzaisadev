@@ -45,14 +45,14 @@ jobs:
           path: |
             assets/src/node_modules
             assets/src/fonts
-          key: fonts-v2
+          key: fonts-v3-bricolage
 
       - name: Install
         working-directory: assets/src
         run: |
           pip install -q uharfbuzz fonttools brotli pillow hijridate
           if [ ! -f fonts/script.ttf ]; then
-            npm i --no-save --silent @fontsource/instrument-serif @fontsource/geist-sans @fontsource/geist-mono @fontsource/noto-nastaliq-urdu @fontsource/mrs-saint-delafield
+            npm i --no-save --silent @fontsource-variable/bricolage-grotesque @fontsource/geist-sans @fontsource/geist-mono @fontsource/noto-nastaliq-urdu @fontsource/mrs-saint-delafield
             python typeset.py
           fi
 

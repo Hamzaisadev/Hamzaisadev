@@ -350,11 +350,7 @@ PHP                      1 repo              ░░░░░░░░░░░�
 <h3 align="center">Ask me anything</h3>
 
 <!--AMA:START-->
-> **Q · [@Hamzaisadev](https://github.com/Hamzaisadev):** HOW DID YOU MADE THIS
->
-> Using claude
->
-> <sub>[Thread ↗](https://github.com/Hamzaisadev/Hamzaisadev/issues/2)</sub>
+<p align="center"><sub>No questions answered yet. Ask the first one.</sub></p>
 <!--AMA:END-->
 
 <p align="center"><a href="https://github.com/Hamzaisadev/Hamzaisadev/issues/new?template=ama.yml"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/btn-ama-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamzaisadev/Hamzaisadev/main/assets/btn-ama-light.svg" /><img src="./assets/btn-ama-light.svg" height="52" alt="Ask me anything" /></picture></a></p>
@@ -373,4 +369,4 @@ PHP                      1 repo              ░░░░░░░░░░░�
 
 <p align="center"><sub><a href="./docs/HOW-IT-WORKS.md">How this README redraws itself →</a></sub></p>
 
-<img src="https://komarev.com/ghpvc/?username=hamzaisadev&style=flat-square&color=F3EFE7" width="1" height="1" alt="" />
+<img src="https://komarev.com/ghpvc/?username=hamzaisadev&style=flat-square&color=2D4BF0" width="1" height="1" alt="" />

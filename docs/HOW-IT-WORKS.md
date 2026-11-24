@@ -12,13 +12,13 @@ But an SVG loaded as an image keeps its own internal CSS animations. That's the 
 
 ## 1. Type that looks the same everywhere
 
-SVGs loaded as images can't use web fonts, so text would fall back to whatever font the visitor has. Instead, a Python script shapes every string with HarfBuzz and converts each letter to vector outlines. Instrument Serif, Geist, Noto Nastaliq Urdu (for حمزہ) and a script face for the signature all render identically on every device.
+SVGs loaded as images can't use web fonts, so text would fall back to whatever font the visitor has. Instead, a Python script shapes every string with HarfBuzz and converts each letter to vector outlines. Bricolage Grotesque, Geist, Noto Nastaliq Urdu (for حمزہ) and a script face for the signature all render identically on every device.
 
 Each glyph is its own path, which is what makes the letter-by-letter reveals and the rolling odometer digits possible.
 
 ## 2. Light and dark
 
-Every asset is generated twice. The README uses `<picture>` with `prefers-color-scheme`, so visitors get the version that matches their GitHub theme.
+Every asset is generated twice. The README uses `<picture>` with `prefers-color-scheme`, so visitors get the version that matches their GitHub theme. Each version is drawn on GitHub's exact background colour for that theme, so the images don't look like boxes pasted onto the page.
 
 ## 3. The hourly redraw
 

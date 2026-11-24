@@ -144,11 +144,20 @@ def karachi_ctx():
     return ctx, k.date()
 
 
+def is_self(name):
+    """The profile repo itself: its pushes are README/metrics automation, not shipped work."""
+    return name.lower() == REPO.lower() or name.lower() == f"{LOGIN}/{LOGIN}".lower()
+
+
+def mine(login):
+    return login.lower() == LOGIN.lower()
+
+
 def latest_commit():
-    events = api(f"/users/{LOGIN}/events?per_page=50")
+    events = [e for e in api(f"/users/{LOGIN}/events?per_page=50") if e["type"] == "PushEvent" and not is_self(e["repo"]["name"])]
+    # Prefer the latest public push (it has a real repo name and message); fall back to private work.
+    events.sort(key=lambda e: not e.get("public", True))      # stable sort: newest public push first
     for e in events:
-        if e["type"] != "PushEvent":
-            continue
         repo, private = e["repo"]["name"], not e.get("public", True)
         msg = ""
         commits = e.get("payload", {}).get("commits") or []
@@ -169,6 +178,8 @@ def shipped_week():
     pushes = {}
     for e in api(f"/users/{LOGIN}/events?per_page=100"):
         if e["created_at"][:10] < since:
+            continue
+        if is_self(e["repo"]["name"]):
             continue
         r = e["repo"]["name"].split("/")[1]
         if e["type"] == "ReleaseEvent":
@@ -204,6 +215,8 @@ def visitors():
 def guestbook():
     rows = []
     for i in issues_of("guestbook"):
+        if mine(i["user"]["login"]):          # my own test signatures don't belong on my guestbook
+            continue
         msg = form_field(i.get("body"), "Leave a short message") or i["title"].split(":", 1)[1]
         rows.append(dict(user=i["user"]["login"], msg=msg))
     save("guestbook.json", rows[:50])
@@ -227,14 +240,14 @@ def poll():
 def ama():
     out = []
     for i in issues_of("ama"):
-        if i["comments"] == 0:
+        if i["comments"] == 0 or mine(i["user"]["login"]):   # skip questions I asked myself
             continue
         comments = api(f"/repos/{REPO}/issues/{i['number']}/comments?per_page=100", "REPO_TOKEN")
-        mine = [c for c in comments if c["user"]["login"].lower() == LOGIN.lower()]
-        if not mine:
+        answers = [c for c in comments if mine(c["user"]["login"])]
+        if not answers:
             continue
         q = form_field(i.get("body"), "Your question") or i["title"].split(":", 1)[1]
-        out.append(dict(q=q, a=mine[-1]["body"], user=i["user"]["login"], url=i["html_url"]))
+        out.append(dict(q=q, a=answers[-1]["body"], user=i["user"]["login"], url=i["html_url"]))
         if len(out) == 3:
             break
     return out
@@ -255,6 +268,8 @@ def live_tag(th, x, y, text, anchor="start"):
 
 
 def flap(th, x, y, text, cols, color, delay0=0.0, tw=30, th_=44):
+    if color == th["accent"]:                 # the page accent is too dark on a tile; use the lighter tile accent
+        color = th.get("tileaccent", color)
     out = []
     for c in range(cols):
         ch = text[c] if c < len(text) else " "
@@ -368,7 +383,7 @@ def card_poll(th, question, counts):
         b.append(T(f"{round(pct * 100)}%  ·  {n}", 1164, y + 24, "mono-md", 13, anchor="end", tracking=.06, fill=th["accent"] if lead else th["mute"]))
         b.append(f'<rect x="36" y="{y + 36}" width="1128" height="12" rx="6" fill="{th["panel"]}"/>')
         if n:
-            b.append(f'<rect class="bar" style="animation-delay:{.3 + i * .15:.2f}s" x="36" y="{y + 36}" width="{max(12, 1128 * pct):.0f}" height="12" rx="6" fill="{th["accent"] if lead else th["ink"]}"/>')
+            b.append(f'<rect class="bar" style="animation-delay:{.3 + i * .15:.2f}s" x="36" y="{y + 36}" width="{max(12, 1128 * pct):.0f}" height="12" rx="6" fill="{th["accent"] if lead else th["mute"]}"/>')
     alt = f"Poll: {question} " + "; ".join(f"{o}: {n} votes" for o, n in counts.items())
     return svg(W, H, "".join(b), LIVE_CSS, th, alt, grain=False)
 

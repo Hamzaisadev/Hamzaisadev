@@ -81,8 +81,7 @@ if __name__ == "__main__":
     # one-off: convert @fontsource woff2 files to the TTFs gen.py expects
     from fontTools.ttLib import TTFont
     F = "node_modules/@fontsource/"
-    m = {"serif": "instrument-serif/files/instrument-serif-latin-400-normal.woff2",
-         "serif-it": "instrument-serif/files/instrument-serif-latin-400-italic.woff2",
+    m = {
          "sans": "geist-sans/files/geist-sans-latin-400-normal.woff2",
          "sans-md": "geist-sans/files/geist-sans-latin-500-normal.woff2",
          "sans-sb": "geist-sans/files/geist-sans-latin-600-normal.woff2",
@@ -93,4 +92,12 @@ if __name__ == "__main__":
     os.makedirs(FONT_DIR, exist_ok=True)
     for k, v in m.items():
         f = TTFont(F + v); f.flavor = None; f.save(FONT_DIR + k + ".ttf")
+    # Display face: Bricolage Grotesque, cut to a condensed width so long names still fit.
+    # "serif" / "serif-it" are legacy slot names: heavy and light cuts of the display face.
+    from fontTools.varLib import instancer
+    VF = "node_modules/@fontsource-variable/bricolage-grotesque/files/bricolage-grotesque-latin-standard-normal.woff2"
+    for k, wght in {"serif": 640, "serif-it": 380}.items():
+        f = TTFont(VF); f.flavor = None
+        instancer.instantiateVariableFont(f, {"opsz": 96, "wght": wght, "wdth": 75}, inplace=True)
+        f.save(FONT_DIR + k + ".ttf")
     print("fonts ready in", FONT_DIR)

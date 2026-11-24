@@ -5,9 +5,11 @@ from typeset import text as T, glyphs, measure
 OUT = sys.argv[1] if len(sys.argv) > 1 else "out"
 os.makedirs(OUT, exist_ok=True)
 
+# Backgrounds match GitHub's own canvas (light #FFFFFF / dark #0D1117), so every block sits flush
+# on the profile page instead of floating as a tinted box. One accent: cobalt.
 THEMES = {
-    "light": dict(paper="#F3EFE7", ink="#141311", mute="#6E685E", rule="#D6CFC2", panel="#EAE4D8", accent="#FF4A1C", onaccent="#F3EFE7", grain=0.07, tile="#141311", tiletext="#F3EFE7"),
-    "dark":  dict(paper="#0E0E0D", ink="#EEE9DF", mute="#8D877C", rule="#2B2926", panel="#171615", accent="#FF5A2E", onaccent="#0E0E0D", grain=0.05, tile="#24221F", tiletext="#EEE9DF"),
+    "light": dict(paper="#FFFFFF", ink="#1F2328", mute="#59636E", rule="#D1D9E0", panel="#F6F8FA", accent="#2D4BF0", onaccent="#FFFFFF", grain=0, tile="#1F2328", tiletext="#FFFFFF", tileaccent="#9DB0FF", invaccent="#9DB0FF"),
+    "dark":  dict(paper="#0D1117", ink="#E6EDF3", mute="#9198A1", rule="#30363D", panel="#151B23", accent="#6F8CFF", onaccent="#0D1117", grain=0, tile="#21262D", tiletext="#E6EDF3", tileaccent="#9DB0FF", invaccent="#2D4BF0"),
 }
 EASE = "cubic-bezier(.16,1,.3,1)"
 REDUCED = "@media (prefers-reduced-motion: reduce){*{animation:none!important;}}"
@@ -15,6 +17,7 @@ REDUCED = "@media (prefers-reduced-motion: reduce){*{animation:none!important;}}
 
 def svg(w, h, body, css, th, title, grain=True):
     g = ""
+    grain = grain and th["grain"] > 0
     if grain:
         g = (f'<filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/>'
              f'<feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 {th["grain"]}"/></feComponentTransfer></filter>')
@@ -25,14 +28,10 @@ def svg(w, h, body, css, th, title, grain=True):
 
 
 def star(cx, cy, r, fill, cls=""):
-    """Eight-point asterisk drawn as a path (fonts lack one)."""
-    pts = []
-    for i in range(16):
-        a = math.pi * i / 8
-        rr = r if i % 2 == 0 else r * 0.38
-        pts.append(f"{cx + rr * math.cos(a):.1f},{cy + rr * math.sin(a):.1f}")
+    """Section marker: a solid square, centred on (cx, cy). (Kept the old name so call sites don't change.)"""
     c = f' class="{cls}"' if cls else ""
-    return f'<polygon{c} points="{" ".join(pts)}" fill="{fill}"/>'
+    a = r * 0.78
+    return f'<rect{c} x="{cx - a:.1f}" y="{cy - a:.1f}" width="{2 * a:.1f}" height="{2 * a:.1f}" fill="{fill}"/>'
 
 
 def reveal_word(word, font, size, x, y, fill, delay0, step, clip_id, cls="rv"):
@@ -40,7 +39,9 @@ def reveal_word(word, font, size, x, y, fill, delay0, step, clip_id, cls="rv"):
     gl, w = glyphs(word, font, size)
     out = [f'<clipPath id="{clip_id}"><rect x="{x - 40}" y="{y - size}" width="{w + 120}" height="{size * 1.28:.0f}"/></clipPath><g clip-path="url(#{clip_id})">']
     for i, (d, gx, adv) in enumerate(gl):
-        out.append(f'<path class="{cls}" style="animation-delay:{delay0 + i * step:.2f}s" transform="translate({x + gx:.1f} {y})" d="{d}" fill="{fill}"/>')
+        # The CSS animation sets `transform`, which would override a transform attribute on the same
+        # element and make glyphs fly in from x=0. Position on a wrapper group, animate the path inside.
+        out.append(f'<g transform="translate({x + gx:.1f} {y})"><path class="{cls}" style="animation-delay:{delay0 + i * step:.2f}s" d="{d}" fill="{fill}"/></g>')
     out.append("</g>")
     return "".join(out), w
 
@@ -137,7 +138,7 @@ def section(th, num, title, note):
     b.append(f'<g class="fade">{T(f"({num:02d})", 38, 52, "mono-md", 15, tracking=.08, fill=th["accent"])}</g>')
     s, w = reveal_word(title, "serif", 96, 34, 134, th["ink"], .05, .035, "cs")
     b.append(s)
-    b.append(f'<g class="fade">{star(34 + w + 30, 96, 13, th["accent"], "sp")}</g>')
+    b.append(f'<g class="fade">{star(34 + w + 26, 118, 11, th["accent"])}</g>')
     b.append(f'<g class="fade">{T(note.upper(), 1164, 130, "mono", 13, anchor="end", tracking=.08, fill=th["mute"])}</g>')
     b.append(f'<line class="draw" x1="36" y1="158" x2="1164" y2="158" stroke="{th["ink"]}" stroke-width="1.2"/>')
     return svg(W, H, "".join(b), css, th, f"{title} — {note}", grain=False)
@@ -344,7 +345,7 @@ def season_for(day):
 def seasonal(themes, season):
     if not season:
         return themes
-    return {k: dict(v, accent=season[k]) for k, v in themes.items()}
+    return {k: dict(v, accent=season[k], tileaccent=season["dark"], invaccent=season["dark" if k == "light" else "light"]) for k, v in themes.items()}
 
 
 def crescent(cx, cy, r, fill, cut):
@@ -546,7 +547,7 @@ def board(th):
             delay = .3 + r * .25 + c * .035
             b.append(f'<g class="fp" style="animation-delay:{delay:.2f}s"><rect x="{x}" y="{y}" width="{tw}" height="{th_}" rx="3" fill="{tile_bg}"/>')
             if ch.strip():
-                col = th["accent"] if r == 0 else th["tiletext"]
+                col = th.get("tileaccent", th["accent"]) if r == 0 else th["tiletext"]
                 b.append(T(ch, x + tw / 2, y + 30, "mono-md", 21, anchor="middle", fill=col))
             b.append(f'<line x1="{x}" y1="{y + th_ / 2}" x2="{x + tw}" y2="{y + th_ / 2}" stroke="{th["paper"]}" stroke-opacity=".5" stroke-width="1"/></g>')
     alt = "; ".join(f"{a.title()}: {v.title()}" for a, v in rows)
@@ -598,12 +599,13 @@ def work(th):
         b.append(f'<g class="rw" style="animation-delay:{.15 + k * .2:.2f}s">')
         b.append(f'<rect x="{x}" y="20" width="546" height="350" fill="{th["panel"] if k == 0 else th["ink"]}"/>')
         fg = th["ink"] if k == 0 else th["paper"]
-        b.append(T(tag, x + 32, 64, "mono-md", 13, tracking=.1, fill=th["accent"]))
+        ac = th["accent"] if k == 0 else th.get("invaccent", th["accent"])   # card B is inverted
+        b.append(T(tag, x + 32, 64, "mono-md", 13, tracking=.1, fill=ac))
         b.append(T(head, x + 28, 150, "serif" if k == 0 else "serif-it", 66, fill=fg))
-        b.append(f'<rect class="ul" x="{x + 32}" y="170" width="{measure(head, "serif" if k == 0 else "serif-it", 66) - 4:.0f}" height="3" fill="{th["accent"]}"/>')
+        b.append(f'<rect class="ul" x="{x + 32}" y="170" width="{measure(head, "serif" if k == 0 else "serif-it", 66) - 4:.0f}" height="3" fill="{ac}"/>')
         for i, it in enumerate(items):
             y = 232 + i * 40
-            b.append(star(x + 40, y - 6, 6, th["accent"]))
+            b.append(star(x + 40, y - 6, 6, ac))
             b.append(T(it, x + 60, y, "sans", 19, fill=fg))
         b.append("</g>")
     b.append(f'<circle class="pulse" cx="1150" cy="58" r="6" fill="{th["accent"] if False else th["paper"]}"/>')
@@ -637,7 +639,7 @@ def footer(th):
     s1, w1 = reveal_word("Got a business problem?", "serif", 100, 30, 176, th["ink"], .1, .025, "f1")
     s2, w2 = reveal_word("Let's ship the fix.", "serif-it", 100, 30, 280, th["accent"], .4, .025, "f2")
     b += [s1, s2]
-    b.append(f'<g class="fade">{star(30 + w2 + 56, 246, 30, th["ink"], "sp")}</g>')
+    b.append(f'<g class="fade">{star(30 + w2 + 40, 262, 16, th["accent"])}</g>')
     sw = measure("Hamza Ishaq", "script", 96)
     b.append(T("Hamza Ishaq", 1150 - sw, 360, "script", 96, class_="sig", fill=th["ink"], stroke=th["ink"], stroke_width="1.1"))
     b.append('<g class="fade">')
@@ -646,7 +648,7 @@ def footer(th):
     b.append(f'<g class="ar">{T("→", 36 + em + 14, 353, "sans", 22, fill=th["accent"])}</g>')
     b.append(T("Tell me the goal, the pages you need and a rough budget — I'll reply with a scoped plan.", 36, 384, "sans", 15, fill=th["mute"]))
     b.append(f'<line x1="36" y1="416" x2="1164" y2="416" stroke="{th["rule"]}"/>')
-    b.append(T("SET IN INSTRUMENT SERIF, GEIST, NOTO NASTALIQ URDU & MRS SAINT DELAFIELD — EVERY LETTER OUTLINED TO VECTOR", 36, 446, "mono", 11, tracking=.08, fill=th["mute"]))
+    b.append(T("SET IN BRICOLAGE GROTESQUE, GEIST, NOTO NASTALIQ URDU & MRS SAINT DELAFIELD — EVERY LETTER OUTLINED TO VECTOR", 36, 446, "mono", 11, tracking=.08, fill=th["mute"]))
     b.append(T("© 2026 HAMZA ISHAQ · KARACHI", 1164, 446, "mono", 11, anchor="end", tracking=.08, fill=th["mute"]))
     b.append("</g>")
     return svg(W, H, "".join(b), css, th, "Got a business problem? Let's ship the fix. Email hamzaisadev@gmail.com")
