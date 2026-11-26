@@ -194,26 +194,26 @@ Mostly **Next.js, React and TypeScript**, backed by **Postgres or Supabase**. I'
 <br />
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-385%20hrs%2015%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-385%20hrs%2041%20mins-blue?style=flat)
 
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                975 commits         ████████░░░░░░░░░░░░░░░░░   33.11 % 
-🌆 Daytime                888 commits         ████████░░░░░░░░░░░░░░░░░   30.15 % 
-🌃 Evening                643 commits         █████░░░░░░░░░░░░░░░░░░░░   21.83 % 
-🌙 Night                  439 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.91 % 
+🌞 Morning                975 commits         ████████░░░░░░░░░░░░░░░░░   33.15 % 
+🌆 Daytime                880 commits         ███████░░░░░░░░░░░░░░░░░░   29.92 % 
+🌃 Evening                644 commits         █████░░░░░░░░░░░░░░░░░░░░   21.90 % 
+🌙 Night                  442 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.03 % 
 ```
 📅 **I'm Most Productive on Thursday** 
 
 ```text
 Monday                   133 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.52 % 
 Tuesday                  196 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.66 % 
-Wednesday                304 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.32 % 
-Thursday                 1265 commits        ███████████░░░░░░░░░░░░░░   42.95 % 
-Friday                   577 commits         █████░░░░░░░░░░░░░░░░░░░░   19.59 % 
-Saturday                 208 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.06 % 
-Sunday                   262 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.90 % 
+Wednesday                305 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.37 % 
+Thursday                 1268 commits        ███████████░░░░░░░░░░░░░░   43.11 % 
+Friday                   573 commits         █████░░░░░░░░░░░░░░░░░░░░   19.48 % 
+Saturday                 204 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.94 % 
+Sunday                   262 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.91 % 
 ```
 
 
@@ -221,11 +221,11 @@ Sunday                   262 commits         ██░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-TypeScript               1 hr 17 mins        █████████████░░░░░░░░░░░░   52.27 % 
-Markdown                 29 mins             █████░░░░░░░░░░░░░░░░░░░░   19.74 % 
-SQL                      27 mins             █████░░░░░░░░░░░░░░░░░░░░   18.94 % 
-Bash                     6 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.08 % 
-Git Config               3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.21 % 
+TypeScript               1 hr 26 mins        ████████████░░░░░░░░░░░░░   49.27 % 
+Markdown                 48 mins             ███████░░░░░░░░░░░░░░░░░░   27.32 % 
+SQL                      27 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.84 % 
+Bash                     6 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.42 % 
+Git Config               3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.85 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -241,7 +241,7 @@ PHP                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 25/11/2026 06:25:59 UTC
+ Last Updated on 26/11/2026 06:17:49 UTC
 <!--END_SECTION:waka-->
 
 </details>
